@@ -32,7 +32,7 @@ export default {
         // Con ?enviar lo manda de verdad a los suscriptores de streams: usar solo para probar.
         if (!autorizado(req, env, url)) return json({ error: "sin permiso" }, 401);
         const vivo = { titulo: url.searchParams.get("titulo") || "Prueba de aviso", categoria: "Just Chatting" };
-        const link = await linkApp(env, "https://kick.com/" + KICK_SLUG);
+        const link = "https://kick.com/" + KICK_SLUG;   // LinkTwin no abre la app de Kick
         const r = await enviarCorreo(env, correoStream(vivo, link), TAG_STREAMS, !url.searchParams.has("enviar"));
         return json(Object.assign({ link }, r));
       }
@@ -56,7 +56,7 @@ async function revisarKick(env) {
   const ultimo = Number(await env.AVISOS.get("kick:ultimo-aviso")) || 0;
   if (Date.now() - ultimo < HORAS_ENTRE_AVISOS_DE_STREAM * 3600e3) return;
   await env.AVISOS.put("kick:ultimo-aviso", String(Date.now()));
-  await enviarCorreo(env, correoStream(ahora, await linkApp(env, "https://kick.com/" + KICK_SLUG)), TAG_STREAMS);
+  await enviarCorreo(env, correoStream(ahora, "https://kick.com/" + KICK_SLUG), TAG_STREAMS);
 }
 
 // { vivo: true/false/null, titulo, categoria, fuente }
@@ -136,8 +136,9 @@ async function avisoVideo(req, env) {
 function correoStream(vivo, link) {
   const titulo = vivo.titulo || "Estoy en vivo";
   return {
-    asunto: "🔴 Estoy en vivo en Kick: " + titulo,
-    previa: "Ya empezamos, métete al stream 😁☘️🚀",
+    // Sin el cohete en el asunto ni en la vista previa: en la notificación del celular se pasaba a otra línea.
+    asunto: "🔴 Estoy en vivo en Kick: " + titulo.replace(/\s*🚀\s*/gu, " ").trim(),
+    previa: "Ya empezamos, métete al stream 😁☘️",
     html:
       `<p>¡Hola! Acabo de prender stream en Kick 🔴</p>` +
       `<p style="font-size:20px;font-weight:bold;margin:18px 0 6px">${esc(titulo)}</p>` +
@@ -151,7 +152,7 @@ function correoVideo(v, link) {
   const canal = v.canal_nombre || "mi canal";
   return {
     asunto: "Video nuevo en " + canal + ": " + v.titulo,
-    previa: "Recién salido del horno, pasa a verlo 😁☘️🚀",
+    previa: "Recién salido del horno, pasa a verlo 😁☘️",
     html:
       `<p>¡Hola! Acabo de subir video nuevo en <strong>${esc(canal)}</strong> ☘️</p>` +
       `<p><a href="${link}"><img src="${esc(v.miniatura || "https://i.ytimg.com/vi/" + v.id + "/hqdefault.jpg")}" ` +
@@ -162,7 +163,7 @@ function correoVideo(v, link) {
   };
 }
 
-// Link que abre directo la app (YouTube o Kick) usando LinkTwin. Se guarda para no crearlo dos veces.
+// Link que abre directo la app de YouTube usando LinkTwin (con Kick no funciona). Se guarda para no crearlo dos veces.
 // Si no hay llave de LinkTwin o falla, se usa el link normal.
 async function linkApp(env, url) {
   if (!env.LINKTWIN_API_KEY) return url;
