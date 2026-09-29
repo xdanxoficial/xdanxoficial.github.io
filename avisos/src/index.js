@@ -33,7 +33,8 @@ export default {
         if (!autorizado(req, env, url)) return json({ error: "sin permiso" }, 401);
         const vivo = { titulo: url.searchParams.get("titulo") || "Prueba de aviso", categoria: "Just Chatting" };
         const link = await linkApp(env, "https://kick.com/" + KICK_SLUG);
-        return json(await enviarCorreo(env, correoStream(vivo, link), TAG_STREAMS, !url.searchParams.has("enviar")));
+        const r = await enviarCorreo(env, correoStream(vivo, link), TAG_STREAMS, !url.searchParams.has("enviar"));
+        return json(Object.assign({ link }, r));
       }
       return new Response("Avisos de xdanx.cl funcionando.", { headers: { "content-type": "text/plain; charset=utf-8" } });
     } catch (e) {
