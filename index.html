@@ -61,7 +61,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="estilos.css?v=7">
+<link rel="stylesheet" href="estilos.css?v=8">
 </head>
 <body>
 <div class="fondo" aria-hidden="true"><i></i><i></i><i></i></div>
@@ -71,6 +71,7 @@
 <a class="marca" href="#inicio"><img id="mini" src="https://yt3.ggpht.com/ytc/AIdro_lUzYRkp9_RYmx2aLvmCuGtYfHqPM1HpNuud_M5dl_JXGM=s88-c-k-c0x00ffffff-no-rj" alt=""><span>xDanx</span></a>
 <div class="menu">
 <a class="pill-vivo" id="pill-vivo" href="https://kick.com/xdanx_of" target="_blank" rel="noopener" hidden><i></i>En vivo</a>
+<button class="campana" type="button" data-avisos aria-label="Activa las notificaciones"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 16.5V11a6 6 0 0 1 12 0v5.5l1.6 2H4.4z"/><path d="M10 20.5a2 2 0 0 0 4 0"/></svg></button>
 <a href="#inicio">Canales</a>
 <a href="#redes">Redes</a>
 <a class="btn" href="#contacto">Contacto de negocios <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
@@ -80,7 +81,10 @@
 <main id="inicio" class="escenario" aria-labelledby="t-inicio">
 <div class="cabecera">
 <div><p class="eyebrow">Mis canales</p><h1 id="t-inicio">Lo nuevo de <span class="degradado">xDanx</span></h1></div>
+<div class="cab-acciones">
+<button class="btn avisar" type="button" data-avisos><span class="anillo"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 16.5V11a6 6 0 0 1 12 0v5.5l1.6 2H4.4z"/><path d="M10 20.5a2 2 0 0 0 4 0"/></svg></span>Activa las notificaciones</button>
 <p class="pista"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 11V5.5a1.5 1.5 0 0 1 3 0V10m0-1.5a1.5 1.5 0 0 1 3 0V11m0-1a1.5 1.5 0 0 1 3 0v4a6 6 0 0 1-6 6h-1a6 6 0 0 1-5-2.7L4 14.5a1.5 1.5 0 0 1 2.4-1.8L9 15"/></svg><span class="mouse">Pasa el mouse por un canal para ver su vista previa</span><span class="tactil">Toca un canal para ver su vista previa</span></p>
+</div>
 </div>
 <ul class="canales" id="canales" aria-label="Mis canales de YouTube"></ul>
 <section class="pantalla" id="pantalla" aria-label="Videos y vista previa de canales">
@@ -145,10 +149,29 @@
 </div>
 
 <dialog class="panel" id="panel" aria-labelledby="panel-titulo"></dialog>
+<dialog class="panel avisos" id="avisos" aria-labelledby="avisos-titulo">
+<form class="panel-in" id="form-avisos" novalidate>
+<div class="panel-top"><span class="anillo grande"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 16.5V11a6 6 0 0 1 12 0v5.5l1.6 2H4.4z"/><path d="M10 20.5a2 2 0 0 0 4 0"/></svg></span><div><p class="eyebrow">Notificaciones</p><h2 id="avisos-titulo">Te aviso por correo</h2></div><button class="cerrar" type="button" data-cerrar aria-label="Cerrar"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+<p class="desc">Elige qué quieres que te avise. Es gratis y te puedes dar de baja cuando quieras.</p>
+<div class="opciones">
+<label class="opcion kick"><input type="checkbox" name="tags[]" value="24112659" checked><span class="op-ic"><svg class="i lleno" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 3h6v5h2V5.5h2V3h6v6h-2v2h-2v2h2v2h2v6h-6v-2.5h-2V16h-2v5H4z"/></svg></span><span class="op-txt"><strong>Cuando prenda stream en Kick</strong><small>Te llega apenas empiece el directo</small></span><i class="tic" aria-hidden="true"></i></label>
+<label class="opcion yt"><input type="checkbox" name="tags[]" value="24112664" checked><span class="op-ic"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><rect x="2.5" y="5" width="19" height="14" rx="4"/><path d="m10 9.2 5 2.8-5 2.8z" fill="currentColor"/></svg></span><span class="op-txt"><strong>Cuando suba video nuevo</strong><small>De cualquiera de mis 4 canales de YouTube</small></span><i class="tic" aria-hidden="true"></i></label>
+</div>
+<label class="campo"><span>Tu correo</span><input type="email" name="email_address" id="avisos-correo" required autocomplete="email" inputmode="email" placeholder="tucorreo@gmail.com"></label>
+<p class="avisos-error" id="avisos-error" role="alert" hidden></p>
+<button class="btn enviar" type="submit">Activar notificaciones</button>
+<p class="nota">Te llegará un correo para confirmar. Si no lo ves, revisa en spam o promociones.</p>
+</form>
+<div class="panel-in avisos-listo" id="avisos-listo" hidden>
+<div class="panel-top"><span class="anillo grande ok"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><div><p class="eyebrow">Notificaciones</p><h2 id="avisos-listo-titulo"></h2></div><button class="cerrar" type="button" data-cerrar aria-label="Cerrar"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+<p class="desc" id="avisos-listo-texto"></p>
+<button class="btn" type="button" data-cerrar>Entendido</button>
+</div>
+</dialog>
 
 <script src="datos/datos.js"></script>
 <script src="datos/estadisticas.js"></script>
-<script src="app.js?v=6"></script>
+<script src="app.js?v=8"></script>
 <!-- Contador de visitas: Cloudflare Web Analytics (sin cookies) -->
 <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "61d2517031f54b50bddd8ef35739165e"}'></script>
 </body>

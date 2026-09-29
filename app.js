@@ -428,5 +428,65 @@
     if (e.target === panel || e.target.closest("[data-cerrar]")) cerrarPanel();
   });
 
+  /* ---------- notificaciones por correo (Kit) ---------- */
+  // El formulario va directo al formulario "Notificaciones xdanx.cl" de Kit; Kit manda el correo
+  // para confirmar y después el Worker "avisos" manda los avisos de stream y de videos.
+  var KIT_FORM = "https://app.kit.com/forms/9978356/subscriptions";
+  var avisos = $("avisos"), formAvisos = $("form-avisos"), listoAvisos = $("avisos-listo"), errorAvisos = $("avisos-error");
+
+  function abrirAvisos(listo) {
+    formAvisos.hidden = !!listo;
+    listoAvisos.hidden = !listo;
+    if (listo) {
+      $("avisos-listo-titulo").textContent = listo.titulo;
+      $("avisos-listo-texto").textContent = listo.texto;
+    }
+    errorAvisos.hidden = true;
+    if (avisos.showModal) avisos.showModal(); else avisos.setAttribute("open", "");
+    if (!listo && !TACTIL) $("avisos-correo").focus();
+  }
+  function cerrarAvisos() { if (avisos.close) avisos.close(); else avisos.removeAttribute("open"); }
+  function errorEnAvisos(t) { errorAvisos.textContent = t; errorAvisos.hidden = false; }
+
+  document.addEventListener("click", function (e) {
+    if (e.target.closest("[data-avisos]")) abrirAvisos();
+  });
+  avisos.addEventListener("click", function (e) {
+    if (e.target === avisos || e.target.closest("[data-cerrar]")) cerrarAvisos();
+  });
+
+  formAvisos.addEventListener("submit", function (e) {
+    e.preventDefault();
+    var correoAv = $("avisos-correo").value.trim();
+    var elegidos = formAvisos.querySelectorAll('input[type="checkbox"]:checked');
+    if (!elegidos.length) return errorEnAvisos("Elige al menos una opción: streams o videos.");
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(correoAv)) return errorEnAvisos("Revisa tu correo, parece que le falta algo.");
+    errorAvisos.hidden = true;
+    var boton = formAvisos.querySelector(".enviar");
+    boton.disabled = true;
+    boton.textContent = "Activando…";
+    fetch(KIT_FORM, { method: "POST", body: new FormData(formAvisos), headers: { Accept: "application/json" } })
+      .then(function (r) { return r.json(); })
+      .then(function (d) {
+        if (d.status !== "success") throw new Error("kit");
+        abrirAvisos({
+          titulo: "¡Casi listo! Revisa tu correo",
+          texto: "Te mandé un correo a " + correoAv + ". Ábrelo y aprieta “Confirmar mis avisos”. Si no lo ves en unos minutos, revisa en spam o promociones.",
+        });
+        formAvisos.reset();
+      })
+      .catch(function () { errorEnAvisos("No se pudo activar. Revisa tu internet e intenta de nuevo."); })
+      .then(function () { boton.disabled = false; boton.textContent = "Activar notificaciones"; });
+  });
+
+  // Kit manda aquí a la persona después de confirmar el correo.
+  if (/[?&]avisos=confirmado/.test(location.search)) {
+    try { history.replaceState(null, "", location.pathname + location.hash); } catch (err) {}
+    abrirAvisos({
+      titulo: "¡Listo! Tus notificaciones están activas",
+      texto: "Desde ahora te aviso por correo según lo que elegiste. Gracias por el apoyo.",
+    });
+  }
+
   if (DATOS.actualizado) $("actualizado").textContent = "Videos actualizados el " + fechaLarga(DATOS.actualizado) + ".";
 })();
