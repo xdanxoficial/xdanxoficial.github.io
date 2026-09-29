@@ -28,9 +28,10 @@ export default {
       }
       if (url.pathname === "/probar-stream") {
         // Deja el correo de stream como borrador en Kit para revisarlo (no le llega a nadie).
+        // Con ?enviar lo manda de verdad a los suscriptores de streams: usar solo para probar.
         if (!autorizado(req, env, url)) return json({ error: "sin permiso" }, 401);
         const vivo = { titulo: url.searchParams.get("titulo") || "Prueba de aviso", categoria: "Just Chatting" };
-        return json(await enviarCorreo(env, correoStream(vivo), TAG_STREAMS, true));
+        return json(await enviarCorreo(env, correoStream(vivo), TAG_STREAMS, !url.searchParams.has("enviar")));
       }
       return new Response("Avisos de xdanx.cl funcionando.", { headers: { "content-type": "text/plain; charset=utf-8" } });
     } catch (e) {
