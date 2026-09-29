@@ -11,7 +11,7 @@ const TAG_STREAMS = 24112659;   // Kit: "Streams en Kick"
 const TAG_VIDEOS = 24112664;    // Kit: "Videos nuevos"
 const REMITENTE = "contacto@xdanx.cl";
 const HORAS_ENTRE_AVISOS_DE_STREAM = 8;
-const HORAS_MAX_VIDEO = 24;     // no avisar videos más viejos que esto
+const HORAS_MAX_VIDEO = 6;      // no avisar videos más viejos que esto
 
 export default {
   async scheduled(evento, env, ctx) {

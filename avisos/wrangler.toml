@@ -2,7 +2,8 @@
 name = "avisos-xdanx"
 main = "src/index.js"
 compatibility_date = "2026-09-01"
-workers_dev = true
+workers_dev = false
+routes = [{ pattern = "avisos.xdanx.cl", custom_domain = true }]
 
 # Revisa Kick cada minuto
 [triggers]
@@ -10,4 +11,4 @@ crons = ["* * * * *"]
 
 [[kv_namespaces]]
 binding = "AVISOS"
-id = "PENDIENTE"
+id = "79533ad0a450481fadd6735a78f4a8e5"

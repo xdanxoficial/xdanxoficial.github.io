@@ -22,6 +22,9 @@ jobs:
       - run: python scripts/actualizar.py
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          # Avisos por correo de videos nuevos (Worker en avisos/)
+          AVISOS_URL: https://avisos.xdanx.cl
+          AVISOS_TOKEN: ${{ secrets.AVISOS_TOKEN }}
       - name: Guardar si hay videos nuevos
         run: |
           git config user.name "robot-xdanx"

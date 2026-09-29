@@ -15,6 +15,7 @@ import json
 import os
 import re
 import sys
+import urllib.request
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -35,6 +36,7 @@ DIAS_SEMANA = 7
 MINIMO_ROTACION = 4      # si la semana trae menos videos, se completa con los mas recientes
 VIDEOS_POR_CANAL = 4     # los que se ven en la vista previa de cada canal
 SEGUNDOS_SHORT = 180     # los Shorts no entran: su miniatura vertical se ve mal en la pantalla
+HORAS_AVISO = 6          # videos mas nuevos que esto se avisan por correo (ver avisos/)
 
 # Recorte "escritorio" del banner del canal (el mismo que usa YouTube en la pagina del canal).
 RECORTE_BANNER = "=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj"
@@ -146,6 +148,28 @@ def armar(yt, ahora):
     }
 
 
+def avisar_videos_nuevos(datos, ahora):
+    """Le pasa al Worker de avisos los videos de las ultimas horas para que mande el correo.
+    El Worker se acuerda de cuales ya aviso, asi que no importa mandarlos mas de una vez."""
+    url, token = os.environ.get("AVISOS_URL"), os.environ.get("AVISOS_TOKEN")
+    if not (url and token):
+        return
+    limite = (ahora - timedelta(hours=HORAS_AVISO)).strftime("%Y-%m-%dT%H:%M:%SZ")
+    nombres = {c["clave"]: c["nombre"] for c in datos["canales"]}
+    nuevos = [dict(v, canal_nombre=nombres.get(v["canal"], "")) for v in datos["rotacion"]
+              if v["publicado"] >= limite]
+    if not nuevos:
+        return
+    pedido = urllib.request.Request(
+        url.rstrip("/") + "/video", data=json.dumps({"videos": nuevos}).encode("utf-8"), method="POST",
+        headers={"Content-Type": "application/json", "Authorization": "Bearer " + token,
+                 "User-Agent": "robot-xdanx"})
+    try:
+        with urllib.request.urlopen(pedido, timeout=30) as r:
+            print("Avisos:", r.read().decode("utf-8"))
+    except Exception as e:  # que un problema con los avisos no frene la pagina
+        print("No se pudo avisar los videos nuevos:", e)
+
 def sin_cambios(datos):
     """True si solo cambiaria la hora: asi el robot no guarda un cambio cada 6 horas."""
     if not SALIDA.exists():
@@ -162,9 +186,11 @@ def main():
     p = argparse.ArgumentParser(description=__doc__.split("\n")[0])
     p.add_argument("--token", help="permiso OAuth de solo lectura (en vez de la clave)")
     args = p.parse_args()
-    datos = armar(servicio(args.token), datetime.now(timezone.utc))
+    ahora = datetime.now(timezone.utc)
+    datos = armar(servicio(args.token), ahora)
     if not datos["rotacion"]:
         sys.exit("YouTube no devolvio videos: dejo el archivo anterior tal cual.")
+    avisar_videos_nuevos(datos, ahora)
     if sin_cambios(datos):
         print("Nada nuevo en YouTube: no toco el archivo.")
         return
