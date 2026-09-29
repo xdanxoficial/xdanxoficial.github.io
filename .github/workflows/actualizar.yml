@@ -1,0 +1,30 @@
+# Robot que revisa los 4 canales cada 6 horas y cambia los videos de la pagina.
+# Necesita el secreto YOUTUBE_API_KEY (Settings > Secrets and variables > Actions).
+name: Actualizar videos
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: python scripts/actualizar.py
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+      - name: Guardar si hay videos nuevos
+        run: |
+          git config user.name "robot-xdanx"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add datos/datos.js
+          git diff --staged --quiet || (git commit -m "Videos actualizados" && git push)
