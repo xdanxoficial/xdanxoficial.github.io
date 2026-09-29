@@ -372,7 +372,7 @@
       '<div class="tres"><div><h3>Países</h3>' + barras(paises) + "</div><div><h3>Edades</h3>" + barras(edades) +
       "</div><div><h3>Género</h3>" + barras(genero) + "</div></div>" +
       (marcas ? '<div><h3>Marcas con las que ya trabajé</h3><div class="marcas">' + marcas + "</div></div>" : "") +
-      '<div class="botones"><a class="btn" href="mailto:xdanxcontacto@gmail.com?subject=' +
+      '<div class="botones"><a class="btn" href="mailto:contacto@xdanx.cl?subject=' +
       encodeURIComponent("Contacto de negocios · " + e.titulo) + '">Escríbeme ' + ICONO.flecha + "</a>" +
       (e.pdf ? '<a class="btn ghost" href="' + esc(e.pdf) + '" download>' + ICONO.bajar + " Descargar media kit (PDF)</a>" : "") +
       (c.url ? '<a class="btn ghost" href="' + esc(c.url) + '" target="_blank" rel="noopener">Ver el canal ' + ICONO.play + "</a>" : "") +
