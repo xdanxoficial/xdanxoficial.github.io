@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-09-29T12:40:23Z",
+ "actualizado": "2026-09-29T18:46:57Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -206,15 +206,6 @@ window.DATOS = {
    "publicado": "2026-09-23T22:38:58Z",
    "segundos": 1753,
    "miniatura": "https://i.ytimg.com/vi/ut7wdx1kx5M/maxresdefault.jpg",
-   "canal": "danx",
-   "esta_semana": true
-  },
-  {
-   "id": "XjGx4jjh1dc",
-   "titulo": "Las Fobias Más Aterradoras del Mundo *reacción xDanx*",
-   "publicado": "2026-09-22T18:27:37Z",
-   "segundos": 3372,
-   "miniatura": "https://i.ytimg.com/vi/XjGx4jjh1dc/maxresdefault.jpg",
    "canal": "danx",
    "esta_semana": true
   }
