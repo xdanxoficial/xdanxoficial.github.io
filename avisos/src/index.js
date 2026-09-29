@@ -4,7 +4,8 @@
    - El robot de GitHub le avisa los videos nuevos (POST /video) y manda un correo
      a quienes eligieron "Videos nuevos" (una sola vez por video).
    Los correos los manda Kit. Secretos: KIT_API_KEY, AVISOS_TOKEN y, si existen,
-   KICK_CLIENT_ID + KICK_CLIENT_SECRET (API oficial de Kick). Estado en el KV AVISOS. */
+   LINKTWIN_API_KEY (links que abren la app) y KICK_CLIENT_ID + KICK_CLIENT_SECRET
+   (API oficial de Kick). Estado en el KV AVISOS. */
 
 const KICK_SLUG = "xdanx_of";
 const TAG_STREAMS = 24112659;   // Kit: "Streams en Kick"
@@ -31,7 +32,8 @@ export default {
         // Con ?enviar lo manda de verdad a los suscriptores de streams: usar solo para probar.
         if (!autorizado(req, env, url)) return json({ error: "sin permiso" }, 401);
         const vivo = { titulo: url.searchParams.get("titulo") || "Prueba de aviso", categoria: "Just Chatting" };
-        return json(await enviarCorreo(env, correoStream(vivo), TAG_STREAMS, !url.searchParams.has("enviar")));
+        const link = await linkApp(env, "https://kick.com/" + KICK_SLUG);
+        return json(await enviarCorreo(env, correoStream(vivo, link), TAG_STREAMS, !url.searchParams.has("enviar")));
       }
       return new Response("Avisos de xdanx.cl funcionando.", { headers: { "content-type": "text/plain; charset=utf-8" } });
     } catch (e) {
@@ -53,7 +55,7 @@ async function revisarKick(env) {
   const ultimo = Number(await env.AVISOS.get("kick:ultimo-aviso")) || 0;
   if (Date.now() - ultimo < HORAS_ENTRE_AVISOS_DE_STREAM * 3600e3) return;
   await env.AVISOS.put("kick:ultimo-aviso", String(Date.now()));
-  await enviarCorreo(env, correoStream(ahora), TAG_STREAMS);
+  await enviarCorreo(env, correoStream(ahora, await linkApp(env, "https://kick.com/" + KICK_SLUG)), TAG_STREAMS);
 }
 
 // { vivo: true/false/null, titulo, categoria, fuente }
@@ -122,7 +124,7 @@ async function avisoVideo(req, env) {
       continue;
     }
     await env.AVISOS.put("video:" + v.id, "avisado");
-    const r = await enviarCorreo(env, correoVideo(v), TAG_VIDEOS);
+    const r = await enviarCorreo(env, correoVideo(v, await linkApp(env, "https://www.youtube.com/watch?v=" + v.id)), TAG_VIDEOS);
     hechos.push({ id: v.id, estado: "avisado", kit: r.id || r.error });
   }
   return json({ hechos });
@@ -130,34 +132,54 @@ async function avisoVideo(req, env) {
 
 /* ---------- Correos ---------- */
 
-function correoStream(vivo) {
+function correoStream(vivo, link) {
   const titulo = vivo.titulo || "Estoy en vivo";
   return {
     asunto: "🔴 Estoy en vivo en Kick: " + titulo,
-    previa: "Acabo de prender stream, te espero adentro.",
+    previa: "Ya empezamos, métete al stream 😁☘️🚀",
     html:
-      `<p>¡Hola! Acabo de prender stream en Kick.</p>` +
+      `<p>¡Hola! Acabo de prender stream en Kick 🔴</p>` +
       `<p style="font-size:20px;font-weight:bold;margin:18px 0 6px">${esc(titulo)}</p>` +
       (vivo.categoria ? `<p style="color:#6b6470;margin:0 0 18px">${esc(vivo.categoria)}</p>` : "") +
-      boton("https://kick.com/" + KICK_SLUG, "Entrar al stream", "#53fc18", "#0b0b0b") +
-      `<p>Te espero adentro. Daniel</p>` + pie(),
+      boton(link, "Entrar al stream", "#53fc18", "#0b0b0b") +
+      `<p>Te espero adentro, lo vamos a pasar increíble 😁☘️🚀<br>Daniel</p>` + pie(),
   };
 }
 
-function correoVideo(v) {
+function correoVideo(v, link) {
   const canal = v.canal_nombre || "mi canal";
-  const link = "https://youtu.be/" + v.id;
   return {
     asunto: "Video nuevo en " + canal + ": " + v.titulo,
-    previa: "Acabo de subir un video nuevo, pasa a verlo.",
+    previa: "Recién salido del horno, pasa a verlo 😁☘️🚀",
     html:
-      `<p>¡Hola! Acabo de subir un video nuevo en <strong>${esc(canal)}</strong>.</p>` +
+      `<p>¡Hola! Acabo de subir video nuevo en <strong>${esc(canal)}</strong> ☘️</p>` +
       `<p><a href="${link}"><img src="${esc(v.miniatura || "https://i.ytimg.com/vi/" + v.id + "/hqdefault.jpg")}" ` +
-      `alt="${esc(v.titulo)}" width="560" style="width:100%;max-width:560px;border-radius:12px;display:block"></a></p>` +
+      `alt="${esc(v.titulo)}" width="560" border="0" style="width:100%;max-width:560px;height:auto;border-radius:12px;display:block"></a></p>` +
       `<p style="font-size:20px;font-weight:bold;margin:14px 0 18px">${esc(v.titulo)}</p>` +
       boton(link, "Ver video", "#ff1e6e", "#ffffff") +
-      `<p>Un abrazo, Daniel</p>` + pie(),
+      `<p>Pasa a verlo y cuéntame en los comentarios qué te pareció 😁☘️🚀<br>Daniel</p>` + pie(),
   };
+}
+
+// Link que abre directo la app (YouTube o Kick) usando LinkTwin. Se guarda para no crearlo dos veces.
+// Si no hay llave de LinkTwin o falla, se usa el link normal.
+async function linkApp(env, url) {
+  if (!env.LINKTWIN_API_KEY) return url;
+  const guardado = await env.AVISOS.get("link:" + url);
+  if (guardado) return guardado;
+  try {
+    const r = await fetch("https://linktw.in/api/url/add", {
+      method: "POST",
+      headers: { Authorization: "Bearer " + env.LINKTWIN_API_KEY, "Content-Type": "application/json" },
+      body: JSON.stringify({ url }),
+    });
+    const d = await r.json();
+    if (d && !d.error && d.shorturl) {
+      await env.AVISOS.put("link:" + url, d.shorturl);
+      return d.shorturl;
+    }
+  } catch (e) { /* se usa el link normal */ }
+  return url;
 }
 
 function boton(href, texto, fondo, color) {
