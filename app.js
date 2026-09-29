@@ -16,6 +16,7 @@
   var GENEROS = { female: "Mujeres", male: "Hombres", genderUserSpecified: "Otro" };
   var MESES = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto",
     "septiembre", "octubre", "noviembre", "diciembre"];
+  var DIAS = ["domingo", "lunes", "martes", "miércoles", "jueves", "viernes", "sábado"];
 
   var ICONO = {
     flecha: '<svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>',
@@ -28,7 +29,9 @@
     ojo: '<svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg>',
     izq: '<svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>',
     der: '<svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg>',
-    bajar: '<svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg>'
+    bajar: '<svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg>',
+    calendario: '<svg class="i" viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15.5" rx="3"/><path d="M3.5 10h17M8 3v4M16 3v4"/></svg>',
+    reloj: '<svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg>'
   };
 
   /* ---------- formatos (estilo chileno: 642K, 1,3M, 7.080) ---------- */
@@ -56,6 +59,16 @@
     if (dias < 7) return "Hace " + dias + " días";
     return f.getDate() + " de " + MESES[f.getMonth()];
   }
+  function diasAtras(iso) {
+    return Math.floor((new Date(new Date().toDateString()) - new Date(new Date(iso).toDateString())) / 864e5);
+  }
+  // "Subido hoy", "Subido ayer" o "Subido el sábado 26 de septiembre"
+  function diaSubida(iso) {
+    var f = new Date(iso), dias = diasAtras(iso);
+    if (dias <= 0) return "Subido hoy";
+    if (dias === 1) return "Subido ayer";
+    return "Subido el " + DIAS[f.getDay()] + " " + f.getDate() + " de " + MESES[f.getMonth()];
+  }
   function fechaLarga(iso) {
     var f = new Date(iso);
     return f.getDate() + " de " + MESES[f.getMonth()] + " de " + f.getFullYear();
@@ -82,7 +95,10 @@
   }).join("");
 
   /* ---------- rotacion de videos ---------- */
-  var videos = DATOS.rotacion || [];
+  // Los videos subidos hoy van siempre primero (el robot ya los deja del más nuevo al más viejo).
+  var videos = (DATOS.rotacion || []).slice();
+  videos = videos.filter(function (v) { return diasAtras(v.publicado) <= 0; })
+    .concat(videos.filter(function (v) { return diasAtras(v.publicado) > 0; }));
   var actual = 0, transcurrido = 0, pausaUsuario = false, pausaMouse = false, enPrevia = false;
 
   if (!videos.length) {
@@ -90,12 +106,15 @@
   } else {
     rot.innerHTML = videos.map(function (v, i) {
       var c = canal(v.canal) || { nombre: "" };
+      var deHoy = diasAtras(v.publicado) <= 0;
       return '<a class="slide" href="https://youtu.be/' + esc(v.id) + '" target="_blank" rel="noopener" ' +
         'role="group" aria-roledescription="video" aria-label="' + (i + 1) + ' de ' + videos.length + '">' +
         '<img src="' + esc(v.miniatura || "https://i.ytimg.com/vi/" + v.id + "/hqdefault.jpg") + '" alt="" ' + (i ? 'loading="lazy"' : "") + '>' +
-        '<div class="info"><span class="etiqueta"><i></i>' + (v.esta_semana ? "Nuevo esta semana" : "Video reciente") +
-        " · " + esc(c.nombre) + "</span><h2>" + esc(v.titulo) + '</h2><p class="meta"><span>' + cuando(v.publicado) +
-        "</span><span>" + duracion(v.segundos) + '</span></p><span class="btn">Ver video ' + ICONO.play + "</span></div></a>";
+        '<div class="info"><span class="etiqueta' + (deHoy ? " hoy" : "") + '"><i></i>' +
+        (deHoy ? "Nuevo de hoy" : v.esta_semana ? "Nuevo esta semana" : "Video reciente") +
+        " · " + esc(c.nombre) + "</span><h2>" + esc(v.titulo) + '</h2><p class="meta"><span class="dia">' + ICONO.calendario +
+        diaSubida(v.publicado) + "</span><span>" + ICONO.reloj + duracion(v.segundos) +
+        '</span></p><span class="btn">Ver video ' + ICONO.play + "</span></div></a>";
     }).join("") +
       '<button class="flecha-rot izq" type="button" data-paso="-1" aria-label="Video anterior">' + ICONO.izq + "</button>" +
       '<button class="flecha-rot der" type="button" data-paso="1" aria-label="Video siguiente">' + ICONO.der + "</button>" +
@@ -154,6 +173,25 @@
       if (e.key === "ArrowLeft") mostrar(actual - 1);
       else if (e.key === "ArrowRight") mostrar(actual + 1);
     });
+    // Deslizar con el dedo: a la izquierda pasa al siguiente, a la derecha vuelve al anterior.
+    var toque = null, recienDeslizado = false;
+    rot.addEventListener("touchstart", function (e) {
+      if (e.touches.length !== 1 || slides.length < 2) { toque = null; return; }
+      toque = { x: e.touches[0].clientX, y: e.touches[0].clientY };
+    }, { passive: true });
+    rot.addEventListener("touchend", function (e) {
+      if (!toque) return;
+      var dx = e.changedTouches[0].clientX - toque.x, dy = e.changedTouches[0].clientY - toque.y;
+      toque = null;
+      if (Math.abs(dx) < 40 || Math.abs(dx) < Math.abs(dy) * 1.2) return;
+      mostrar(actual + (dx < 0 ? 1 : -1));
+      recienDeslizado = true;
+      setTimeout(function () { recienDeslizado = false; }, 400);
+    }, { passive: true });
+    // Que deslizar no abra el video por accidente.
+    rot.addEventListener("click", function (e) {
+      if (recienDeslizado && e.target.closest(".slide")) e.preventDefault();
+    }, true);
     rot.addEventListener("mouseenter", function () { pausaMouse = true; marcarPausa(); });
     rot.addEventListener("mouseleave", function () { pausaMouse = false; marcarPausa(); });
     document.addEventListener("visibilitychange", marcarPausa);

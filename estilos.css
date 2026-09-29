@@ -106,7 +106,7 @@ h3{font:600 1rem/1.2 var(--display);margin:0 0 12px}
 .capa.visible{opacity:1;visibility:visible}
 
 /* rotacion de videos */
-.rotacion{position:relative;display:grid}
+.rotacion{position:relative;display:grid;touch-action:pan-y}
 .slide{grid-area:1/1;position:relative;display:block;aspect-ratio:16/8.2;min-height:380px;text-decoration:none;overflow:hidden;
   opacity:0;visibility:hidden;transition:opacity .6s,visibility .6s}
 .slide.visible{opacity:1;visibility:visible}
@@ -120,7 +120,13 @@ h3{font:600 1rem/1.2 var(--display);margin:0 0 12px}
   font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase}
 .etiqueta i{width:8px;height:8px;border-radius:50%;background:var(--accent);box-shadow:0 0 10px var(--accent)}
 .slide h2{margin:0;font-size:clamp(1.5rem,3.6vw,2.6rem);line-height:1.06;text-shadow:0 2px 24px var(--bg)}
-.meta{margin:0;color:var(--muted);font-size:.88rem;display:flex;gap:6px 14px;flex-wrap:wrap;font-variant-numeric:tabular-nums}
+.meta{margin:0;color:var(--muted);font-size:.88rem;display:flex;gap:6px 16px;flex-wrap:wrap;font-variant-numeric:tabular-nums}
+.meta span{display:inline-flex;align-items:center;gap:6px}
+.meta .i{width:16px;height:16px;color:var(--accent-2)}
+.meta .dia{color:var(--ink);font-weight:600}
+.etiqueta.hoy{border-color:color-mix(in srgb,var(--accent) 60%,transparent);background:color-mix(in srgb,var(--accent) 22%,var(--panel));color:var(--ink)}
+@media (prefers-reduced-motion:no-preference){.etiqueta.hoy i{animation:latido-hoy 1.6s ease-in-out infinite}}
+@keyframes latido-hoy{50%{transform:scale(1.45);box-shadow:0 0 16px var(--accent)}}
 .slide .btn{pointer-events:none}
 .slide:hover .btn{filter:brightness(1.1)}
 .slide:hover img{transform:scale(1.03)}
