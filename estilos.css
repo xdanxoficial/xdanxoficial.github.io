@@ -352,12 +352,13 @@ dialog.panel::backdrop{background:color-mix(in srgb,var(--bg) 70%,transparent);b
   .slide{aspect-ratio:auto;min-height:0;display:grid;grid-template-rows:auto 1fr}
   .slide img{position:relative;aspect-ratio:16/9;height:auto}
   .slide::after{display:none}
-  .slide .info{position:relative;padding:18px 18px 60px;max-width:none}
+  .slide .info{position:relative;padding:18px 18px 76px;max-width:none}
   .slide h2{text-shadow:none}
-  /* flechas centradas sobre la miniatura (ancho de la pantalla = 100vw - 34px) */
-  .flecha-rot{top:calc((100vw - 34px) * 9 / 32);width:40px;height:40px;margin-top:-20px}
-  .flecha-rot.izq{left:10px}.flecha-rot.der{right:10px}
-  .controles{left:18px;right:18px;bottom:20px}
+  /* flechas abajo, a los lados de los puntitos, para no tapar la miniatura */
+  .flecha-rot{top:auto;bottom:16px;width:40px;height:40px;margin-top:0}
+  .flecha-rot.izq{left:14px}.flecha-rot.der{right:14px}
+  .controles{left:66px;right:66px;bottom:20px}
+  .controles .puntos{max-width:none}
   .previa{min-height:0}
   .vivo{grid-template-columns:1fr;min-height:0}
   .reproductor{min-height:0;aspect-ratio:16/9}
