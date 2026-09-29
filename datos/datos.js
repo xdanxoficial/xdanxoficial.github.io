@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-09-29T18:46:57Z",
+ "actualizado": "2026-09-29T22:12:31Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -57,9 +57,17 @@ window.DATOS = {
    "foto": "https://yt3.ggpht.com/G8JzDzNjFiwLmBuRi3GDgC9JOcF-H-NYuTOnR04XJL5wT9O3lIURUlTL6zLJADKsWgdfBtKX=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
    "suscriptores": 130000,
-   "total_videos": 313,
+   "total_videos": 314,
    "url": "https://www.youtube.com/@danxof",
    "ultimos": [
+    {
+     "id": "58PMR9R3_RQ",
+     "titulo": "Debemos Detener a los Latinos Que Se Creen Gringos",
+     "publicado": "2026-09-29T22:02:16Z",
+     "segundos": 1704,
+     "miniatura": "https://i.ytimg.com/vi/58PMR9R3_RQ/maxresdefault.jpg",
+     "canal": "danx"
+    },
     {
      "id": "peIY5yZSz_k",
      "titulo": "La Merecida Caída de Tomás Mazza *confesó todo*",
@@ -82,14 +90,6 @@ window.DATOS = {
      "publicado": "2026-09-26T21:47:25Z",
      "segundos": 2749,
      "miniatura": "https://i.ytimg.com/vi/jx2uxIdXBHY/maxresdefault.jpg",
-     "canal": "danx"
-    },
-    {
-     "id": "QzGnPQ9pfjM",
-     "titulo": "El Asqueroso Caso de el Hombre Que Nunca Salió de su Cuarto",
-     "publicado": "2026-09-25T21:33:59Z",
-     "segundos": 3392,
-     "miniatura": "https://i.ytimg.com/vi/QzGnPQ9pfjM/maxresdefault.jpg",
      "canal": "danx"
     }
    ]
@@ -164,6 +164,15 @@ window.DATOS = {
   }
  ],
  "rotacion": [
+  {
+   "id": "58PMR9R3_RQ",
+   "titulo": "Debemos Detener a los Latinos Que Se Creen Gringos",
+   "publicado": "2026-09-29T22:02:16Z",
+   "segundos": 1704,
+   "miniatura": "https://i.ytimg.com/vi/58PMR9R3_RQ/maxresdefault.jpg",
+   "canal": "danx",
+   "esta_semana": true
+  },
   {
    "id": "peIY5yZSz_k",
    "titulo": "La Merecida Caída de Tomás Mazza *confesó todo*",
