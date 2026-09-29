@@ -433,8 +433,11 @@
   // para confirmar y después el Worker "avisos" manda los avisos de stream y de videos.
   var KIT_FORM = "https://app.kit.com/forms/9978356/subscriptions";
   var avisos = $("avisos"), formAvisos = $("form-avisos"), listoAvisos = $("avisos-listo"), errorAvisos = $("avisos-error");
+  var abiertoEn = 0;   // los bots envían al instante; una persona se demora más de 2 s en escribir su correo
+  var CASI_LISTO = "Te mandé un correo a {c}. Ábrelo y aprieta “Confirmar mis avisos”. Si no lo ves en unos minutos, revisa en spam o promociones.";
 
   function abrirAvisos(listo) {
+    if (!listo) abiertoEn = Date.now();
     formAvisos.hidden = !!listo;
     listoAvisos.hidden = !listo;
     if (listo) {
@@ -462,6 +465,12 @@
     if (!elegidos.length) return errorEnAvisos("Elige al menos una opción: streams o videos.");
     if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(correoAv)) return errorEnAvisos("Revisa tu correo, parece que le falta algo.");
     errorAvisos.hidden = true;
+    // Trampa para bots: el campo escondido lo llenan solo ellos. Se les muestra "listo" pero no se manda nada a Kit.
+    if ($("avisos-web").value || Date.now() - abiertoEn < 2000) {
+      abrirAvisos({ titulo: "¡Casi listo! Revisa tu correo", texto: CASI_LISTO.replace("{c}", correoAv) });
+      formAvisos.reset();
+      return;
+    }
     var boton = formAvisos.querySelector(".enviar");
     boton.disabled = true;
     boton.textContent = "Activando…";
@@ -471,7 +480,7 @@
         if (d.status !== "success") throw new Error("kit");
         abrirAvisos({
           titulo: "¡Casi listo! Revisa tu correo",
-          texto: "Te mandé un correo a " + correoAv + ". Ábrelo y aprieta “Confirmar mis avisos”. Si no lo ves en unos minutos, revisa en spam o promociones.",
+          texto: CASI_LISTO.replace("{c}", correoAv),
         });
         formAvisos.reset();
       })

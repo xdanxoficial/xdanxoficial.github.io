@@ -24,13 +24,13 @@ export default {
     try {
       if (req.method === "POST" && url.pathname === "/video") return await avisoVideo(req, env);
       if (url.pathname === "/estado") {
-        if (!autorizado(req, env, url)) return json({ error: "sin permiso" }, 401);
+        if (!autorizado(req, env)) return json({ error: "sin permiso" }, 401);
         return json(await estadoKick(env));
       }
       if (url.pathname === "/probar-stream") {
         // Deja el correo de stream como borrador en Kit para revisarlo (no le llega a nadie).
         // Con ?enviar lo manda de verdad a los suscriptores de streams: usar solo para probar.
-        if (!autorizado(req, env, url)) return json({ error: "sin permiso" }, 401);
+        if (!autorizado(req, env)) return json({ error: "sin permiso" }, 401);
         const vivo = { titulo: url.searchParams.get("titulo") || "Prueba de aviso", categoria: "Just Chatting" };
         const link = "https://kick.com/" + KICK_SLUG;   // LinkTwin no abre la app de Kick
         const r = await enviarCorreo(env, correoStream(vivo, link), TAG_STREAMS, !url.searchParams.has("enviar"));
@@ -220,10 +220,18 @@ async function enviarCorreo(env, correo, etiqueta, borrador) {
 
 /* ---------- utilidades ---------- */
 
-function autorizado(req, env, url) {
+// Solo con la cabecera Authorization: un token en la dirección queda guardado en historiales y registros.
+function autorizado(req, env) {
   const h = req.headers.get("Authorization") || "";
-  const t = h.startsWith("Bearer ") ? h.slice(7) : url && url.searchParams.get("token");
-  return !!env.AVISOS_TOKEN && t === env.AVISOS_TOKEN;
+  return !!env.AVISOS_TOKEN && h.startsWith("Bearer ") && mismoTexto(h.slice(7), env.AVISOS_TOKEN);
+}
+
+// Compara sin cortar antes al primer carácter distinto (así no se puede adivinar midiendo el tiempo).
+function mismoTexto(a, b) {
+  if (a.length !== b.length) return false;
+  let dif = 0;
+  for (let i = 0; i < a.length; i++) dif |= a.charCodeAt(i) ^ b.charCodeAt(i);
+  return dif === 0;
 }
 
 function esc(t) {
