@@ -16,7 +16,6 @@
   var GENEROS = { female: "Mujeres", male: "Hombres", genderUserSpecified: "Otro" };
   var MESES = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto",
     "septiembre", "octubre", "noviembre", "diciembre"];
-  var DIAS = ["domingo", "lunes", "martes", "miércoles", "jueves", "viernes", "sábado"];
 
   var ICONO = {
     flecha: '<svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>',
@@ -30,7 +29,6 @@
     izq: '<svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>',
     der: '<svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg>',
     bajar: '<svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg>',
-    calendario: '<svg class="i" viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15.5" rx="3"/><path d="M3.5 10h17M8 3v4M16 3v4"/></svg>',
     reloj: '<svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg>'
   };
 
@@ -62,12 +60,14 @@
   function diasAtras(iso) {
     return Math.floor((new Date(new Date().toDateString()) - new Date(new Date(iso).toDateString())) / 864e5);
   }
-  // "Subido hoy", "Subido ayer" o "Subido el sábado 26 de septiembre"
-  function diaSubida(iso) {
-    var f = new Date(iso), dias = diasAtras(iso);
-    if (dias <= 0) return "Subido hoy";
-    if (dias === 1) return "Subido ayer";
-    return "Subido el " + DIAS[f.getDay()] + " " + f.getDate() + " de " + MESES[f.getMonth()];
+  // Etiqueta de arriba del video: mientras más nuevo, más llamativa.
+  // Hoy mismo → Ayer → Hace 2 días → Hace 3 días → Nuevo esta semana (4 días o más).
+  function etiquetaVideo(v) {
+    var dias = diasAtras(v.publicado);
+    if (dias <= 0) return { texto: "Hoy mismo", clase: "hoy" };
+    if (dias === 1) return { texto: "Ayer", clase: "ayer" };
+    if (dias <= 3) return { texto: "Hace " + dias + " días", clase: "reciente" };
+    return { texto: v.esta_semana ? "Nuevo esta semana" : "Video reciente", clase: "" };
   }
   function fechaLarga(iso) {
     var f = new Date(iso);
@@ -106,15 +106,13 @@
   } else {
     rot.innerHTML = videos.map(function (v, i) {
       var c = canal(v.canal) || { nombre: "" };
-      var deHoy = diasAtras(v.publicado) <= 0;
+      var et = etiquetaVideo(v);
       return '<a class="slide" href="https://youtu.be/' + esc(v.id) + '" target="_blank" rel="noopener" ' +
         'role="group" aria-roledescription="video" aria-label="' + (i + 1) + ' de ' + videos.length + '">' +
         '<img src="' + esc(v.miniatura || "https://i.ytimg.com/vi/" + v.id + "/hqdefault.jpg") + '" alt="" ' + (i ? 'loading="lazy"' : "") + '>' +
-        '<div class="info"><span class="etiqueta' + (deHoy ? " hoy" : "") + '"><i></i>' +
-        (deHoy ? "Nuevo de hoy" : v.esta_semana ? "Nuevo esta semana" : "Video reciente") +
-        " · " + esc(c.nombre) + "</span><h2>" + esc(v.titulo) + '</h2><p class="meta"><span class="dia">' + ICONO.calendario +
-        diaSubida(v.publicado) + "</span><span>" + ICONO.reloj + duracion(v.segundos) +
-        '</span></p><span class="btn">Ver video ' + ICONO.play + "</span></div></a>";
+        '<div class="info"><span class="etiqueta' + (et.clase ? " " + et.clase : "") + '"><i></i>' + et.texto +
+        " · " + esc(c.nombre) + "</span><h2>" + esc(v.titulo) + '</h2><p class="meta"><span>' + ICONO.reloj +
+        duracion(v.segundos) + '</span></p><span class="btn">Ver video ' + ICONO.play + "</span></div></a>";
     }).join("") +
       '<button class="flecha-rot izq" type="button" data-paso="-1" aria-label="Video anterior">' + ICONO.izq + "</button>" +
       '<button class="flecha-rot der" type="button" data-paso="1" aria-label="Video siguiente">' + ICONO.der + "</button>" +

@@ -123,10 +123,14 @@ h3{font:600 1rem/1.2 var(--display);margin:0 0 12px}
 .meta{margin:0;color:var(--muted);font-size:.88rem;display:flex;gap:6px 16px;flex-wrap:wrap;font-variant-numeric:tabular-nums}
 .meta span{display:inline-flex;align-items:center;gap:6px}
 .meta .i{width:16px;height:16px;color:var(--accent-2)}
-.meta .dia{color:var(--ink);font-weight:600}
-.etiqueta.hoy{border-color:color-mix(in srgb,var(--accent) 60%,transparent);background:color-mix(in srgb,var(--accent) 22%,var(--panel));color:var(--ink)}
+/* etiqueta segun hace cuanto se subio: hoy (la mas llamativa) > ayer > hace 2-3 dias > esta semana */
+.etiqueta.hoy{border-color:var(--accent);background:var(--accent);color:#fff;box-shadow:0 6px 22px -6px color-mix(in srgb,var(--accent) 80%,transparent)}
+.etiqueta.hoy i{background:#fff;box-shadow:0 0 10px #fff}
+.etiqueta.ayer{border-color:color-mix(in srgb,var(--accent) 70%,transparent);background:color-mix(in srgb,var(--accent) 30%,var(--panel));color:var(--ink)}
+.etiqueta.reciente{border-color:color-mix(in srgb,var(--accent-2) 45%,transparent);background:color-mix(in srgb,var(--accent-2) 14%,var(--panel));color:var(--ink)}
+.etiqueta.reciente i{background:var(--accent-2);box-shadow:0 0 8px var(--accent-2)}
 @media (prefers-reduced-motion:no-preference){.etiqueta.hoy i{animation:latido-hoy 1.6s ease-in-out infinite}}
-@keyframes latido-hoy{50%{transform:scale(1.45);box-shadow:0 0 16px var(--accent)}}
+@keyframes latido-hoy{50%{transform:scale(1.5);opacity:.6}}
 .slide .btn{pointer-events:none}
 .slide:hover .btn{filter:brightness(1.1)}
 .slide:hover img{transform:scale(1.03)}
