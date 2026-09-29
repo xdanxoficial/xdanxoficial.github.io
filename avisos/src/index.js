@@ -142,7 +142,7 @@ function correoStream(vivo, link) {
       `<p style="font-size:20px;font-weight:bold;margin:18px 0 6px">${esc(titulo)}</p>` +
       (vivo.categoria ? `<p style="color:#6b6470;margin:0 0 18px">${esc(vivo.categoria)}</p>` : "") +
       boton(link, "Entrar al stream", "#53fc18", "#0b0b0b") +
-      `<p>Te espero adentro, lo vamos a pasar increíble 😁☘️🚀<br>Daniel</p>` + pie(),
+      `<p>Te espero adentro, lo vamos a pasar increíble 😁☘️🚀<br>xDanx</p>` + pie(),
   };
 }
 
@@ -157,7 +157,7 @@ function correoVideo(v, link) {
       `alt="${esc(v.titulo)}" width="560" border="0" style="width:100%;max-width:560px;height:auto;border-radius:12px;display:block"></a></p>` +
       `<p style="font-size:20px;font-weight:bold;margin:14px 0 18px">${esc(v.titulo)}</p>` +
       boton(link, "Ver video", "#ff1e6e", "#ffffff") +
-      `<p>Pasa a verlo y cuéntame en los comentarios qué te pareció 😁☘️🚀<br>Daniel</p>` + pie(),
+      `<p>Pasa a verlo y cuéntame en los comentarios qué te pareció 😁☘️🚀<br>xDanx</p>` + pie(),
   };
 }
 
