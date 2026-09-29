@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700&display=block" rel="stylesheet">
+<style>
+:root{
+  color-scheme:dark;
+  --bg:#09080b;--panel:#131117;--panel-2:#1b1820;--line:#2a2530;
+  --ink:#f6f2f7;--muted:#a79fae;--accent:#ff1e6e;--accent-2:#ff5fa0;--accent-deep:#b1004b;--violet:#6a00ff;
+  --kick:#53fc18;
+  --display:"Outfit","Segoe UI",system-ui,sans-serif;
+  --body:"Plus Jakarta Sans","Segoe UI",system-ui,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1200px;height:630px;background:var(--bg);overflow:hidden}
+body{font-family:var(--body);color:var(--ink);position:relative}
+.fondo{position:absolute;inset:0;
+  background:
+    radial-gradient(620px 420px at 78% 42%,rgba(255,30,110,.30),transparent 70%),
+    radial-gradient(520px 380px at 104% 108%,rgba(106,0,255,.55),transparent 70%),
+    radial-gradient(420px 300px at -6% -10%,rgba(106,0,255,.35),transparent 70%),
+    var(--bg)}
+.trama{position:absolute;inset:0;background-image:radial-gradient(rgba(246,242,247,.07) 1px,transparent 1.4px);background-size:22px 22px;
+  -webkit-mask-image:linear-gradient(90deg,transparent 0%,#000 40%,#000 100%)}
+.borde{position:absolute;inset:18px;border-radius:28px;border:1px solid rgba(255,95,160,.22)}
+.izq{position:absolute;left:84px;top:78px;width:680px}
+.insignia{display:inline-flex;align-items:center;gap:10px;padding:9px 16px 9px 12px;border-radius:999px;
+  background:rgba(255,30,110,.10);border:1px solid rgba(255,30,110,.35);
+  font:700 15px/1 var(--body);letter-spacing:.14em;text-transform:uppercase;color:var(--accent-2)}
+.insignia i{width:9px;height:9px;border-radius:50%;background:var(--accent);box-shadow:0 0 12px 3px rgba(255,30,110,.8)}
+h1{margin-top:24px;font:800 80px/.98 var(--display);letter-spacing:-.03em;white-space:nowrap}
+h1 span{display:block;background:linear-gradient(90deg,var(--accent-2),var(--accent) 55%,#c23bff);-webkit-background-clip:text;background-clip:text;color:transparent;padding-bottom:6px}
+.frase{margin-top:22px;font:500 26px/1.4 var(--body);color:var(--muted)}
+.frase b{color:var(--ink);font-weight:700}
+.url{position:absolute;left:84px;bottom:74px;display:flex;align-items:center;gap:14px;
+  padding:14px 26px 14px 16px;border-radius:14px;background:var(--accent);
+  box-shadow:0 12px 40px -8px rgba(255,30,110,.65);font:700 30px/1 var(--display);letter-spacing:-.01em}
+.url svg{width:30px;height:30px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.canales{position:absolute;left:340px;bottom:78px;display:flex;align-items:center;gap:14px}
+.caras{display:flex}
+.caras img{width:52px;height:52px;border-radius:50%;border:3px solid var(--bg);margin-left:-14px;background:var(--panel-2)}
+.caras img:first-child{margin-left:0}
+.canales p{font:600 19px/1.3 var(--body);color:var(--muted)}
+.canales p b{display:block;color:var(--ink);font:700 21px/1.2 var(--display)}
+.foto{position:absolute;right:112px;top:112px;width:340px;height:340px;border-radius:50%;padding:7px;
+  background:conic-gradient(from 200deg,var(--accent),var(--accent-2),var(--violet),var(--accent));
+  box-shadow:0 0 90px 10px rgba(255,30,110,.40)}
+.foto img{width:100%;height:100%;border-radius:50%;object-fit:cover;border:6px solid var(--bg);display:block}
+.flot{position:absolute;display:flex;align-items:center;gap:12px;padding:13px 18px 13px 13px;border-radius:16px;
+  background:rgba(27,24,32,.92);border:1px solid var(--line);box-shadow:0 18px 40px -12px rgba(0,0,0,.7)}
+.flot .ic{width:40px;height:40px;border-radius:50%;display:grid;place-items:center;background:rgba(255,30,110,.16);color:var(--accent)}
+.flot .ic svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+.flot .ic.lleno svg{fill:currentColor;stroke:none}
+.flot .ic.kick{background:rgba(83,252,24,.14);color:var(--kick)}
+.flot b{display:block;font:700 19px/1.15 var(--display)}
+.flot small{display:block;font:600 14px/1.3 var(--body);color:var(--muted)}
+.f1{right:382px;top:118px}
+.f2{right:46px;top:300px}
+.f3{right:300px;top:432px}
+</style>
+</head>
+<body>
+<div class="fondo"></div><div class="trama"></div><div class="borde"></div>
+
+<div class="izq">
+  <span class="insignia"><i></i>Página oficial</span>
+  <h1>xDanx<span>en un solo lugar</span></h1>
+  <p class="frase">Mis <b>canales</b>, mis <b>streams</b> y<br>contacto de <b>negocios</b>.</p>
+</div>
+
+<div class="url"><svg viewBox="0 0 24 24"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3-3a4.5 4.5 0 0 0-6.4-6.4l-1.2 1.2"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3 3a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg>xdanx.cl</div>
+
+<div class="canales">
+  <div class="caras">
+    <img src="https://yt3.ggpht.com/ytc/AIdro_lUzYRkp9_RYmx2aLvmCuGtYfHqPM1HpNuud_M5dl_JXGM=s176-c-k-c0x00ffffff-no-rj" alt="">
+    <img src="https://yt3.ggpht.com/G8JzDzNjFiwLmBuRi3GDgC9JOcF-H-NYuTOnR04XJL5wT9O3lIURUlTL6zLJADKsWgdfBtKX=s176-c-k-c0x00ffffff-no-rj" alt="">
+    <img src="https://yt3.ggpht.com/uIa-WrREAx3OzbO35C8Sq0G9AiyhTDV63g2rWDYTDeqnKah3TVOFRjKcjgEJOp3GJ5KOA30Nfg=s176-c-k-c0x00ffffff-no-rj" alt="">
+    <img src="https://yt3.ggpht.com/zk5RUuTmcrwaZRuT2r2OjhwhT_j_Uj2_If-1v34j6Gs46HOPkfLC_3NRamZQbX_1pMgSJA9GYJw=s176-c-k-c0x00ffffff-no-rj" alt="">
+  </div>
+  <p><b>4 canales</b>de YouTube</p>
+</div>
+
+<div class="foto"><img src="https://yt3.ggpht.com/ytc/AIdro_lUzYRkp9_RYmx2aLvmCuGtYfHqPM1HpNuud_M5dl_JXGM=s800-c-k-c0x00ffffff-no-rj" alt=""></div>
+
+<div class="flot f1"><span class="ic"><svg viewBox="0 0 24 24"><rect x="2.5" y="5" width="19" height="14" rx="4"/><path d="m10 9.2 5 2.8-5 2.8z" fill="currentColor"/></svg></span><span><b>Videos nuevos</b><small>Cada semana</small></span></div>
+<div class="flot f2"><span class="ic kick lleno"><svg viewBox="0 0 24 24"><path d="M4 3h6v5h2V5.5h2V3h6v6h-2v2h-2v2h2v2h2v6h-6v-2.5h-2V16h-2v5H4z"/></svg></span><span><b>En vivo en Kick</b><small>Todos los días · 8 PM</small></span></div>
+<div class="flot f3"><span class="ic"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="m4 7 8 6 8-6"/></svg></span><span><b>Marcas y colabs</b><small>Contacto de negocios</small></span></div>
+</body>
+</html>
