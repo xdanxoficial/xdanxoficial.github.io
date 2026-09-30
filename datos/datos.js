@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-09-30T20:42:39Z",
+ "actualizado": "2026-09-30T22:43:02Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -215,15 +215,6 @@ window.DATOS = {
    "publicado": "2026-09-25T21:33:59Z",
    "segundos": 3392,
    "miniatura": "https://i.ytimg.com/vi/QzGnPQ9pfjM/maxresdefault.jpg",
-   "canal": "danx",
-   "esta_semana": true
-  },
-  {
-   "id": "ut7wdx1kx5M",
-   "titulo": "TikTok Está Creando CLONES Sin Personalidad",
-   "publicado": "2026-09-23T22:38:58Z",
-   "segundos": 1753,
-   "miniatura": "https://i.ytimg.com/vi/ut7wdx1kx5M/maxresdefault.jpg",
    "canal": "danx",
    "esta_semana": true
   }
