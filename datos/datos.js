@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-09-30T16:15:17Z",
+ "actualizado": "2026-09-30T20:42:39Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -57,9 +57,17 @@ window.DATOS = {
    "foto": "https://yt3.ggpht.com/G8JzDzNjFiwLmBuRi3GDgC9JOcF-H-NYuTOnR04XJL5wT9O3lIURUlTL6zLJADKsWgdfBtKX=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
    "suscriptores": 130000,
-   "total_videos": 314,
+   "total_videos": 315,
    "url": "https://www.youtube.com/@danxof",
    "ultimos": [
+    {
+     "id": "08-HTYNJEG8",
+     "titulo": "TikTok Arruinó el Estilo Y2K *reacción xDanx*",
+     "publicado": "2026-09-30T20:23:38Z",
+     "segundos": 1398,
+     "miniatura": "https://i.ytimg.com/vi/08-HTYNJEG8/maxresdefault.jpg",
+     "canal": "danx"
+    },
     {
      "id": "58PMR9R3_RQ",
      "titulo": "Debemos Detener a los Latinos Que Se Creen Gringos",
@@ -82,14 +90,6 @@ window.DATOS = {
      "publicado": "2026-09-27T21:30:12Z",
      "segundos": 8590,
      "miniatura": "https://i.ytimg.com/vi/l99QLBE0K0g/maxresdefault.jpg",
-     "canal": "danx"
-    },
-    {
-     "id": "jx2uxIdXBHY",
-     "titulo": "Debemos Detener a las Peores PICK ME de TikTok",
-     "publicado": "2026-09-26T21:47:25Z",
-     "segundos": 2749,
-     "miniatura": "https://i.ytimg.com/vi/jx2uxIdXBHY/maxresdefault.jpg",
      "canal": "danx"
     }
    ]
@@ -164,6 +164,15 @@ window.DATOS = {
   }
  ],
  "rotacion": [
+  {
+   "id": "08-HTYNJEG8",
+   "titulo": "TikTok Arruinó el Estilo Y2K *reacción xDanx*",
+   "publicado": "2026-09-30T20:23:38Z",
+   "segundos": 1398,
+   "miniatura": "https://i.ytimg.com/vi/08-HTYNJEG8/maxresdefault.jpg",
+   "canal": "danx",
+   "esta_semana": true
+  },
   {
    "id": "58PMR9R3_RQ",
    "titulo": "Debemos Detener a los Latinos Que Se Creen Gringos",
