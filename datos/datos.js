@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-10-01T20:44:29Z",
+ "actualizado": "2026-10-01T21:12:44Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -103,9 +103,17 @@ window.DATOS = {
    "foto": "https://yt3.ggpht.com/uIa-WrREAx3OzbO35C8Sq0G9AiyhTDV63g2rWDYTDeqnKah3TVOFRjKcjgEJOp3GJ5KOA30Nfg=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
    "suscriptores": 7120,
-   "total_videos": 11,
+   "total_videos": 12,
    "url": "https://www.youtube.com/@xdanxgameplays",
    "ultimos": [
+    {
+     "id": "4AbaI6BM4Cw",
+     "titulo": "Ser Chica es Peor de lo que Pensé... CORAZÓN DE MELÓN mi primera vez",
+     "publicado": "2026-10-01T21:08:09Z",
+     "segundos": 5332,
+     "miniatura": "https://i.ytimg.com/vi/4AbaI6BM4Cw/maxresdefault.jpg",
+     "canal": "gameplays"
+    },
     {
      "id": "IoZ4BJ_7kAg",
      "titulo": "El Juego de Pesca Más Gracioso🤣How to Fish Completo ft. Janojey y Spicyiol",
@@ -128,14 +136,6 @@ window.DATOS = {
      "publicado": "2026-08-27T23:25:31Z",
      "segundos": 14605,
      "miniatura": "https://i.ytimg.com/vi/QLSlAF3gU4w/maxresdefault.jpg",
-     "canal": "gameplays"
-    },
-    {
-     "id": "GyfLpC4hjRw",
-     "titulo": "No Dejes Entrar Visitantes💀| No, I'm Not a Human",
-     "publicado": "2026-08-09T19:58:09Z",
-     "segundos": 7501,
-     "miniatura": "https://i.ytimg.com/vi/GyfLpC4hjRw/maxresdefault.jpg",
      "canal": "gameplays"
     }
    ]
@@ -164,6 +164,15 @@ window.DATOS = {
   }
  ],
  "rotacion": [
+  {
+   "id": "4AbaI6BM4Cw",
+   "titulo": "Ser Chica es Peor de lo que Pensé... CORAZÓN DE MELÓN mi primera vez",
+   "publicado": "2026-10-01T21:08:09Z",
+   "segundos": 5332,
+   "miniatura": "https://i.ytimg.com/vi/4AbaI6BM4Cw/maxresdefault.jpg",
+   "canal": "gameplays",
+   "esta_semana": true
+  },
   {
    "id": "08-HTYNJEG8",
    "titulo": "TikTok Arruinó el Estilo Y2K *reacción xDanx*",
