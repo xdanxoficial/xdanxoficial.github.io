@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-10-02T19:13:25Z",
+ "actualizado": "2026-10-02T21:43:27Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -102,7 +102,7 @@ window.DATOS = {
    "descripcion": "Gameplays editados de xDanx de gran variedad de video juegos distintos",
    "foto": "https://yt3.ggpht.com/uIa-WrREAx3OzbO35C8Sq0G9AiyhTDV63g2rWDYTDeqnKah3TVOFRjKcjgEJOp3GJ5KOA30Nfg=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
-   "suscriptores": 7170,
+   "suscriptores": 7180,
    "total_videos": 12,
    "url": "https://www.youtube.com/@xdanxgameplays",
    "ultimos": [
@@ -215,15 +215,6 @@ window.DATOS = {
    "publicado": "2026-09-26T21:47:25Z",
    "segundos": 2749,
    "miniatura": "https://i.ytimg.com/vi/jx2uxIdXBHY/maxresdefault.jpg",
-   "canal": "danx",
-   "esta_semana": true
-  },
-  {
-   "id": "QzGnPQ9pfjM",
-   "titulo": "El Asqueroso Caso de el Hombre Que Nunca Salió de su Cuarto",
-   "publicado": "2026-09-25T21:33:59Z",
-   "segundos": 3392,
-   "miniatura": "https://i.ytimg.com/vi/QzGnPQ9pfjM/maxresdefault.jpg",
    "canal": "danx",
    "esta_semana": true
   }
