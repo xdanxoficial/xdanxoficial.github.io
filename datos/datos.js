@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-10-02T21:43:27Z",
+ "actualizado": "2026-10-02T22:42:34Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -57,9 +57,17 @@ window.DATOS = {
    "foto": "https://yt3.ggpht.com/G8JzDzNjFiwLmBuRi3GDgC9JOcF-H-NYuTOnR04XJL5wT9O3lIURUlTL6zLJADKsWgdfBtKX=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
    "suscriptores": 130000,
-   "total_videos": 315,
+   "total_videos": 316,
    "url": "https://www.youtube.com/@danxof",
    "ultimos": [
+    {
+     "id": "WNn2f_2gZdE",
+     "titulo": "La Comida Rápida en Chile es lo Peor *reacción xDanx*",
+     "publicado": "2026-10-02T22:15:20Z",
+     "segundos": 2122,
+     "miniatura": "https://i.ytimg.com/vi/WNn2f_2gZdE/maxresdefault.jpg",
+     "canal": "danx"
+    },
     {
      "id": "08-HTYNJEG8",
      "titulo": "TikTok Arruinó el Estilo Y2K *reacción xDanx*",
@@ -82,14 +90,6 @@ window.DATOS = {
      "publicado": "2026-09-28T22:17:51Z",
      "segundos": 2430,
      "miniatura": "https://i.ytimg.com/vi/peIY5yZSz_k/maxresdefault.jpg",
-     "canal": "danx"
-    },
-    {
-     "id": "l99QLBE0K0g",
-     "titulo": "El Iceberg Más Turbio de la One Coin",
-     "publicado": "2026-09-27T21:30:12Z",
-     "segundos": 8590,
-     "miniatura": "https://i.ytimg.com/vi/l99QLBE0K0g/maxresdefault.jpg",
      "canal": "danx"
     }
    ]
@@ -164,6 +164,15 @@ window.DATOS = {
   }
  ],
  "rotacion": [
+  {
+   "id": "WNn2f_2gZdE",
+   "titulo": "La Comida Rápida en Chile es lo Peor *reacción xDanx*",
+   "publicado": "2026-10-02T22:15:20Z",
+   "segundos": 2122,
+   "miniatura": "https://i.ytimg.com/vi/WNn2f_2gZdE/maxresdefault.jpg",
+   "canal": "danx",
+   "esta_semana": true
+  },
   {
    "id": "4AbaI6BM4Cw",
    "titulo": "Ser Chica es Peor de lo que Pensé... CORAZÓN DE MELÓN mi primera vez",
