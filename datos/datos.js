@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-10-04T21:19:02Z",
+ "actualizado": "2026-10-04T21:48:06Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -215,15 +215,6 @@ window.DATOS = {
    "publicado": "2026-09-28T22:17:51Z",
    "segundos": 2430,
    "miniatura": "https://i.ytimg.com/vi/peIY5yZSz_k/maxresdefault.jpg",
-   "canal": "danx",
-   "esta_semana": true
-  },
-  {
-   "id": "l99QLBE0K0g",
-   "titulo": "El Iceberg Más Turbio de la One Coin",
-   "publicado": "2026-09-27T21:30:12Z",
-   "segundos": 8590,
-   "miniatura": "https://i.ytimg.com/vi/l99QLBE0K0g/maxresdefault.jpg",
    "canal": "danx",
    "esta_semana": true
   }
