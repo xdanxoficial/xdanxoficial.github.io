@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-10-03T18:26:31Z",
+ "actualizado": "2026-10-04T00:12:47Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -57,9 +57,17 @@ window.DATOS = {
    "foto": "https://yt3.ggpht.com/G8JzDzNjFiwLmBuRi3GDgC9JOcF-H-NYuTOnR04XJL5wT9O3lIURUlTL6zLJADKsWgdfBtKX=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
    "suscriptores": 131000,
-   "total_videos": 316,
+   "total_videos": 317,
    "url": "https://www.youtube.com/@danxof",
    "ultimos": [
+    {
+     "id": "UCYp8RAeYn8",
+     "titulo": "La Turbia Verdad Detrás de Fruna",
+     "publicado": "2026-10-03T23:25:12Z",
+     "segundos": 1063,
+     "miniatura": "https://i.ytimg.com/vi/UCYp8RAeYn8/maxresdefault.jpg",
+     "canal": "danx"
+    },
     {
      "id": "WNn2f_2gZdE",
      "titulo": "La Comida Rápida en Chile es lo Peor *reacción xDanx*",
@@ -83,14 +91,6 @@ window.DATOS = {
      "segundos": 1704,
      "miniatura": "https://i.ytimg.com/vi/58PMR9R3_RQ/maxresdefault.jpg",
      "canal": "danx"
-    },
-    {
-     "id": "peIY5yZSz_k",
-     "titulo": "La Merecida Caída de Tomás Mazza *confesó todo*",
-     "publicado": "2026-09-28T22:17:51Z",
-     "segundos": 2430,
-     "miniatura": "https://i.ytimg.com/vi/peIY5yZSz_k/maxresdefault.jpg",
-     "canal": "danx"
     }
    ]
   },
@@ -102,7 +102,7 @@ window.DATOS = {
    "descripcion": "Gameplays editados de xDanx de gran variedad de video juegos distintos",
    "foto": "https://yt3.ggpht.com/uIa-WrREAx3OzbO35C8Sq0G9AiyhTDV63g2rWDYTDeqnKah3TVOFRjKcjgEJOp3GJ5KOA30Nfg=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
-   "suscriptores": 7230,
+   "suscriptores": 7250,
    "total_videos": 12,
    "url": "https://www.youtube.com/@xdanxgameplays",
    "ultimos": [
@@ -148,7 +148,7 @@ window.DATOS = {
    "descripcion": "",
    "foto": "https://yt3.ggpht.com/zk5RUuTmcrwaZRuT2r2OjhwhT_j_Uj2_If-1v34j6Gs46HOPkfLC_3NRamZQbX_1pMgSJA9GYJw=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
-   "suscriptores": 4150,
+   "suscriptores": 4160,
    "total_videos": 1,
    "url": "https://www.youtube.com/@xDanxVlogs",
    "ultimos": [
@@ -164,6 +164,15 @@ window.DATOS = {
   }
  ],
  "rotacion": [
+  {
+   "id": "UCYp8RAeYn8",
+   "titulo": "La Turbia Verdad Detrás de Fruna",
+   "publicado": "2026-10-03T23:25:12Z",
+   "segundos": 1063,
+   "miniatura": "https://i.ytimg.com/vi/UCYp8RAeYn8/maxresdefault.jpg",
+   "canal": "danx",
+   "esta_semana": true
+  },
   {
    "id": "WNn2f_2gZdE",
    "titulo": "La Comida Rápida en Chile es lo Peor *reacción xDanx*",
@@ -215,15 +224,6 @@ window.DATOS = {
    "publicado": "2026-09-27T21:30:12Z",
    "segundos": 8590,
    "miniatura": "https://i.ytimg.com/vi/l99QLBE0K0g/maxresdefault.jpg",
-   "canal": "danx",
-   "esta_semana": true
-  },
-  {
-   "id": "jx2uxIdXBHY",
-   "titulo": "Debemos Detener a las Peores PICK ME de TikTok",
-   "publicado": "2026-09-26T21:47:25Z",
-   "segundos": 2749,
-   "miniatura": "https://i.ytimg.com/vi/jx2uxIdXBHY/maxresdefault.jpg",
    "canal": "danx",
    "esta_semana": true
   }
