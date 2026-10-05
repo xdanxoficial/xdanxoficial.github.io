@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-10-05T21:45:03Z",
+ "actualizado": "2026-10-05T22:41:51Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -57,9 +57,17 @@ window.DATOS = {
    "foto": "https://yt3.ggpht.com/G8JzDzNjFiwLmBuRi3GDgC9JOcF-H-NYuTOnR04XJL5wT9O3lIURUlTL6zLJADKsWgdfBtKX=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
    "suscriptores": 131000,
-   "total_videos": 317,
+   "total_videos": 318,
    "url": "https://www.youtube.com/@danxof",
    "ultimos": [
+    {
+     "id": "C9BK6geW5gA",
+     "titulo": "El Asqueroso Caso del Streamer Más Enfermo de Perú",
+     "publicado": "2026-10-05T22:14:29Z",
+     "segundos": 2898,
+     "miniatura": "https://i.ytimg.com/vi/C9BK6geW5gA/maxresdefault.jpg",
+     "canal": "danx"
+    },
     {
      "id": "UCYp8RAeYn8",
      "titulo": "La Turbia Verdad Detrás de Fruna",
@@ -83,14 +91,6 @@ window.DATOS = {
      "segundos": 1398,
      "miniatura": "https://i.ytimg.com/vi/08-HTYNJEG8/maxresdefault.jpg",
      "canal": "danx"
-    },
-    {
-     "id": "58PMR9R3_RQ",
-     "titulo": "Debemos Detener a los Latinos Que Se Creen Gringos",
-     "publicado": "2026-09-29T22:02:16Z",
-     "segundos": 1704,
-     "miniatura": "https://i.ytimg.com/vi/58PMR9R3_RQ/maxresdefault.jpg",
-     "canal": "danx"
     }
    ]
   },
@@ -102,7 +102,7 @@ window.DATOS = {
    "descripcion": "Gameplays editados de xDanx de gran variedad de video juegos distintos",
    "foto": "https://yt3.ggpht.com/uIa-WrREAx3OzbO35C8Sq0G9AiyhTDV63g2rWDYTDeqnKah3TVOFRjKcjgEJOp3GJ5KOA30Nfg=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
-   "suscriptores": 7350,
+   "suscriptores": 7360,
    "total_videos": 12,
    "url": "https://www.youtube.com/@xdanxgameplays",
    "ultimos": [
@@ -165,6 +165,15 @@ window.DATOS = {
  ],
  "rotacion": [
   {
+   "id": "C9BK6geW5gA",
+   "titulo": "El Asqueroso Caso del Streamer Más Enfermo de Perú",
+   "publicado": "2026-10-05T22:14:29Z",
+   "segundos": 2898,
+   "miniatura": "https://i.ytimg.com/vi/C9BK6geW5gA/maxresdefault.jpg",
+   "canal": "danx",
+   "esta_semana": true
+  },
+  {
    "id": "UCYp8RAeYn8",
    "titulo": "La Turbia Verdad Detrás de Fruna",
    "publicado": "2026-10-03T23:25:12Z",
@@ -206,15 +215,6 @@ window.DATOS = {
    "publicado": "2026-09-29T22:02:16Z",
    "segundos": 1704,
    "miniatura": "https://i.ytimg.com/vi/58PMR9R3_RQ/maxresdefault.jpg",
-   "canal": "danx",
-   "esta_semana": true
-  },
-  {
-   "id": "peIY5yZSz_k",
-   "titulo": "La Merecida Caída de Tomás Mazza *confesó todo*",
-   "publicado": "2026-09-28T22:17:51Z",
-   "segundos": 2430,
-   "miniatura": "https://i.ytimg.com/vi/peIY5yZSz_k/maxresdefault.jpg",
    "canal": "danx",
    "esta_semana": true
   }
