@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-10-06T21:42:56Z",
+ "actualizado": "2026-10-06T22:12:26Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -206,15 +206,6 @@ window.DATOS = {
    "publicado": "2026-09-30T20:23:38Z",
    "segundos": 1398,
    "miniatura": "https://i.ytimg.com/vi/08-HTYNJEG8/maxresdefault.jpg",
-   "canal": "danx",
-   "esta_semana": true
-  },
-  {
-   "id": "58PMR9R3_RQ",
-   "titulo": "Debemos Detener a los Latinos Que Se Creen Gringos",
-   "publicado": "2026-09-29T22:02:16Z",
-   "segundos": 1704,
-   "miniatura": "https://i.ytimg.com/vi/58PMR9R3_RQ/maxresdefault.jpg",
    "canal": "danx",
    "esta_semana": true
   }
