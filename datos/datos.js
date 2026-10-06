@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-10-06T23:11:43Z",
+ "actualizado": "2026-10-06T23:42:18Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -57,9 +57,17 @@ window.DATOS = {
    "foto": "https://yt3.ggpht.com/G8JzDzNjFiwLmBuRi3GDgC9JOcF-H-NYuTOnR04XJL5wT9O3lIURUlTL6zLJADKsWgdfBtKX=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
    "suscriptores": 131000,
-   "total_videos": 318,
+   "total_videos": 319,
    "url": "https://www.youtube.com/@danxof",
    "ultimos": [
+    {
+     "id": "xCNQmThXkH4",
+     "titulo": "Los Pobres Endeudados Que Presumen Su iPhone 18",
+     "publicado": "2026-10-06T23:13:37Z",
+     "segundos": 2028,
+     "miniatura": "https://i.ytimg.com/vi/xCNQmThXkH4/maxresdefault.jpg",
+     "canal": "danx"
+    },
     {
      "id": "C9BK6geW5gA",
      "titulo": "El Asqueroso Caso del Streamer Más Enfermo de Perú",
@@ -82,14 +90,6 @@ window.DATOS = {
      "publicado": "2026-10-02T22:15:20Z",
      "segundos": 2122,
      "miniatura": "https://i.ytimg.com/vi/WNn2f_2gZdE/maxresdefault.jpg",
-     "canal": "danx"
-    },
-    {
-     "id": "08-HTYNJEG8",
-     "titulo": "TikTok Arruinó el Estilo Y2K *reacción xDanx*",
-     "publicado": "2026-09-30T20:23:38Z",
-     "segundos": 1398,
-     "miniatura": "https://i.ytimg.com/vi/08-HTYNJEG8/maxresdefault.jpg",
      "canal": "danx"
     }
    ]
@@ -164,6 +164,15 @@ window.DATOS = {
   }
  ],
  "rotacion": [
+  {
+   "id": "xCNQmThXkH4",
+   "titulo": "Los Pobres Endeudados Que Presumen Su iPhone 18",
+   "publicado": "2026-10-06T23:13:37Z",
+   "segundos": 2028,
+   "miniatura": "https://i.ytimg.com/vi/xCNQmThXkH4/maxresdefault.jpg",
+   "canal": "danx",
+   "esta_semana": true
+  },
   {
    "id": "C9BK6geW5gA",
    "titulo": "El Asqueroso Caso del Streamer Más Enfermo de Perú",
