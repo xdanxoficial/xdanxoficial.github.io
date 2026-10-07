@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-10-07T20:44:08Z",
+ "actualizado": "2026-10-07T22:43:36Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -57,9 +57,17 @@ window.DATOS = {
    "foto": "https://yt3.ggpht.com/G8JzDzNjFiwLmBuRi3GDgC9JOcF-H-NYuTOnR04XJL5wT9O3lIURUlTL6zLJADKsWgdfBtKX=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
    "suscriptores": 131000,
-   "total_videos": 319,
+   "total_videos": 320,
    "url": "https://www.youtube.com/@danxof",
    "ultimos": [
+    {
+     "id": "kIcO63nPTgc",
+     "titulo": "El Real Problema de los Ninis en Chile",
+     "publicado": "2026-10-07T22:15:16Z",
+     "segundos": 2381,
+     "miniatura": "https://i.ytimg.com/vi/kIcO63nPTgc/maxresdefault.jpg",
+     "canal": "danx"
+    },
     {
      "id": "xCNQmThXkH4",
      "titulo": "Los Pobres Endeudados Que Presumen Su iPhone 18",
@@ -82,14 +90,6 @@ window.DATOS = {
      "publicado": "2026-10-03T23:25:12Z",
      "segundos": 1063,
      "miniatura": "https://i.ytimg.com/vi/UCYp8RAeYn8/maxresdefault.jpg",
-     "canal": "danx"
-    },
-    {
-     "id": "WNn2f_2gZdE",
-     "titulo": "La Comida Rápida en Chile es lo Peor *reacción xDanx*",
-     "publicado": "2026-10-02T22:15:20Z",
-     "segundos": 2122,
-     "miniatura": "https://i.ytimg.com/vi/WNn2f_2gZdE/maxresdefault.jpg",
      "canal": "danx"
     }
    ]
@@ -164,6 +164,15 @@ window.DATOS = {
   }
  ],
  "rotacion": [
+  {
+   "id": "kIcO63nPTgc",
+   "titulo": "El Real Problema de los Ninis en Chile",
+   "publicado": "2026-10-07T22:15:16Z",
+   "segundos": 2381,
+   "miniatura": "https://i.ytimg.com/vi/kIcO63nPTgc/maxresdefault.jpg",
+   "canal": "danx",
+   "esta_semana": true
+  },
   {
    "id": "ddrBvUc5BzE",
    "titulo": "Las Maquinas del Futuro🤖 | Detroit Become Human #1",
