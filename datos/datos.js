@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-10-07T13:45:42Z",
+ "actualizado": "2026-10-07T18:49:23Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -103,9 +103,17 @@ window.DATOS = {
    "foto": "https://yt3.ggpht.com/uIa-WrREAx3OzbO35C8Sq0G9AiyhTDV63g2rWDYTDeqnKah3TVOFRjKcjgEJOp3GJ5KOA30Nfg=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
    "suscriptores": 7440,
-   "total_videos": 12,
+   "total_videos": 13,
    "url": "https://www.youtube.com/@xdanxgameplays",
    "ultimos": [
+    {
+     "id": "ddrBvUc5BzE",
+     "titulo": "Las Maquinas del Futuro🤖 | Detroit Become Human #1",
+     "publicado": "2026-10-07T18:27:01Z",
+     "segundos": 13838,
+     "miniatura": "https://i.ytimg.com/vi/ddrBvUc5BzE/maxresdefault.jpg",
+     "canal": "gameplays"
+    },
     {
      "id": "4AbaI6BM4Cw",
      "titulo": "Ser Chica es Peor de lo que Pensé... CORAZÓN DE MELÓN mi primera vez",
@@ -128,14 +136,6 @@ window.DATOS = {
      "publicado": "2026-09-10T23:42:52Z",
      "segundos": 4425,
      "miniatura": "https://i.ytimg.com/vi/UWSNH1pKhbk/maxresdefault.jpg",
-     "canal": "gameplays"
-    },
-    {
-     "id": "QLSlAF3gU4w",
-     "titulo": "TODAS LOCAS DOKI DOKI Literature Club me Traumó💀",
-     "publicado": "2026-08-27T23:25:31Z",
-     "segundos": 14605,
-     "miniatura": "https://i.ytimg.com/vi/QLSlAF3gU4w/maxresdefault.jpg",
      "canal": "gameplays"
     }
    ]
@@ -164,6 +164,15 @@ window.DATOS = {
   }
  ],
  "rotacion": [
+  {
+   "id": "ddrBvUc5BzE",
+   "titulo": "Las Maquinas del Futuro🤖 | Detroit Become Human #1",
+   "publicado": "2026-10-07T18:27:01Z",
+   "segundos": 13838,
+   "miniatura": "https://i.ytimg.com/vi/ddrBvUc5BzE/maxresdefault.jpg",
+   "canal": "gameplays",
+   "esta_semana": true
+  },
   {
    "id": "xCNQmThXkH4",
    "titulo": "Los Pobres Endeudados Que Presumen Su iPhone 18",
