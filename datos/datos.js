@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-10-07T19:43:24Z",
+ "actualizado": "2026-10-07T20:44:08Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -216,15 +216,6 @@ window.DATOS = {
    "segundos": 5332,
    "miniatura": "https://i.ytimg.com/vi/4AbaI6BM4Cw/maxresdefault.jpg",
    "canal": "gameplays",
-   "esta_semana": true
-  },
-  {
-   "id": "08-HTYNJEG8",
-   "titulo": "TikTok Arruinó el Estilo Y2K *reacción xDanx*",
-   "publicado": "2026-09-30T20:23:38Z",
-   "segundos": 1398,
-   "miniatura": "https://i.ytimg.com/vi/08-HTYNJEG8/maxresdefault.jpg",
-   "canal": "danx",
    "esta_semana": true
   }
  ]
