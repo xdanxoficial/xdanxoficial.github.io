@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-10-08T18:15:17Z",
+ "actualizado": "2026-10-08T21:13:58Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -216,15 +216,6 @@ window.DATOS = {
    "segundos": 2122,
    "miniatura": "https://i.ytimg.com/vi/WNn2f_2gZdE/maxresdefault.jpg",
    "canal": "danx",
-   "esta_semana": true
-  },
-  {
-   "id": "4AbaI6BM4Cw",
-   "titulo": "Ser Chica es Peor de lo que Pensé... CORAZÓN DE MELÓN mi primera vez",
-   "publicado": "2026-10-01T21:08:09Z",
-   "segundos": 5332,
-   "miniatura": "https://i.ytimg.com/vi/4AbaI6BM4Cw/maxresdefault.jpg",
-   "canal": "gameplays",
    "esta_semana": true
   }
  ]
