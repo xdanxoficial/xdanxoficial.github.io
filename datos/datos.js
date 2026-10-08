@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-10-08T21:13:58Z",
+ "actualizado": "2026-10-08T21:45:24Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -57,9 +57,17 @@ window.DATOS = {
    "foto": "https://yt3.ggpht.com/G8JzDzNjFiwLmBuRi3GDgC9JOcF-H-NYuTOnR04XJL5wT9O3lIURUlTL6zLJADKsWgdfBtKX=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
    "suscriptores": 131000,
-   "total_videos": 320,
+   "total_videos": 321,
    "url": "https://www.youtube.com/@danxof",
    "ultimos": [
+    {
+     "id": "sIVWQeYFpL0",
+     "titulo": "El Tiktoker Peruano de Comida más Asqueroso🤢Petrochiflero",
+     "publicado": "2026-10-08T21:18:15Z",
+     "segundos": 1994,
+     "miniatura": "https://i.ytimg.com/vi/sIVWQeYFpL0/maxresdefault.jpg",
+     "canal": "danx"
+    },
     {
      "id": "kIcO63nPTgc",
      "titulo": "El Real Problema de los Ninis en Chile",
@@ -83,14 +91,6 @@ window.DATOS = {
      "segundos": 2898,
      "miniatura": "https://i.ytimg.com/vi/C9BK6geW5gA/maxresdefault.jpg",
      "canal": "danx"
-    },
-    {
-     "id": "UCYp8RAeYn8",
-     "titulo": "La Turbia Verdad Detrás de Fruna",
-     "publicado": "2026-10-03T23:25:12Z",
-     "segundos": 1063,
-     "miniatura": "https://i.ytimg.com/vi/UCYp8RAeYn8/maxresdefault.jpg",
-     "canal": "danx"
     }
    ]
   },
@@ -102,7 +102,7 @@ window.DATOS = {
    "descripcion": "Gameplays editados de xDanx de gran variedad de video juegos distintos",
    "foto": "https://yt3.ggpht.com/uIa-WrREAx3OzbO35C8Sq0G9AiyhTDV63g2rWDYTDeqnKah3TVOFRjKcjgEJOp3GJ5KOA30Nfg=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
-   "suscriptores": 7490,
+   "suscriptores": 7500,
    "total_videos": 13,
    "url": "https://www.youtube.com/@xdanxgameplays",
    "ultimos": [
@@ -164,6 +164,15 @@ window.DATOS = {
   }
  ],
  "rotacion": [
+  {
+   "id": "sIVWQeYFpL0",
+   "titulo": "El Tiktoker Peruano de Comida más Asqueroso🤢Petrochiflero",
+   "publicado": "2026-10-08T21:18:15Z",
+   "segundos": 1994,
+   "miniatura": "https://i.ytimg.com/vi/sIVWQeYFpL0/maxresdefault.jpg",
+   "canal": "danx",
+   "esta_semana": true
+  },
   {
    "id": "kIcO63nPTgc",
    "titulo": "El Real Problema de los Ninis en Chile",
