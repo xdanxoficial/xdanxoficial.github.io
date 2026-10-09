@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-10-09T20:45:35Z",
+ "actualizado": "2026-10-09T22:44:34Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -57,9 +57,17 @@ window.DATOS = {
    "foto": "https://yt3.ggpht.com/G8JzDzNjFiwLmBuRi3GDgC9JOcF-H-NYuTOnR04XJL5wT9O3lIURUlTL6zLJADKsWgdfBtKX=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
    "suscriptores": 131000,
-   "total_videos": 321,
+   "total_videos": 322,
    "url": "https://www.youtube.com/@danxof",
    "ultimos": [
+    {
+     "id": "uJ0zWe3bi4g",
+     "titulo": "Influencers en Decadencia: Flojos y Encima Se Quejan",
+     "publicado": "2026-10-09T22:22:14Z",
+     "segundos": 1505,
+     "miniatura": "https://i.ytimg.com/vi/uJ0zWe3bi4g/maxresdefault.jpg",
+     "canal": "danx"
+    },
     {
      "id": "sIVWQeYFpL0",
      "titulo": "El Tiktoker Peruano de Comida más Asqueroso🤢Petrochiflero",
@@ -82,14 +90,6 @@ window.DATOS = {
      "publicado": "2026-10-06T23:13:37Z",
      "segundos": 2028,
      "miniatura": "https://i.ytimg.com/vi/xCNQmThXkH4/maxresdefault.jpg",
-     "canal": "danx"
-    },
-    {
-     "id": "C9BK6geW5gA",
-     "titulo": "El Asqueroso Caso del Streamer Más Enfermo de Perú",
-     "publicado": "2026-10-05T22:14:29Z",
-     "segundos": 2898,
-     "miniatura": "https://i.ytimg.com/vi/C9BK6geW5gA/maxresdefault.jpg",
      "canal": "danx"
     }
    ]
@@ -165,6 +165,15 @@ window.DATOS = {
  ],
  "rotacion": [
   {
+   "id": "uJ0zWe3bi4g",
+   "titulo": "Influencers en Decadencia: Flojos y Encima Se Quejan",
+   "publicado": "2026-10-09T22:22:14Z",
+   "segundos": 1505,
+   "miniatura": "https://i.ytimg.com/vi/uJ0zWe3bi4g/maxresdefault.jpg",
+   "canal": "danx",
+   "esta_semana": true
+  },
+  {
    "id": "sIVWQeYFpL0",
    "titulo": "El Tiktoker Peruano de Comida más Asqueroso🤢Petrochiflero",
    "publicado": "2026-10-08T21:18:15Z",
@@ -215,15 +224,6 @@ window.DATOS = {
    "publicado": "2026-10-03T23:25:12Z",
    "segundos": 1063,
    "miniatura": "https://i.ytimg.com/vi/UCYp8RAeYn8/maxresdefault.jpg",
-   "canal": "danx",
-   "esta_semana": true
-  },
-  {
-   "id": "WNn2f_2gZdE",
-   "titulo": "La Comida Rápida en Chile es lo Peor *reacción xDanx*",
-   "publicado": "2026-10-02T22:15:20Z",
-   "segundos": 2122,
-   "miniatura": "https://i.ytimg.com/vi/WNn2f_2gZdE/maxresdefault.jpg",
    "canal": "danx",
    "esta_semana": true
   }
