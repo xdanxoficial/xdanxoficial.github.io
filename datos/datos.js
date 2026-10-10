@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-10-10T05:12:43Z",
+ "actualizado": "2026-10-10T14:43:22Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -65,7 +65,7 @@ window.DATOS = {
      "titulo": "Influencers en Decadencia: Flojos y Encima Se Quejan",
      "publicado": "2026-10-09T22:22:14Z",
      "segundos": 1505,
-     "miniatura": "https://i.ytimg.com/vi/uJ0zWe3bi4g/maxresdefault.jpg",
+     "miniatura": "https://i.ytimg.com/vi/uJ0zWe3bi4g/hqdefault.jpg",
      "canal": "danx"
     },
     {
@@ -148,7 +148,7 @@ window.DATOS = {
    "descripcion": "",
    "foto": "https://yt3.ggpht.com/zk5RUuTmcrwaZRuT2r2OjhwhT_j_Uj2_If-1v34j6Gs46HOPkfLC_3NRamZQbX_1pMgSJA9GYJw=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
-   "suscriptores": 4250,
+   "suscriptores": 4260,
    "total_videos": 1,
    "url": "https://www.youtube.com/@xDanxVlogs",
    "ultimos": [
@@ -169,7 +169,7 @@ window.DATOS = {
    "titulo": "Influencers en Decadencia: Flojos y Encima Se Quejan",
    "publicado": "2026-10-09T22:22:14Z",
    "segundos": 1505,
-   "miniatura": "https://i.ytimg.com/vi/uJ0zWe3bi4g/maxresdefault.jpg",
+   "miniatura": "https://i.ytimg.com/vi/uJ0zWe3bi4g/hqdefault.jpg",
    "canal": "danx",
    "esta_semana": true
   },
