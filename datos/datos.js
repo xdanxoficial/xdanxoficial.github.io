@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-10-10T17:42:06Z",
+ "actualizado": "2026-10-10T22:11:31Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -57,9 +57,17 @@ window.DATOS = {
    "foto": "https://yt3.ggpht.com/G8JzDzNjFiwLmBuRi3GDgC9JOcF-H-NYuTOnR04XJL5wT9O3lIURUlTL6zLJADKsWgdfBtKX=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
    "suscriptores": 131000,
-   "total_videos": 322,
+   "total_videos": 323,
    "url": "https://www.youtube.com/@danxof",
    "ultimos": [
+    {
+     "id": "IfH_qB-oBlQ",
+     "titulo": "La Relación Más Tóxica de Internet: Neko Pirate y Corxea",
+     "publicado": "2026-10-10T21:49:17Z",
+     "segundos": 3742,
+     "miniatura": "https://i.ytimg.com/vi/IfH_qB-oBlQ/maxresdefault.jpg",
+     "canal": "danx"
+    },
     {
      "id": "uJ0zWe3bi4g",
      "titulo": "Influencers en Decadencia: Flojos y Encima Se Quejan",
@@ -82,14 +90,6 @@ window.DATOS = {
      "publicado": "2026-10-07T22:15:16Z",
      "segundos": 2381,
      "miniatura": "https://i.ytimg.com/vi/kIcO63nPTgc/maxresdefault.jpg",
-     "canal": "danx"
-    },
-    {
-     "id": "xCNQmThXkH4",
-     "titulo": "Los Pobres Endeudados Que Presumen Su iPhone 18",
-     "publicado": "2026-10-06T23:13:37Z",
-     "segundos": 2028,
-     "miniatura": "https://i.ytimg.com/vi/xCNQmThXkH4/maxresdefault.jpg",
      "canal": "danx"
     }
    ]
@@ -164,6 +164,15 @@ window.DATOS = {
   }
  ],
  "rotacion": [
+  {
+   "id": "IfH_qB-oBlQ",
+   "titulo": "La Relación Más Tóxica de Internet: Neko Pirate y Corxea",
+   "publicado": "2026-10-10T21:49:17Z",
+   "segundos": 3742,
+   "miniatura": "https://i.ytimg.com/vi/IfH_qB-oBlQ/maxresdefault.jpg",
+   "canal": "danx",
+   "esta_semana": true
+  },
   {
    "id": "uJ0zWe3bi4g",
    "titulo": "Influencers en Decadencia: Flojos y Encima Se Quejan",
