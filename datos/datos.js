@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-10-10T22:11:31Z",
+ "actualizado": "2026-10-10T23:42:01Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -102,7 +102,7 @@ window.DATOS = {
    "descripcion": "Gameplays editados de xDanx de gran variedad de video juegos distintos",
    "foto": "https://yt3.ggpht.com/uIa-WrREAx3OzbO35C8Sq0G9AiyhTDV63g2rWDYTDeqnKah3TVOFRjKcjgEJOp3GJ5KOA30Nfg=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
-   "suscriptores": 7560,
+   "suscriptores": 7570,
    "total_videos": 13,
    "url": "https://www.youtube.com/@xdanxgameplays",
    "ultimos": [
@@ -224,15 +224,6 @@ window.DATOS = {
    "publicado": "2026-10-05T22:14:29Z",
    "segundos": 2898,
    "miniatura": "https://i.ytimg.com/vi/C9BK6geW5gA/maxresdefault.jpg",
-   "canal": "danx",
-   "esta_semana": true
-  },
-  {
-   "id": "UCYp8RAeYn8",
-   "titulo": "La Turbia Verdad Detrás de Fruna",
-   "publicado": "2026-10-03T23:25:12Z",
-   "segundos": 1063,
-   "miniatura": "https://i.ytimg.com/vi/UCYp8RAeYn8/maxresdefault.jpg",
    "canal": "danx",
    "esta_semana": true
   }
