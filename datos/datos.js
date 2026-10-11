@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-10-11T20:44:40Z",
+ "actualizado": "2026-10-11T22:12:25Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -57,9 +57,17 @@ window.DATOS = {
    "foto": "https://yt3.ggpht.com/G8JzDzNjFiwLmBuRi3GDgC9JOcF-H-NYuTOnR04XJL5wT9O3lIURUlTL6zLJADKsWgdfBtKX=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
    "suscriptores": 131000,
-   "total_videos": 323,
+   "total_videos": 324,
    "url": "https://www.youtube.com/@danxof",
    "ultimos": [
+    {
+     "id": "_w3pe5nHL0I",
+     "titulo": "Dejaron de Estudiar Para Ser TikTokers y Streamers",
+     "publicado": "2026-10-11T21:53:47Z",
+     "segundos": 2077,
+     "miniatura": "https://i.ytimg.com/vi/_w3pe5nHL0I/maxresdefault.jpg",
+     "canal": "danx"
+    },
     {
      "id": "IfH_qB-oBlQ",
      "titulo": "La Relación Más Tóxica de Internet: Neko Pirate y Corxea",
@@ -82,14 +90,6 @@ window.DATOS = {
      "publicado": "2026-10-08T21:18:15Z",
      "segundos": 1994,
      "miniatura": "https://i.ytimg.com/vi/sIVWQeYFpL0/maxresdefault.jpg",
-     "canal": "danx"
-    },
-    {
-     "id": "kIcO63nPTgc",
-     "titulo": "El Real Problema de los Ninis en Chile",
-     "publicado": "2026-10-07T22:15:16Z",
-     "segundos": 2381,
-     "miniatura": "https://i.ytimg.com/vi/kIcO63nPTgc/maxresdefault.jpg",
      "canal": "danx"
     }
    ]
@@ -164,6 +164,15 @@ window.DATOS = {
   }
  ],
  "rotacion": [
+  {
+   "id": "_w3pe5nHL0I",
+   "titulo": "Dejaron de Estudiar Para Ser TikTokers y Streamers",
+   "publicado": "2026-10-11T21:53:47Z",
+   "segundos": 2077,
+   "miniatura": "https://i.ytimg.com/vi/_w3pe5nHL0I/maxresdefault.jpg",
+   "canal": "danx",
+   "esta_semana": true
+  },
   {
    "id": "IfH_qB-oBlQ",
    "titulo": "La Relación Más Tóxica de Internet: Neko Pirate y Corxea",
