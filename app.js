@@ -197,6 +197,8 @@
 
   /* ---------- vista previa de un canal ---------- */
   var claveActiva = null, esperaVolver = null;
+  // En el celular la vista previa se cierra sola si nadie la toca en este rato (cada toque reinicia la cuenta).
+  var SEGUNDOS_PREVIA = 15, autoCierre = null;
 
   function htmlPrevia(c) {
     var portada = c.banner ? ' style="background-image:url(\'' + esc(c.banner) + '\')"' : "";
@@ -206,7 +208,9 @@
         '<span class="dura">' + duracion(v.segundos) + "</span></span><strong>" + esc(v.titulo) +
         "</strong><small>" + cuando(v.publicado) + "</small></a>";
     }).join("");
-    return '<div class="portada"' + portada + "></div>" +
+    return (TACTIL ? '<span class="cuenta" aria-hidden="true"></span>' : "") +
+      '<button class="cerrar cerrar-previa" type="button" data-volver aria-label="Cerrar y volver a los videos">' + ICONO.cerrar + "</button>" +
+      '<div class="portada"' + portada + "></div>" +
       '<div class="cuerpo"><div class="cabeza">' + foto(c.foto) + "<div>" +
       '<p class="eyebrow">Canal de YouTube · ' + esc(c.handle) + "</p><h2>" + esc(c.nombre) + "</h2>" +
       '<div class="cifras-canal"><span><b>' + corto(c.suscriptores) + "</b>suscriptores</span><span><b>" +
@@ -232,9 +236,18 @@
     lista.querySelectorAll(".canal").forEach(function (a) {
       a.classList.toggle("activo", a.getAttribute("data-clave") === clave);
     });
+    contarCierre();
+  }
+  function contarCierre() {
+    if (!TACTIL || !claveActiva) return;
+    clearTimeout(autoCierre);
+    autoCierre = setTimeout(volver, SEGUNDOS_PREVIA * 1000);
+    var barra = previa.querySelector(".cuenta");
+    if (barra) { barra.classList.remove("corre"); void barra.offsetWidth; barra.classList.add("corre"); }
   }
   function volver() {
     clearTimeout(esperaVolver);
+    clearTimeout(autoCierre);
     if (!claveActiva) return;
     claveActiva = null;
     enPrevia = false;
@@ -266,6 +279,7 @@
     }
   });
   previa.addEventListener("click", function (e) { if (e.target.closest("[data-volver]")) volver(); });
+  previa.addEventListener("touchstart", contarCierre, { passive: true });
 
   // Teclado: al llegar con Tab a un canal se ve su vista previa. Un toque tambien da foco,
   // pero sin :focus-visible; si se contara, el toque abriria el canal al tiro.
