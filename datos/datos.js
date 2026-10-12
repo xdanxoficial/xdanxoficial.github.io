@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-10-11T22:12:25Z",
+ "actualizado": "2026-10-12T01:19:36Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -57,9 +57,17 @@ window.DATOS = {
    "foto": "https://yt3.ggpht.com/G8JzDzNjFiwLmBuRi3GDgC9JOcF-H-NYuTOnR04XJL5wT9O3lIURUlTL6zLJADKsWgdfBtKX=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
    "suscriptores": 131000,
-   "total_videos": 324,
+   "total_videos": 325,
    "url": "https://www.youtube.com/@danxof",
    "ultimos": [
+    {
+     "id": "iCRxwzVNS_A",
+     "titulo": "Reacción Funable: El Enfermo Más Enfermo de Chile | \"Mea Culpa\"",
+     "publicado": "2026-10-12T00:59:38Z",
+     "segundos": 5423,
+     "miniatura": "https://i.ytimg.com/vi/iCRxwzVNS_A/maxresdefault.jpg",
+     "canal": "danx"
+    },
     {
      "id": "_w3pe5nHL0I",
      "titulo": "Dejaron de Estudiar Para Ser TikTokers y Streamers",
@@ -83,14 +91,6 @@ window.DATOS = {
      "segundos": 1505,
      "miniatura": "https://i.ytimg.com/vi/uJ0zWe3bi4g/hqdefault.jpg",
      "canal": "danx"
-    },
-    {
-     "id": "sIVWQeYFpL0",
-     "titulo": "El Tiktoker Peruano de Comida más Asqueroso🤢Petrochiflero",
-     "publicado": "2026-10-08T21:18:15Z",
-     "segundos": 1994,
-     "miniatura": "https://i.ytimg.com/vi/sIVWQeYFpL0/maxresdefault.jpg",
-     "canal": "danx"
     }
    ]
   },
@@ -102,7 +102,7 @@ window.DATOS = {
    "descripcion": "Gameplays editados de xDanx de gran variedad de video juegos distintos",
    "foto": "https://yt3.ggpht.com/uIa-WrREAx3OzbO35C8Sq0G9AiyhTDV63g2rWDYTDeqnKah3TVOFRjKcjgEJOp3GJ5KOA30Nfg=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
-   "suscriptores": 7610,
+   "suscriptores": 7620,
    "total_videos": 13,
    "url": "https://www.youtube.com/@xdanxgameplays",
    "ultimos": [
@@ -164,6 +164,15 @@ window.DATOS = {
   }
  ],
  "rotacion": [
+  {
+   "id": "iCRxwzVNS_A",
+   "titulo": "Reacción Funable: El Enfermo Más Enfermo de Chile | \"Mea Culpa\"",
+   "publicado": "2026-10-12T00:59:38Z",
+   "segundos": 5423,
+   "miniatura": "https://i.ytimg.com/vi/iCRxwzVNS_A/maxresdefault.jpg",
+   "canal": "danx",
+   "esta_semana": true
+  },
   {
    "id": "_w3pe5nHL0I",
    "titulo": "Dejaron de Estudiar Para Ser TikTokers y Streamers",
