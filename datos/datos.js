@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-10-12T21:12:45Z",
+ "actualizado": "2026-10-12T22:45:14Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -102,7 +102,7 @@ window.DATOS = {
    "descripcion": "Gameplays editados de xDanx de gran variedad de video juegos distintos",
    "foto": "https://yt3.ggpht.com/uIa-WrREAx3OzbO35C8Sq0G9AiyhTDV63g2rWDYTDeqnKah3TVOFRjKcjgEJOp3GJ5KOA30Nfg=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
-   "suscriptores": 7640,
+   "suscriptores": 7650,
    "total_videos": 14,
    "url": "https://www.youtube.com/@xdanxgameplays",
    "ultimos": [
@@ -242,15 +242,6 @@ window.DATOS = {
    "publicado": "2026-10-06T23:13:37Z",
    "segundos": 2028,
    "miniatura": "https://i.ytimg.com/vi/xCNQmThXkH4/maxresdefault.jpg",
-   "canal": "danx",
-   "esta_semana": true
-  },
-  {
-   "id": "C9BK6geW5gA",
-   "titulo": "El Asqueroso Caso del Streamer Más Enfermo de Perú",
-   "publicado": "2026-10-05T22:14:29Z",
-   "segundos": 2898,
-   "miniatura": "https://i.ytimg.com/vi/C9BK6geW5gA/maxresdefault.jpg",
    "canal": "danx",
    "esta_semana": true
   }
