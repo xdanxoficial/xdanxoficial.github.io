@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-10-12T19:45:51Z",
+ "actualizado": "2026-10-12T21:12:45Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -103,9 +103,17 @@ window.DATOS = {
    "foto": "https://yt3.ggpht.com/uIa-WrREAx3OzbO35C8Sq0G9AiyhTDV63g2rWDYTDeqnKah3TVOFRjKcjgEJOp3GJ5KOA30Nfg=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
    "suscriptores": 7640,
-   "total_videos": 13,
+   "total_videos": 14,
    "url": "https://www.youtube.com/@xdanxgameplays",
    "ultimos": [
+    {
+     "id": "gm87imr_p3k",
+     "titulo": "El Final de la Revolución de las Máquinas🤖 | Detroit Become Human #2",
+     "publicado": "2026-10-12T20:59:22Z",
+     "segundos": 17893,
+     "miniatura": "https://i.ytimg.com/vi/gm87imr_p3k/maxresdefault.jpg",
+     "canal": "gameplays"
+    },
     {
      "id": "ddrBvUc5BzE",
      "titulo": "Las Maquinas del Futuro🤖 | Detroit Become Human #1",
@@ -128,14 +136,6 @@ window.DATOS = {
      "publicado": "2026-09-15T21:51:06Z",
      "segundos": 3615,
      "miniatura": "https://i.ytimg.com/vi/IoZ4BJ_7kAg/maxresdefault.jpg",
-     "canal": "gameplays"
-    },
-    {
-     "id": "UWSNH1pKhbk",
-     "titulo": "EL PUEBLO DE LA SECTA SATÁNICA 🛑 Fears To Fathom Scratch Creek ft Janojey",
-     "publicado": "2026-09-10T23:42:52Z",
-     "segundos": 4425,
-     "miniatura": "https://i.ytimg.com/vi/UWSNH1pKhbk/maxresdefault.jpg",
      "canal": "gameplays"
     }
    ]
@@ -164,6 +164,15 @@ window.DATOS = {
   }
  ],
  "rotacion": [
+  {
+   "id": "gm87imr_p3k",
+   "titulo": "El Final de la Revolución de las Máquinas🤖 | Detroit Become Human #2",
+   "publicado": "2026-10-12T20:59:22Z",
+   "segundos": 17893,
+   "miniatura": "https://i.ytimg.com/vi/gm87imr_p3k/maxresdefault.jpg",
+   "canal": "gameplays",
+   "esta_semana": true
+  },
   {
    "id": "iCRxwzVNS_A",
    "titulo": "Reacción Funable: El Enfermo Más Enfermo de Chile | \"Mea Culpa\"",
