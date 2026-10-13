@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-10-13T22:24:12Z",
+ "actualizado": "2026-10-13T23:21:28Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -252,15 +252,6 @@ window.DATOS = {
    "segundos": 13838,
    "miniatura": "https://i.ytimg.com/vi/ddrBvUc5BzE/maxresdefault.jpg",
    "canal": "gameplays",
-   "esta_semana": true
-  },
-  {
-   "id": "xCNQmThXkH4",
-   "titulo": "Los Pobres Endeudados Que Presumen Su iPhone 18",
-   "publicado": "2026-10-06T23:13:37Z",
-   "segundos": 2028,
-   "miniatura": "https://i.ytimg.com/vi/xCNQmThXkH4/maxresdefault.jpg",
-   "canal": "danx",
    "esta_semana": true
   }
  ]
