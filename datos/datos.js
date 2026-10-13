@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-10-13T21:56:44Z",
+ "actualizado": "2026-10-13T22:24:12Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -57,9 +57,17 @@ window.DATOS = {
    "foto": "https://yt3.ggpht.com/G8JzDzNjFiwLmBuRi3GDgC9JOcF-H-NYuTOnR04XJL5wT9O3lIURUlTL6zLJADKsWgdfBtKX=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
    "suscriptores": 132000,
-   "total_videos": 326,
+   "total_videos": 327,
    "url": "https://www.youtube.com/@danxof",
    "ultimos": [
+    {
+     "id": "Di35EGHsE-8",
+     "titulo": "Videos de Terror Japonés Que No Te Dejarán Dormir",
+     "publicado": "2026-10-13T22:15:36Z",
+     "segundos": 1884,
+     "miniatura": "https://i.ytimg.com/vi/Di35EGHsE-8/maxresdefault.jpg",
+     "canal": "danx"
+    },
     {
      "id": "zdwIB8U8mI4",
      "titulo": "El Vendehumos Más Grande de Chile: Ivan Martinez",
@@ -82,14 +90,6 @@ window.DATOS = {
      "publicado": "2026-10-11T21:53:47Z",
      "segundos": 2077,
      "miniatura": "https://i.ytimg.com/vi/_w3pe5nHL0I/maxresdefault.jpg",
-     "canal": "danx"
-    },
-    {
-     "id": "IfH_qB-oBlQ",
-     "titulo": "La Relación Más Tóxica de Internet: Neko Pirate y Corxea",
-     "publicado": "2026-10-10T21:49:17Z",
-     "segundos": 3742,
-     "miniatura": "https://i.ytimg.com/vi/IfH_qB-oBlQ/maxresdefault.jpg",
      "canal": "danx"
     }
    ]
@@ -164,6 +164,15 @@ window.DATOS = {
   }
  ],
  "rotacion": [
+  {
+   "id": "Di35EGHsE-8",
+   "titulo": "Videos de Terror Japonés Que No Te Dejarán Dormir",
+   "publicado": "2026-10-13T22:15:36Z",
+   "segundos": 1884,
+   "miniatura": "https://i.ytimg.com/vi/Di35EGHsE-8/maxresdefault.jpg",
+   "canal": "danx",
+   "esta_semana": true
+  },
   {
    "id": "zdwIB8U8mI4",
    "titulo": "El Vendehumos Más Grande de Chile: Ivan Martinez",
