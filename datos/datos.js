@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-10-12T22:45:14Z",
+ "actualizado": "2026-10-13T01:21:31Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -57,9 +57,17 @@ window.DATOS = {
    "foto": "https://yt3.ggpht.com/G8JzDzNjFiwLmBuRi3GDgC9JOcF-H-NYuTOnR04XJL5wT9O3lIURUlTL6zLJADKsWgdfBtKX=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
    "suscriptores": 131000,
-   "total_videos": 325,
+   "total_videos": 326,
    "url": "https://www.youtube.com/@danxof",
    "ultimos": [
+    {
+     "id": "zdwIB8U8mI4",
+     "titulo": "El Vendehumos Más Grande de Chile: Ivan Martinez",
+     "publicado": "2026-10-13T01:09:39Z",
+     "segundos": 1219,
+     "miniatura": "https://i.ytimg.com/vi/zdwIB8U8mI4/maxresdefault.jpg",
+     "canal": "danx"
+    },
     {
      "id": "iCRxwzVNS_A",
      "titulo": "Reacción Funable: El Enfermo Más Enfermo de Chile | \"Mea Culpa\"",
@@ -82,14 +90,6 @@ window.DATOS = {
      "publicado": "2026-10-10T21:49:17Z",
      "segundos": 3742,
      "miniatura": "https://i.ytimg.com/vi/IfH_qB-oBlQ/maxresdefault.jpg",
-     "canal": "danx"
-    },
-    {
-     "id": "uJ0zWe3bi4g",
-     "titulo": "Influencers en Decadencia: Flojos y Encima Se Quejan",
-     "publicado": "2026-10-09T22:22:14Z",
-     "segundos": 1505,
-     "miniatura": "https://i.ytimg.com/vi/uJ0zWe3bi4g/hqdefault.jpg",
      "canal": "danx"
     }
    ]
@@ -164,6 +164,15 @@ window.DATOS = {
   }
  ],
  "rotacion": [
+  {
+   "id": "zdwIB8U8mI4",
+   "titulo": "El Vendehumos Más Grande de Chile: Ivan Martinez",
+   "publicado": "2026-10-13T01:09:39Z",
+   "segundos": 1219,
+   "miniatura": "https://i.ytimg.com/vi/zdwIB8U8mI4/maxresdefault.jpg",
+   "canal": "danx",
+   "esta_semana": true
+  },
   {
    "id": "gm87imr_p3k",
    "titulo": "El Final de la Revolución de las Máquinas🤖 | Detroit Become Human #2",
