@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-10-14T18:39:08Z",
+ "actualizado": "2026-10-14T22:22:14Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -233,15 +233,6 @@ window.DATOS = {
    "publicado": "2026-10-08T21:18:15Z",
    "segundos": 1994,
    "miniatura": "https://i.ytimg.com/vi/sIVWQeYFpL0/maxresdefault.jpg",
-   "canal": "danx",
-   "esta_semana": true
-  },
-  {
-   "id": "kIcO63nPTgc",
-   "titulo": "El Real Problema de los Ninis en Chile",
-   "publicado": "2026-10-07T22:15:16Z",
-   "segundos": 2381,
-   "miniatura": "https://i.ytimg.com/vi/kIcO63nPTgc/maxresdefault.jpg",
    "canal": "danx",
    "esta_semana": true
   }
