@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-10-14T02:27:31Z",
+ "actualizado": "2026-10-14T03:31:03Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -11,9 +11,17 @@ window.DATOS = {
    "foto": "https://yt3.ggpht.com/ytc/AIdro_lUzYRkp9_RYmx2aLvmCuGtYfHqPM1HpNuud_M5dl_JXGM=s800-c-k-c0x00ffffff-no-rj",
    "banner": "https://yt3.googleusercontent.com/0nkxkVC4R9FHloHovqVUyfj5G9TP-YZ2u6UIyqrZdl8cSzL2_WNIpDQupRHttI1Wd8Gw3CdcAKE=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
    "suscriptores": 644000,
-   "total_videos": 261,
+   "total_videos": 262,
    "url": "https://www.youtube.com/@xdanx1",
    "ultimos": [
+    {
+     "id": "W5o_WqiO7Es",
+     "titulo": "NOCHE DE REACCIONES☘️🚀",
+     "publicado": "2026-10-14T03:21:58Z",
+     "segundos": 13179,
+     "miniatura": "https://i.ytimg.com/vi/W5o_WqiO7Es/maxresdefault.jpg",
+     "canal": "xdanx"
+    },
     {
      "id": "ivHWEbaMrcg",
      "titulo": "Las Batallas de AURA llegaron Demasiado Lejos",
@@ -36,14 +44,6 @@ window.DATOS = {
      "publicado": "2026-07-17T21:29:24Z",
      "segundos": 954,
      "miniatura": "https://i.ytimg.com/vi/vogSxNLcMcs/maxresdefault.jpg",
-     "canal": "xdanx"
-    },
-    {
-     "id": "If78rWFDXmY",
-     "titulo": "La Madre Sucia que Romantiza la Pobreza en Tiktok",
-     "publicado": "2026-06-27T01:21:18Z",
-     "segundos": 1268,
-     "miniatura": "https://i.ytimg.com/vi/If78rWFDXmY/maxresdefault.jpg",
      "canal": "xdanx"
     }
    ]
@@ -164,6 +164,15 @@ window.DATOS = {
   }
  ],
  "rotacion": [
+  {
+   "id": "W5o_WqiO7Es",
+   "titulo": "NOCHE DE REACCIONES☘️🚀",
+   "publicado": "2026-10-14T03:21:58Z",
+   "segundos": 13179,
+   "miniatura": "https://i.ytimg.com/vi/W5o_WqiO7Es/maxresdefault.jpg",
+   "canal": "xdanx",
+   "esta_semana": true
+  },
   {
    "id": "Di35EGHsE-8",
    "titulo": "Videos de Terror Japonés Que No Te Dejarán Dormir",
