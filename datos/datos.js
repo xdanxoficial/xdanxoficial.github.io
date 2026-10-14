@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-10-14T08:04:51Z",
+ "actualizado": "2026-10-14T18:39:08Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -243,15 +243,6 @@ window.DATOS = {
    "segundos": 2381,
    "miniatura": "https://i.ytimg.com/vi/kIcO63nPTgc/maxresdefault.jpg",
    "canal": "danx",
-   "esta_semana": true
-  },
-  {
-   "id": "ddrBvUc5BzE",
-   "titulo": "Las Maquinas del Futuro🤖 | Detroit Become Human #1",
-   "publicado": "2026-10-07T18:27:01Z",
-   "segundos": 13838,
-   "miniatura": "https://i.ytimg.com/vi/ddrBvUc5BzE/maxresdefault.jpg",
-   "canal": "gameplays",
    "esta_semana": true
   }
  ]
