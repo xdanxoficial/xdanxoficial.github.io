@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-10-14T22:22:14Z",
+ "actualizado": "2026-10-14T22:55:40Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -57,9 +57,17 @@ window.DATOS = {
    "foto": "https://yt3.ggpht.com/G8JzDzNjFiwLmBuRi3GDgC9JOcF-H-NYuTOnR04XJL5wT9O3lIURUlTL6zLJADKsWgdfBtKX=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
    "suscriptores": 132000,
-   "total_videos": 327,
+   "total_videos": 328,
    "url": "https://www.youtube.com/@danxof",
    "ultimos": [
+    {
+     "id": "gwqZiXSIiv4",
+     "titulo": "Naya Fácil Es Peor de lo que Pensé",
+     "publicado": "2026-10-14T22:22:46Z",
+     "segundos": 4746,
+     "miniatura": "https://i.ytimg.com/vi/gwqZiXSIiv4/maxresdefault.jpg",
+     "canal": "danx"
+    },
     {
      "id": "Di35EGHsE-8",
      "titulo": "Videos de Terror Japonés Que No Te Dejarán Dormir",
@@ -83,14 +91,6 @@ window.DATOS = {
      "segundos": 5423,
      "miniatura": "https://i.ytimg.com/vi/iCRxwzVNS_A/maxresdefault.jpg",
      "canal": "danx"
-    },
-    {
-     "id": "_w3pe5nHL0I",
-     "titulo": "Dejaron de Estudiar Para Ser TikTokers y Streamers",
-     "publicado": "2026-10-11T21:53:47Z",
-     "segundos": 2077,
-     "miniatura": "https://i.ytimg.com/vi/_w3pe5nHL0I/maxresdefault.jpg",
-     "canal": "danx"
     }
    ]
   },
@@ -102,7 +102,7 @@ window.DATOS = {
    "descripcion": "Gameplays editados de xDanx de gran variedad de video juegos distintos",
    "foto": "https://yt3.ggpht.com/uIa-WrREAx3OzbO35C8Sq0G9AiyhTDV63g2rWDYTDeqnKah3TVOFRjKcjgEJOp3GJ5KOA30Nfg=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
-   "suscriptores": 7680,
+   "suscriptores": 7690,
    "total_videos": 14,
    "url": "https://www.youtube.com/@xdanxgameplays",
    "ultimos": [
@@ -164,6 +164,15 @@ window.DATOS = {
   }
  ],
  "rotacion": [
+  {
+   "id": "gwqZiXSIiv4",
+   "titulo": "Naya Fácil Es Peor de lo que Pensé",
+   "publicado": "2026-10-14T22:22:46Z",
+   "segundos": 4746,
+   "miniatura": "https://i.ytimg.com/vi/gwqZiXSIiv4/maxresdefault.jpg",
+   "canal": "danx",
+   "esta_semana": true
+  },
   {
    "id": "Di35EGHsE-8",
    "titulo": "Videos de Terror Japonés Que No Te Dejarán Dormir",
