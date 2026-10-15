@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-10-15T11:00:37Z",
+ "actualizado": "2026-10-15T21:57:21Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -233,15 +233,6 @@ window.DATOS = {
    "publicado": "2026-10-09T22:22:14Z",
    "segundos": 1505,
    "miniatura": "https://i.ytimg.com/vi/uJ0zWe3bi4g/hqdefault.jpg",
-   "canal": "danx",
-   "esta_semana": true
-  },
-  {
-   "id": "sIVWQeYFpL0",
-   "titulo": "El Tiktoker Peruano de Comida más Asqueroso🤢Petrochiflero",
-   "publicado": "2026-10-08T21:18:15Z",
-   "segundos": 1994,
-   "miniatura": "https://i.ytimg.com/vi/sIVWQeYFpL0/maxresdefault.jpg",
    "canal": "danx",
    "esta_semana": true
   }
