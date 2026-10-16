@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-10-16T02:31:24Z",
+ "actualizado": "2026-10-16T22:26:05Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -102,7 +102,7 @@ window.DATOS = {
    "descripcion": "Gameplays editados de xDanx de gran variedad de video juegos distintos",
    "foto": "https://yt3.ggpht.com/uIa-WrREAx3OzbO35C8Sq0G9AiyhTDV63g2rWDYTDeqnKah3TVOFRjKcjgEJOp3GJ5KOA30Nfg=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
-   "suscriptores": 7710,
+   "suscriptores": 7720,
    "total_videos": 14,
    "url": "https://www.youtube.com/@xdanxgameplays",
    "ultimos": [
@@ -233,15 +233,6 @@ window.DATOS = {
    "publicado": "2026-10-10T21:49:17Z",
    "segundos": 3742,
    "miniatura": "https://i.ytimg.com/vi/IfH_qB-oBlQ/maxresdefault.jpg",
-   "canal": "danx",
-   "esta_semana": true
-  },
-  {
-   "id": "uJ0zWe3bi4g",
-   "titulo": "Influencers en Decadencia: Flojos y Encima Se Quejan",
-   "publicado": "2026-10-09T22:22:14Z",
-   "segundos": 1505,
-   "miniatura": "https://i.ytimg.com/vi/uJ0zWe3bi4g/hqdefault.jpg",
    "canal": "danx",
    "esta_semana": true
   }
