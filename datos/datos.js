@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-10-15T21:57:21Z",
+ "actualizado": "2026-10-16T00:25:53Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -57,9 +57,17 @@ window.DATOS = {
    "foto": "https://yt3.ggpht.com/G8JzDzNjFiwLmBuRi3GDgC9JOcF-H-NYuTOnR04XJL5wT9O3lIURUlTL6zLJADKsWgdfBtKX=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
    "suscriptores": 132000,
-   "total_videos": 328,
+   "total_videos": 329,
    "url": "https://www.youtube.com/@danxof",
    "ultimos": [
+    {
+     "id": "rM_746GuO8I",
+     "titulo": "Prohíban Romantizar el Embarazo en TikTok",
+     "publicado": "2026-10-16T00:21:43Z",
+     "segundos": 1921,
+     "miniatura": "https://i.ytimg.com/vi/rM_746GuO8I/maxresdefault.jpg",
+     "canal": "danx"
+    },
     {
      "id": "gwqZiXSIiv4",
      "titulo": "Naya Fácil Es Peor de lo que Pensé",
@@ -82,14 +90,6 @@ window.DATOS = {
      "publicado": "2026-10-13T01:09:39Z",
      "segundos": 1219,
      "miniatura": "https://i.ytimg.com/vi/zdwIB8U8mI4/maxresdefault.jpg",
-     "canal": "danx"
-    },
-    {
-     "id": "iCRxwzVNS_A",
-     "titulo": "Reacción Funable: El Enfermo Más Enfermo de Chile | \"Mea Culpa\"",
-     "publicado": "2026-10-12T00:59:38Z",
-     "segundos": 5423,
-     "miniatura": "https://i.ytimg.com/vi/iCRxwzVNS_A/maxresdefault.jpg",
      "canal": "danx"
     }
    ]
@@ -164,6 +164,15 @@ window.DATOS = {
   }
  ],
  "rotacion": [
+  {
+   "id": "rM_746GuO8I",
+   "titulo": "Prohíban Romantizar el Embarazo en TikTok",
+   "publicado": "2026-10-16T00:21:43Z",
+   "segundos": 1921,
+   "miniatura": "https://i.ytimg.com/vi/rM_746GuO8I/maxresdefault.jpg",
+   "canal": "danx",
+   "esta_semana": true
+  },
   {
    "id": "gwqZiXSIiv4",
    "titulo": "Naya Fácil Es Peor de lo que Pensé",
