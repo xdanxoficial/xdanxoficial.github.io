@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-10-17T21:52:00Z",
+ "actualizado": "2026-10-17T23:14:42Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -57,9 +57,17 @@ window.DATOS = {
    "foto": "https://yt3.ggpht.com/G8JzDzNjFiwLmBuRi3GDgC9JOcF-H-NYuTOnR04XJL5wT9O3lIURUlTL6zLJADKsWgdfBtKX=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
    "suscriptores": 132000,
-   "total_videos": 329,
+   "total_videos": 330,
    "url": "https://www.youtube.com/@danxof",
    "ultimos": [
+    {
+     "id": "kphR-fVvUOI",
+     "titulo": "El Real Problema de Yeri Mua",
+     "publicado": "2026-10-17T23:08:21Z",
+     "segundos": 1909,
+     "miniatura": "https://i.ytimg.com/vi/kphR-fVvUOI/maxresdefault.jpg",
+     "canal": "danx"
+    },
     {
      "id": "rM_746GuO8I",
      "titulo": "Prohíban Romantizar el Embarazo en TikTok",
@@ -82,14 +90,6 @@ window.DATOS = {
      "publicado": "2026-10-13T22:15:36Z",
      "segundos": 1884,
      "miniatura": "https://i.ytimg.com/vi/Di35EGHsE-8/maxresdefault.jpg",
-     "canal": "danx"
-    },
-    {
-     "id": "zdwIB8U8mI4",
-     "titulo": "El Vendehumos Más Grande de Chile: Ivan Martinez",
-     "publicado": "2026-10-13T01:09:39Z",
-     "segundos": 1219,
-     "miniatura": "https://i.ytimg.com/vi/zdwIB8U8mI4/maxresdefault.jpg",
      "canal": "danx"
     }
    ]
@@ -164,6 +164,15 @@ window.DATOS = {
   }
  ],
  "rotacion": [
+  {
+   "id": "kphR-fVvUOI",
+   "titulo": "El Real Problema de Yeri Mua",
+   "publicado": "2026-10-17T23:08:21Z",
+   "segundos": 1909,
+   "miniatura": "https://i.ytimg.com/vi/kphR-fVvUOI/maxresdefault.jpg",
+   "canal": "danx",
+   "esta_semana": true
+  },
   {
    "id": "rM_746GuO8I",
    "titulo": "Prohíban Romantizar el Embarazo en TikTok",
