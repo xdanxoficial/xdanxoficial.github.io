@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-10-17T06:24:47Z",
+ "actualizado": "2026-10-17T21:52:00Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -224,15 +224,6 @@ window.DATOS = {
    "publicado": "2026-10-11T21:53:47Z",
    "segundos": 2077,
    "miniatura": "https://i.ytimg.com/vi/_w3pe5nHL0I/maxresdefault.jpg",
-   "canal": "danx",
-   "esta_semana": true
-  },
-  {
-   "id": "IfH_qB-oBlQ",
-   "titulo": "La Relación Más Tóxica de Internet: Neko Pirate y Corxea",
-   "publicado": "2026-10-10T21:49:17Z",
-   "segundos": 3742,
-   "miniatura": "https://i.ytimg.com/vi/IfH_qB-oBlQ/maxresdefault.jpg",
    "canal": "danx",
    "esta_semana": true
   }
