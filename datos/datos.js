@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-10-18T14:53:06Z",
+ "actualizado": "2026-10-18T22:31:38Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -57,9 +57,17 @@ window.DATOS = {
    "foto": "https://yt3.ggpht.com/G8JzDzNjFiwLmBuRi3GDgC9JOcF-H-NYuTOnR04XJL5wT9O3lIURUlTL6zLJADKsWgdfBtKX=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
    "suscriptores": 132000,
-   "total_videos": 330,
+   "total_videos": 331,
    "url": "https://www.youtube.com/@danxof",
    "ultimos": [
+    {
+     "id": "Hp9N8qJOy_Y",
+     "titulo": "MrStiven Es Peor de lo que Pensé",
+     "publicado": "2026-10-18T21:48:11Z",
+     "segundos": 2304,
+     "miniatura": "https://i.ytimg.com/vi/Hp9N8qJOy_Y/maxresdefault.jpg",
+     "canal": "danx"
+    },
     {
      "id": "kphR-fVvUOI",
      "titulo": "El Real Problema de Yeri Mua",
@@ -82,14 +90,6 @@ window.DATOS = {
      "publicado": "2026-10-14T22:22:46Z",
      "segundos": 4746,
      "miniatura": "https://i.ytimg.com/vi/gwqZiXSIiv4/maxresdefault.jpg",
-     "canal": "danx"
-    },
-    {
-     "id": "Di35EGHsE-8",
-     "titulo": "Videos de Terror Japonés Que No Te Dejarán Dormir",
-     "publicado": "2026-10-13T22:15:36Z",
-     "segundos": 1884,
-     "miniatura": "https://i.ytimg.com/vi/Di35EGHsE-8/maxresdefault.jpg",
      "canal": "danx"
     }
    ]
@@ -165,6 +165,15 @@ window.DATOS = {
  ],
  "rotacion": [
   {
+   "id": "Hp9N8qJOy_Y",
+   "titulo": "MrStiven Es Peor de lo que Pensé",
+   "publicado": "2026-10-18T21:48:11Z",
+   "segundos": 2304,
+   "miniatura": "https://i.ytimg.com/vi/Hp9N8qJOy_Y/maxresdefault.jpg",
+   "canal": "danx",
+   "esta_semana": true
+  },
+  {
    "id": "kphR-fVvUOI",
    "titulo": "El Real Problema de Yeri Mua",
    "publicado": "2026-10-17T23:08:21Z",
@@ -224,15 +233,6 @@ window.DATOS = {
    "publicado": "2026-10-12T00:59:38Z",
    "segundos": 5423,
    "miniatura": "https://i.ytimg.com/vi/iCRxwzVNS_A/maxresdefault.jpg",
-   "canal": "danx",
-   "esta_semana": true
-  },
-  {
-   "id": "_w3pe5nHL0I",
-   "titulo": "Dejaron de Estudiar Para Ser TikTokers y Streamers",
-   "publicado": "2026-10-11T21:53:47Z",
-   "segundos": 2077,
-   "miniatura": "https://i.ytimg.com/vi/_w3pe5nHL0I/maxresdefault.jpg",
    "canal": "danx",
    "esta_semana": true
   }
