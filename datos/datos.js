@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-10-19T18:48:17Z",
+ "actualizado": "2026-10-19T22:49:17Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -57,9 +57,17 @@ window.DATOS = {
    "foto": "https://yt3.ggpht.com/G8JzDzNjFiwLmBuRi3GDgC9JOcF-H-NYuTOnR04XJL5wT9O3lIURUlTL6zLJADKsWgdfBtKX=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
    "suscriptores": 132000,
-   "total_videos": 331,
+   "total_videos": 332,
    "url": "https://www.youtube.com/@danxof",
    "ultimos": [
+    {
+     "id": "qCx6gSaD328",
+     "titulo": "Las Confesiones Más Turbias de mis Seguidores💀",
+     "publicado": "2026-10-19T22:23:22Z",
+     "segundos": 2222,
+     "miniatura": "https://i.ytimg.com/vi/qCx6gSaD328/maxresdefault.jpg",
+     "canal": "danx"
+    },
     {
      "id": "Hp9N8qJOy_Y",
      "titulo": "MrStiven Es Peor de lo que Pensé",
@@ -83,14 +91,6 @@ window.DATOS = {
      "segundos": 1921,
      "miniatura": "https://i.ytimg.com/vi/rM_746GuO8I/maxresdefault.jpg",
      "canal": "danx"
-    },
-    {
-     "id": "gwqZiXSIiv4",
-     "titulo": "Naya Fácil Es Peor de lo que Pensé",
-     "publicado": "2026-10-14T22:22:46Z",
-     "segundos": 4746,
-     "miniatura": "https://i.ytimg.com/vi/gwqZiXSIiv4/maxresdefault.jpg",
-     "canal": "danx"
     }
    ]
   },
@@ -102,7 +102,7 @@ window.DATOS = {
    "descripcion": "Gameplays editados de xDanx de gran variedad de video juegos distintos",
    "foto": "https://yt3.ggpht.com/uIa-WrREAx3OzbO35C8Sq0G9AiyhTDV63g2rWDYTDeqnKah3TVOFRjKcjgEJOp3GJ5KOA30Nfg=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
-   "suscriptores": 7760,
+   "suscriptores": 7770,
    "total_videos": 14,
    "url": "https://www.youtube.com/@xdanxgameplays",
    "ultimos": [
@@ -165,6 +165,15 @@ window.DATOS = {
  ],
  "rotacion": [
   {
+   "id": "qCx6gSaD328",
+   "titulo": "Las Confesiones Más Turbias de mis Seguidores💀",
+   "publicado": "2026-10-19T22:23:22Z",
+   "segundos": 2222,
+   "miniatura": "https://i.ytimg.com/vi/qCx6gSaD328/maxresdefault.jpg",
+   "canal": "danx",
+   "esta_semana": true
+  },
+  {
    "id": "Hp9N8qJOy_Y",
    "titulo": "MrStiven Es Peor de lo que Pensé",
    "publicado": "2026-10-18T21:48:11Z",
@@ -216,15 +225,6 @@ window.DATOS = {
    "segundos": 1219,
    "miniatura": "https://i.ytimg.com/vi/zdwIB8U8mI4/maxresdefault.jpg",
    "canal": "danx",
-   "esta_semana": true
-  },
-  {
-   "id": "gm87imr_p3k",
-   "titulo": "El Final de la Revolución de las Máquinas🤖 | Detroit Become Human #2",
-   "publicado": "2026-10-12T20:59:22Z",
-   "segundos": 17893,
-   "miniatura": "https://i.ytimg.com/vi/gm87imr_p3k/maxresdefault.jpg",
-   "canal": "gameplays",
    "esta_semana": true
   }
  ]
