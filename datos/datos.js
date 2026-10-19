@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-10-19T00:53:31Z",
+ "actualizado": "2026-10-19T05:49:49Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -225,15 +225,6 @@ window.DATOS = {
    "segundos": 17893,
    "miniatura": "https://i.ytimg.com/vi/gm87imr_p3k/maxresdefault.jpg",
    "canal": "gameplays",
-   "esta_semana": true
-  },
-  {
-   "id": "iCRxwzVNS_A",
-   "titulo": "Reacción Funable: El Enfermo Más Enfermo de Chile | \"Mea Culpa\"",
-   "publicado": "2026-10-12T00:59:38Z",
-   "segundos": 5423,
-   "miniatura": "https://i.ytimg.com/vi/iCRxwzVNS_A/maxresdefault.jpg",
-   "canal": "danx",
    "esta_semana": true
   }
  ]
