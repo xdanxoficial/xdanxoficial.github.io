@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-10-19T22:49:17Z",
+ "actualizado": "2026-10-20T01:37:29Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -215,15 +215,6 @@ window.DATOS = {
    "publicado": "2026-10-13T22:15:36Z",
    "segundos": 1884,
    "miniatura": "https://i.ytimg.com/vi/Di35EGHsE-8/maxresdefault.jpg",
-   "canal": "danx",
-   "esta_semana": true
-  },
-  {
-   "id": "zdwIB8U8mI4",
-   "titulo": "El Vendehumos Más Grande de Chile: Ivan Martinez",
-   "publicado": "2026-10-13T01:09:39Z",
-   "segundos": 1219,
-   "miniatura": "https://i.ytimg.com/vi/zdwIB8U8mI4/maxresdefault.jpg",
    "canal": "danx",
    "esta_semana": true
   }
