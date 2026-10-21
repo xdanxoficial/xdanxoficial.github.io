@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-10-20T17:48:58Z",
+ "actualizado": "2026-10-21T00:02:14Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -148,7 +148,7 @@ window.DATOS = {
    "descripcion": "",
    "foto": "https://yt3.ggpht.com/zk5RUuTmcrwaZRuT2r2OjhwhT_j_Uj2_If-1v34j6Gs46HOPkfLC_3NRamZQbX_1pMgSJA9GYJw=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
-   "suscriptores": 4380,
+   "suscriptores": 4390,
    "total_videos": 1,
    "url": "https://www.youtube.com/@xDanxVlogs",
    "ultimos": [
@@ -206,15 +206,6 @@ window.DATOS = {
    "publicado": "2026-10-14T22:22:46Z",
    "segundos": 4746,
    "miniatura": "https://i.ytimg.com/vi/gwqZiXSIiv4/maxresdefault.jpg",
-   "canal": "danx",
-   "esta_semana": true
-  },
-  {
-   "id": "Di35EGHsE-8",
-   "titulo": "Videos de Terror Japonés Que No Te Dejarán Dormir",
-   "publicado": "2026-10-13T22:15:36Z",
-   "segundos": 1884,
-   "miniatura": "https://i.ytimg.com/vi/Di35EGHsE-8/maxresdefault.jpg",
    "canal": "danx",
    "esta_semana": true
   }
