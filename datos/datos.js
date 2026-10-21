@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-10-21T05:09:04Z",
+ "actualizado": "2026-10-21T23:09:11Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -57,9 +57,17 @@ window.DATOS = {
    "foto": "https://yt3.ggpht.com/G8JzDzNjFiwLmBuRi3GDgC9JOcF-H-NYuTOnR04XJL5wT9O3lIURUlTL6zLJADKsWgdfBtKX=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
    "suscriptores": 132000,
-   "total_videos": 332,
+   "total_videos": 333,
    "url": "https://www.youtube.com/@danxof",
    "ultimos": [
+    {
+     "id": "LDimxJhO3ng",
+     "titulo": "Este Peruano \"Millonario\" Vende Cursos y Es Peor de lo que Pensé",
+     "publicado": "2026-10-21T23:01:43Z",
+     "segundos": 3315,
+     "miniatura": "https://i.ytimg.com/vi/LDimxJhO3ng/maxresdefault.jpg",
+     "canal": "danx"
+    },
     {
      "id": "qCx6gSaD328",
      "titulo": "Las Confesiones Más Turbias de mis Seguidores💀",
@@ -83,14 +91,6 @@ window.DATOS = {
      "segundos": 1909,
      "miniatura": "https://i.ytimg.com/vi/kphR-fVvUOI/maxresdefault.jpg",
      "canal": "danx"
-    },
-    {
-     "id": "rM_746GuO8I",
-     "titulo": "Prohíban Romantizar el Embarazo en TikTok",
-     "publicado": "2026-10-16T00:21:43Z",
-     "segundos": 1921,
-     "miniatura": "https://i.ytimg.com/vi/rM_746GuO8I/maxresdefault.jpg",
-     "canal": "danx"
     }
    ]
   },
@@ -102,7 +102,7 @@ window.DATOS = {
    "descripcion": "Gameplays editados de xDanx de gran variedad de video juegos distintos",
    "foto": "https://yt3.ggpht.com/uIa-WrREAx3OzbO35C8Sq0G9AiyhTDV63g2rWDYTDeqnKah3TVOFRjKcjgEJOp3GJ5KOA30Nfg=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
-   "suscriptores": 7790,
+   "suscriptores": 7800,
    "total_videos": 14,
    "url": "https://www.youtube.com/@xdanxgameplays",
    "ultimos": [
@@ -165,6 +165,15 @@ window.DATOS = {
  ],
  "rotacion": [
   {
+   "id": "LDimxJhO3ng",
+   "titulo": "Este Peruano \"Millonario\" Vende Cursos y Es Peor de lo que Pensé",
+   "publicado": "2026-10-21T23:01:43Z",
+   "segundos": 3315,
+   "miniatura": "https://i.ytimg.com/vi/LDimxJhO3ng/maxresdefault.jpg",
+   "canal": "danx",
+   "esta_semana": true
+  },
+  {
    "id": "qCx6gSaD328",
    "titulo": "Las Confesiones Más Turbias de mis Seguidores💀",
    "publicado": "2026-10-19T22:23:22Z",
@@ -197,15 +206,6 @@ window.DATOS = {
    "publicado": "2026-10-16T00:21:43Z",
    "segundos": 1921,
    "miniatura": "https://i.ytimg.com/vi/rM_746GuO8I/maxresdefault.jpg",
-   "canal": "danx",
-   "esta_semana": true
-  },
-  {
-   "id": "gwqZiXSIiv4",
-   "titulo": "Naya Fácil Es Peor de lo que Pensé",
-   "publicado": "2026-10-14T22:22:46Z",
-   "segundos": 4746,
-   "miniatura": "https://i.ytimg.com/vi/gwqZiXSIiv4/maxresdefault.jpg",
    "canal": "danx",
    "esta_semana": true
   }
