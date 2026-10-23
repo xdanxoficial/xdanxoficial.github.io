@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-10-23T19:27:59Z",
+ "actualizado": "2026-10-23T22:33:25Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -57,9 +57,17 @@ window.DATOS = {
    "foto": "https://yt3.ggpht.com/G8JzDzNjFiwLmBuRi3GDgC9JOcF-H-NYuTOnR04XJL5wT9O3lIURUlTL6zLJADKsWgdfBtKX=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
    "suscriptores": 132000,
-   "total_videos": 334,
+   "total_videos": 335,
    "url": "https://www.youtube.com/@danxof",
    "ultimos": [
+    {
+     "id": "5w2hAKwVWyg",
+     "titulo": "La Merecida Caída de El Demente",
+     "publicado": "2026-10-23T22:27:52Z",
+     "segundos": 2644,
+     "miniatura": "https://i.ytimg.com/vi/5w2hAKwVWyg/maxresdefault.jpg",
+     "canal": "danx"
+    },
     {
      "id": "yGpMS2jrbv4",
      "titulo": "3 Crímenes Chilenos Que No Conocía y Son Horribles",
@@ -82,14 +90,6 @@ window.DATOS = {
      "publicado": "2026-10-19T22:23:22Z",
      "segundos": 2222,
      "miniatura": "https://i.ytimg.com/vi/qCx6gSaD328/maxresdefault.jpg",
-     "canal": "danx"
-    },
-    {
-     "id": "Hp9N8qJOy_Y",
-     "titulo": "MrStiven Es Peor de lo que Pensé",
-     "publicado": "2026-10-18T21:48:11Z",
-     "segundos": 2304,
-     "miniatura": "https://i.ytimg.com/vi/Hp9N8qJOy_Y/maxresdefault.jpg",
      "canal": "danx"
     }
    ]
@@ -164,6 +164,15 @@ window.DATOS = {
   }
  ],
  "rotacion": [
+  {
+   "id": "5w2hAKwVWyg",
+   "titulo": "La Merecida Caída de El Demente",
+   "publicado": "2026-10-23T22:27:52Z",
+   "segundos": 2644,
+   "miniatura": "https://i.ytimg.com/vi/5w2hAKwVWyg/maxresdefault.jpg",
+   "canal": "danx",
+   "esta_semana": true
+  },
   {
    "id": "yGpMS2jrbv4",
    "titulo": "3 Crímenes Chilenos Que No Conocía y Son Horribles",
