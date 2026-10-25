@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-10-25T18:13:21Z",
+ "actualizado": "2026-10-25T23:27:45Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -57,9 +57,17 @@ window.DATOS = {
    "foto": "https://yt3.ggpht.com/G8JzDzNjFiwLmBuRi3GDgC9JOcF-H-NYuTOnR04XJL5wT9O3lIURUlTL6zLJADKsWgdfBtKX=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
    "suscriptores": 132000,
-   "total_videos": 336,
+   "total_videos": 337,
    "url": "https://www.youtube.com/@danxof",
    "ultimos": [
+    {
+     "id": "QgToxJdGQeo",
+     "titulo": "La Situación de Kai Cenat es Peor de lo que Pensé",
+     "publicado": "2026-10-25T21:47:08Z",
+     "segundos": 1451,
+     "miniatura": "https://i.ytimg.com/vi/QgToxJdGQeo/maxresdefault.jpg",
+     "canal": "danx"
+    },
     {
      "id": "uxw_e8_tuPc",
      "titulo": "El Real Problema de los Alternativos de TikTok",
@@ -82,14 +90,6 @@ window.DATOS = {
      "publicado": "2026-10-22T22:14:38Z",
      "segundos": 2259,
      "miniatura": "https://i.ytimg.com/vi/yGpMS2jrbv4/maxresdefault.jpg",
-     "canal": "danx"
-    },
-    {
-     "id": "LDimxJhO3ng",
-     "titulo": "Este Peruano \"Millonario\" Vende Cursos y Es Peor de lo que Pensé",
-     "publicado": "2026-10-21T23:01:43Z",
-     "segundos": 3315,
-     "miniatura": "https://i.ytimg.com/vi/LDimxJhO3ng/maxresdefault.jpg",
      "canal": "danx"
     }
    ]
@@ -165,6 +165,15 @@ window.DATOS = {
  ],
  "rotacion": [
   {
+   "id": "QgToxJdGQeo",
+   "titulo": "La Situación de Kai Cenat es Peor de lo que Pensé",
+   "publicado": "2026-10-25T21:47:08Z",
+   "segundos": 1451,
+   "miniatura": "https://i.ytimg.com/vi/QgToxJdGQeo/maxresdefault.jpg",
+   "canal": "danx",
+   "esta_semana": true
+  },
+  {
    "id": "uxw_e8_tuPc",
    "titulo": "El Real Problema de los Alternativos de TikTok",
    "publicado": "2026-10-24T22:41:46Z",
@@ -206,15 +215,6 @@ window.DATOS = {
    "publicado": "2026-10-19T22:23:22Z",
    "segundos": 2222,
    "miniatura": "https://i.ytimg.com/vi/qCx6gSaD328/maxresdefault.jpg",
-   "canal": "danx",
-   "esta_semana": true
-  },
-  {
-   "id": "Hp9N8qJOy_Y",
-   "titulo": "MrStiven Es Peor de lo que Pensé",
-   "publicado": "2026-10-18T21:48:11Z",
-   "segundos": 2304,
-   "miniatura": "https://i.ytimg.com/vi/Hp9N8qJOy_Y/maxresdefault.jpg",
    "canal": "danx",
    "esta_semana": true
   }
