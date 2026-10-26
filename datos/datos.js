@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-10-26T14:55:02Z",
+ "actualizado": "2026-10-26T23:59:37Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -57,9 +57,17 @@ window.DATOS = {
    "foto": "https://yt3.ggpht.com/G8JzDzNjFiwLmBuRi3GDgC9JOcF-H-NYuTOnR04XJL5wT9O3lIURUlTL6zLJADKsWgdfBtKX=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
    "suscriptores": 133000,
-   "total_videos": 337,
+   "total_videos": 338,
    "url": "https://www.youtube.com/@danxof",
    "ultimos": [
+    {
+     "id": "dNn9g2STHgA",
+     "titulo": "La Historia de la Rivalidad entre Leo Rey y Alexitico",
+     "publicado": "2026-10-26T21:54:23Z",
+     "segundos": 1645,
+     "miniatura": "https://i.ytimg.com/vi/dNn9g2STHgA/maxresdefault.jpg",
+     "canal": "danx"
+    },
     {
      "id": "QgToxJdGQeo",
      "titulo": "La Situación de Kai Cenat es Peor de lo que Pensé",
@@ -82,14 +90,6 @@ window.DATOS = {
      "publicado": "2026-10-23T22:27:52Z",
      "segundos": 2644,
      "miniatura": "https://i.ytimg.com/vi/5w2hAKwVWyg/maxresdefault.jpg",
-     "canal": "danx"
-    },
-    {
-     "id": "yGpMS2jrbv4",
-     "titulo": "3 Crímenes Chilenos Que No Conocía y Son Horribles",
-     "publicado": "2026-10-22T22:14:38Z",
-     "segundos": 2259,
-     "miniatura": "https://i.ytimg.com/vi/yGpMS2jrbv4/maxresdefault.jpg",
      "canal": "danx"
     }
    ]
@@ -165,6 +165,15 @@ window.DATOS = {
  ],
  "rotacion": [
   {
+   "id": "dNn9g2STHgA",
+   "titulo": "La Historia de la Rivalidad entre Leo Rey y Alexitico",
+   "publicado": "2026-10-26T21:54:23Z",
+   "segundos": 1645,
+   "miniatura": "https://i.ytimg.com/vi/dNn9g2STHgA/maxresdefault.jpg",
+   "canal": "danx",
+   "esta_semana": true
+  },
+  {
    "id": "QgToxJdGQeo",
    "titulo": "La Situación de Kai Cenat es Peor de lo que Pensé",
    "publicado": "2026-10-25T21:47:08Z",
@@ -206,15 +215,6 @@ window.DATOS = {
    "publicado": "2026-10-21T23:01:43Z",
    "segundos": 3315,
    "miniatura": "https://i.ytimg.com/vi/LDimxJhO3ng/maxresdefault.jpg",
-   "canal": "danx",
-   "esta_semana": true
-  },
-  {
-   "id": "qCx6gSaD328",
-   "titulo": "Las Confesiones Más Turbias de mis Seguidores💀",
-   "publicado": "2026-10-19T22:23:22Z",
-   "segundos": 2222,
-   "miniatura": "https://i.ytimg.com/vi/qCx6gSaD328/maxresdefault.jpg",
    "canal": "danx",
    "esta_semana": true
   }
