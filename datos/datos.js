@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-10-27T04:50:22Z",
+ "actualizado": "2026-10-27T20:34:28Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -103,9 +103,17 @@ window.DATOS = {
    "foto": "https://yt3.ggpht.com/uIa-WrREAx3OzbO35C8Sq0G9AiyhTDV63g2rWDYTDeqnKah3TVOFRjKcjgEJOp3GJ5KOA30Nfg=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
    "suscriptores": 7870,
-   "total_videos": 14,
+   "total_videos": 15,
    "url": "https://www.youtube.com/@xdanxgameplays",
    "ultimos": [
+    {
+     "id": "gmPM6zF702k",
+     "titulo": "La Historia Más Cruel que He Jugado | Mouthwashing (Completo)",
+     "publicado": "2026-10-27T19:00:06Z",
+     "segundos": 9983,
+     "miniatura": "https://i.ytimg.com/vi/gmPM6zF702k/maxresdefault.jpg",
+     "canal": "gameplays"
+    },
     {
      "id": "gm87imr_p3k",
      "titulo": "El Final de la Revolución de las Máquinas🤖 | Detroit Become Human #2",
@@ -128,14 +136,6 @@ window.DATOS = {
      "publicado": "2026-10-01T21:08:09Z",
      "segundos": 5332,
      "miniatura": "https://i.ytimg.com/vi/4AbaI6BM4Cw/maxresdefault.jpg",
-     "canal": "gameplays"
-    },
-    {
-     "id": "IoZ4BJ_7kAg",
-     "titulo": "El Juego de Pesca Más Gracioso🤣How to Fish Completo ft. Janojey y Spicyiol",
-     "publicado": "2026-09-15T21:51:06Z",
-     "segundos": 3615,
-     "miniatura": "https://i.ytimg.com/vi/IoZ4BJ_7kAg/maxresdefault.jpg",
      "canal": "gameplays"
     }
    ]
@@ -164,6 +164,15 @@ window.DATOS = {
   }
  ],
  "rotacion": [
+  {
+   "id": "gmPM6zF702k",
+   "titulo": "La Historia Más Cruel que He Jugado | Mouthwashing (Completo)",
+   "publicado": "2026-10-27T19:00:06Z",
+   "segundos": 9983,
+   "miniatura": "https://i.ytimg.com/vi/gmPM6zF702k/maxresdefault.jpg",
+   "canal": "gameplays",
+   "esta_semana": true
+  },
   {
    "id": "dNn9g2STHgA",
    "titulo": "La Historia de la Rivalidad entre Leo Rey y Alexitico",
