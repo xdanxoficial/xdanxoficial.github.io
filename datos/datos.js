@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-10-28T18:59:22Z",
+ "actualizado": "2026-10-28T23:06:46Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -148,7 +148,7 @@ window.DATOS = {
    "descripcion": "",
    "foto": "https://yt3.ggpht.com/zk5RUuTmcrwaZRuT2r2OjhwhT_j_Uj2_If-1v34j6Gs46HOPkfLC_3NRamZQbX_1pMgSJA9GYJw=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
-   "suscriptores": 4450,
+   "suscriptores": 4460,
    "total_videos": 1,
    "url": "https://www.youtube.com/@xDanxVlogs",
    "ultimos": [
@@ -224,15 +224,6 @@ window.DATOS = {
    "publicado": "2026-10-22T22:14:38Z",
    "segundos": 2259,
    "miniatura": "https://i.ytimg.com/vi/yGpMS2jrbv4/maxresdefault.jpg",
-   "canal": "danx",
-   "esta_semana": true
-  },
-  {
-   "id": "LDimxJhO3ng",
-   "titulo": "Este Peruano \"Millonario\" Vende Cursos y Es Peor de lo que Pensé",
-   "publicado": "2026-10-21T23:01:43Z",
-   "segundos": 3315,
-   "miniatura": "https://i.ytimg.com/vi/LDimxJhO3ng/maxresdefault.jpg",
    "canal": "danx",
    "esta_semana": true
   }
