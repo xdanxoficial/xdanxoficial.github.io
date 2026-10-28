@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-10-27T20:34:28Z",
+ "actualizado": "2026-10-28T00:17:02Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -57,9 +57,17 @@ window.DATOS = {
    "foto": "https://yt3.ggpht.com/G8JzDzNjFiwLmBuRi3GDgC9JOcF-H-NYuTOnR04XJL5wT9O3lIURUlTL6zLJADKsWgdfBtKX=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
    "suscriptores": 133000,
-   "total_videos": 338,
+   "total_videos": 339,
    "url": "https://www.youtube.com/@danxof",
    "ultimos": [
+    {
+     "id": "RJARboVrVk8",
+     "titulo": "La Triste Realidad de Ayudar a Pobres Malagradecidos",
+     "publicado": "2026-10-27T22:18:47Z",
+     "segundos": 1919,
+     "miniatura": "https://i.ytimg.com/vi/RJARboVrVk8/maxresdefault.jpg",
+     "canal": "danx"
+    },
     {
      "id": "dNn9g2STHgA",
      "titulo": "La Historia de la Rivalidad entre Leo Rey y Alexitico",
@@ -82,14 +90,6 @@ window.DATOS = {
      "publicado": "2026-10-24T22:41:46Z",
      "segundos": 1324,
      "miniatura": "https://i.ytimg.com/vi/uxw_e8_tuPc/maxresdefault.jpg",
-     "canal": "danx"
-    },
-    {
-     "id": "5w2hAKwVWyg",
-     "titulo": "La Merecida Caída de El Demente",
-     "publicado": "2026-10-23T22:27:52Z",
-     "segundos": 2644,
-     "miniatura": "https://i.ytimg.com/vi/5w2hAKwVWyg/maxresdefault.jpg",
      "canal": "danx"
     }
    ]
@@ -164,6 +164,15 @@ window.DATOS = {
   }
  ],
  "rotacion": [
+  {
+   "id": "RJARboVrVk8",
+   "titulo": "La Triste Realidad de Ayudar a Pobres Malagradecidos",
+   "publicado": "2026-10-27T22:18:47Z",
+   "segundos": 1919,
+   "miniatura": "https://i.ytimg.com/vi/RJARboVrVk8/maxresdefault.jpg",
+   "canal": "danx",
+   "esta_semana": true
+  },
   {
    "id": "gmPM6zF702k",
    "titulo": "La Historia Más Cruel que He Jugado | Mouthwashing (Completo)",
