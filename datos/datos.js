@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-10-28T23:06:46Z",
+ "actualizado": "2026-10-29T02:40:16Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -57,9 +57,17 @@ window.DATOS = {
    "foto": "https://yt3.ggpht.com/G8JzDzNjFiwLmBuRi3GDgC9JOcF-H-NYuTOnR04XJL5wT9O3lIURUlTL6zLJADKsWgdfBtKX=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
    "suscriptores": 133000,
-   "total_videos": 339,
+   "total_videos": 340,
    "url": "https://www.youtube.com/@danxof",
    "ultimos": [
+    {
+     "id": "3e814ulUu1M",
+     "titulo": "El Jeffrey Epstein Chileno💀 Mea Culpa Reacción Funable xDanx",
+     "publicado": "2026-10-29T00:38:38Z",
+     "segundos": 5791,
+     "miniatura": "https://i.ytimg.com/vi/3e814ulUu1M/maxresdefault.jpg",
+     "canal": "danx"
+    },
     {
      "id": "RJARboVrVk8",
      "titulo": "La Triste Realidad de Ayudar a Pobres Malagradecidos",
@@ -82,14 +90,6 @@ window.DATOS = {
      "publicado": "2026-10-25T21:47:08Z",
      "segundos": 1451,
      "miniatura": "https://i.ytimg.com/vi/QgToxJdGQeo/maxresdefault.jpg",
-     "canal": "danx"
-    },
-    {
-     "id": "uxw_e8_tuPc",
-     "titulo": "El Real Problema de los Alternativos de TikTok",
-     "publicado": "2026-10-24T22:41:46Z",
-     "segundos": 1324,
-     "miniatura": "https://i.ytimg.com/vi/uxw_e8_tuPc/maxresdefault.jpg",
      "canal": "danx"
     }
    ]
@@ -164,6 +164,15 @@ window.DATOS = {
   }
  ],
  "rotacion": [
+  {
+   "id": "3e814ulUu1M",
+   "titulo": "El Jeffrey Epstein Chileno💀 Mea Culpa Reacción Funable xDanx",
+   "publicado": "2026-10-29T00:38:38Z",
+   "segundos": 5791,
+   "miniatura": "https://i.ytimg.com/vi/3e814ulUu1M/maxresdefault.jpg",
+   "canal": "danx",
+   "esta_semana": true
+  },
   {
    "id": "RJARboVrVk8",
    "titulo": "La Triste Realidad de Ayudar a Pobres Malagradecidos",
