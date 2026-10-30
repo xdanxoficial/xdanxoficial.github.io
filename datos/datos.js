@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-10-30T19:59:53Z",
+ "actualizado": "2026-10-30T23:37:42Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -148,7 +148,7 @@ window.DATOS = {
    "descripcion": "",
    "foto": "https://yt3.ggpht.com/zk5RUuTmcrwaZRuT2r2OjhwhT_j_Uj2_If-1v34j6Gs46HOPkfLC_3NRamZQbX_1pMgSJA9GYJw=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
-   "suscriptores": 4470,
+   "suscriptores": 4480,
    "total_videos": 1,
    "url": "https://www.youtube.com/@xDanxVlogs",
    "ultimos": [
@@ -224,15 +224,6 @@ window.DATOS = {
    "publicado": "2026-10-24T22:41:46Z",
    "segundos": 1324,
    "miniatura": "https://i.ytimg.com/vi/uxw_e8_tuPc/maxresdefault.jpg",
-   "canal": "danx",
-   "esta_semana": true
-  },
-  {
-   "id": "5w2hAKwVWyg",
-   "titulo": "La Merecida Caída de El Demente",
-   "publicado": "2026-10-23T22:27:52Z",
-   "segundos": 2644,
-   "miniatura": "https://i.ytimg.com/vi/5w2hAKwVWyg/maxresdefault.jpg",
    "canal": "danx",
    "esta_semana": true
   }
