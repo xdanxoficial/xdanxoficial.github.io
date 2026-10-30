@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-10-29T02:40:16Z",
+ "actualizado": "2026-10-30T01:38:48Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -57,9 +57,17 @@ window.DATOS = {
    "foto": "https://yt3.ggpht.com/G8JzDzNjFiwLmBuRi3GDgC9JOcF-H-NYuTOnR04XJL5wT9O3lIURUlTL6zLJADKsWgdfBtKX=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
    "suscriptores": 133000,
-   "total_videos": 340,
+   "total_videos": 341,
    "url": "https://www.youtube.com/@danxof",
    "ultimos": [
+    {
+     "id": "hKUGORBhqnU",
+     "titulo": "El Gobierno de México Es Peor de lo que Pensé",
+     "publicado": "2026-10-29T22:26:34Z",
+     "segundos": 1637,
+     "miniatura": "https://i.ytimg.com/vi/hKUGORBhqnU/maxresdefault.jpg",
+     "canal": "danx"
+    },
     {
      "id": "3e814ulUu1M",
      "titulo": "El Jeffrey Epstein Chileno💀 Mea Culpa Reacción Funable xDanx",
@@ -83,14 +91,6 @@ window.DATOS = {
      "segundos": 1645,
      "miniatura": "https://i.ytimg.com/vi/dNn9g2STHgA/maxresdefault.jpg",
      "canal": "danx"
-    },
-    {
-     "id": "QgToxJdGQeo",
-     "titulo": "La Situación de Kai Cenat es Peor de lo que Pensé",
-     "publicado": "2026-10-25T21:47:08Z",
-     "segundos": 1451,
-     "miniatura": "https://i.ytimg.com/vi/QgToxJdGQeo/maxresdefault.jpg",
-     "canal": "danx"
     }
    ]
   },
@@ -102,7 +102,7 @@ window.DATOS = {
    "descripcion": "Gameplays editados de xDanx de gran variedad de video juegos distintos",
    "foto": "https://yt3.ggpht.com/uIa-WrREAx3OzbO35C8Sq0G9AiyhTDV63g2rWDYTDeqnKah3TVOFRjKcjgEJOp3GJ5KOA30Nfg=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
-   "suscriptores": 7870,
+   "suscriptores": 7880,
    "total_videos": 15,
    "url": "https://www.youtube.com/@xdanxgameplays",
    "ultimos": [
@@ -148,7 +148,7 @@ window.DATOS = {
    "descripcion": "",
    "foto": "https://yt3.ggpht.com/zk5RUuTmcrwaZRuT2r2OjhwhT_j_Uj2_If-1v34j6Gs46HOPkfLC_3NRamZQbX_1pMgSJA9GYJw=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
-   "suscriptores": 4460,
+   "suscriptores": 4470,
    "total_videos": 1,
    "url": "https://www.youtube.com/@xDanxVlogs",
    "ultimos": [
@@ -164,6 +164,15 @@ window.DATOS = {
   }
  ],
  "rotacion": [
+  {
+   "id": "hKUGORBhqnU",
+   "titulo": "El Gobierno de México Es Peor de lo que Pensé",
+   "publicado": "2026-10-29T22:26:34Z",
+   "segundos": 1637,
+   "miniatura": "https://i.ytimg.com/vi/hKUGORBhqnU/maxresdefault.jpg",
+   "canal": "danx",
+   "esta_semana": true
+  },
   {
    "id": "3e814ulUu1M",
    "titulo": "El Jeffrey Epstein Chileno💀 Mea Culpa Reacción Funable xDanx",
@@ -224,15 +233,6 @@ window.DATOS = {
    "publicado": "2026-10-23T22:27:52Z",
    "segundos": 2644,
    "miniatura": "https://i.ytimg.com/vi/5w2hAKwVWyg/maxresdefault.jpg",
-   "canal": "danx",
-   "esta_semana": true
-  },
-  {
-   "id": "yGpMS2jrbv4",
-   "titulo": "3 Crímenes Chilenos Que No Conocía y Son Horribles",
-   "publicado": "2026-10-22T22:14:38Z",
-   "segundos": 2259,
-   "miniatura": "https://i.ytimg.com/vi/yGpMS2jrbv4/maxresdefault.jpg",
    "canal": "danx",
    "esta_semana": true
   }
