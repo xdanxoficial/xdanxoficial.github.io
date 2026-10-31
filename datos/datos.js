@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-10-31T19:52:03Z",
+ "actualizado": "2026-10-31T23:08:35Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -224,15 +224,6 @@ window.DATOS = {
    "publicado": "2026-10-25T21:47:08Z",
    "segundos": 1451,
    "miniatura": "https://i.ytimg.com/vi/QgToxJdGQeo/maxresdefault.jpg",
-   "canal": "danx",
-   "esta_semana": true
-  },
-  {
-   "id": "uxw_e8_tuPc",
-   "titulo": "El Real Problema de los Alternativos de TikTok",
-   "publicado": "2026-10-24T22:41:46Z",
-   "segundos": 1324,
-   "miniatura": "https://i.ytimg.com/vi/uxw_e8_tuPc/maxresdefault.jpg",
    "canal": "danx",
    "esta_semana": true
   }
