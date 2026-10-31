@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-10-30T23:37:42Z",
+ "actualizado": "2026-10-31T04:31:57Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -57,9 +57,17 @@ window.DATOS = {
    "foto": "https://yt3.ggpht.com/G8JzDzNjFiwLmBuRi3GDgC9JOcF-H-NYuTOnR04XJL5wT9O3lIURUlTL6zLJADKsWgdfBtKX=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
    "suscriptores": 133000,
-   "total_videos": 341,
+   "total_videos": 342,
    "url": "https://www.youtube.com/@danxof",
    "ultimos": [
+    {
+     "id": "Ww52QMQWZRs",
+     "titulo": "Los 10 Youtubers Más Hambreados de Internet 2 *reacción*",
+     "publicado": "2026-10-30T23:59:42Z",
+     "segundos": 2909,
+     "miniatura": "https://i.ytimg.com/vi/Ww52QMQWZRs/maxresdefault.jpg",
+     "canal": "danx"
+    },
     {
      "id": "hKUGORBhqnU",
      "titulo": "El Gobierno de México Es Peor de lo que Pensé",
@@ -82,14 +90,6 @@ window.DATOS = {
      "publicado": "2026-10-27T22:18:47Z",
      "segundos": 1919,
      "miniatura": "https://i.ytimg.com/vi/RJARboVrVk8/maxresdefault.jpg",
-     "canal": "danx"
-    },
-    {
-     "id": "dNn9g2STHgA",
-     "titulo": "La Historia de la Rivalidad entre Leo Rey y Alexitico",
-     "publicado": "2026-10-26T21:54:23Z",
-     "segundos": 1645,
-     "miniatura": "https://i.ytimg.com/vi/dNn9g2STHgA/maxresdefault.jpg",
      "canal": "danx"
     }
    ]
@@ -164,6 +164,15 @@ window.DATOS = {
   }
  ],
  "rotacion": [
+  {
+   "id": "Ww52QMQWZRs",
+   "titulo": "Los 10 Youtubers Más Hambreados de Internet 2 *reacción*",
+   "publicado": "2026-10-30T23:59:42Z",
+   "segundos": 2909,
+   "miniatura": "https://i.ytimg.com/vi/Ww52QMQWZRs/maxresdefault.jpg",
+   "canal": "danx",
+   "esta_semana": true
+  },
   {
    "id": "hKUGORBhqnU",
    "titulo": "El Gobierno de México Es Peor de lo que Pensé",
