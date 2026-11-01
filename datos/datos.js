@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-10-31T23:08:35Z",
+ "actualizado": "2026-11-01T02:27:55Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -57,9 +57,17 @@ window.DATOS = {
    "foto": "https://yt3.ggpht.com/G8JzDzNjFiwLmBuRi3GDgC9JOcF-H-NYuTOnR04XJL5wT9O3lIURUlTL6zLJADKsWgdfBtKX=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
    "suscriptores": 133000,
-   "total_videos": 342,
+   "total_videos": 343,
    "url": "https://www.youtube.com/@danxof",
    "ultimos": [
+    {
+     "id": "P8lqavT6e4A",
+     "titulo": "El Creador De Jeff The Killer es PEOR de lo que PENSÉ",
+     "publicado": "2026-10-31T23:50:40Z",
+     "segundos": 1368,
+     "miniatura": "https://i.ytimg.com/vi/P8lqavT6e4A/maxresdefault.jpg",
+     "canal": "danx"
+    },
     {
      "id": "Ww52QMQWZRs",
      "titulo": "Los 10 Youtubers Más Hambreados de Internet 2 *reacción*",
@@ -82,14 +90,6 @@ window.DATOS = {
      "publicado": "2026-10-29T00:38:38Z",
      "segundos": 5791,
      "miniatura": "https://i.ytimg.com/vi/3e814ulUu1M/maxresdefault.jpg",
-     "canal": "danx"
-    },
-    {
-     "id": "RJARboVrVk8",
-     "titulo": "La Triste Realidad de Ayudar a Pobres Malagradecidos",
-     "publicado": "2026-10-27T22:18:47Z",
-     "segundos": 1919,
-     "miniatura": "https://i.ytimg.com/vi/RJARboVrVk8/maxresdefault.jpg",
      "canal": "danx"
     }
    ]
@@ -164,6 +164,15 @@ window.DATOS = {
   }
  ],
  "rotacion": [
+  {
+   "id": "P8lqavT6e4A",
+   "titulo": "El Creador De Jeff The Killer es PEOR de lo que PENSÉ",
+   "publicado": "2026-10-31T23:50:40Z",
+   "segundos": 1368,
+   "miniatura": "https://i.ytimg.com/vi/P8lqavT6e4A/maxresdefault.jpg",
+   "canal": "danx",
+   "esta_semana": true
+  },
   {
    "id": "Ww52QMQWZRs",
    "titulo": "Los 10 Youtubers Más Hambreados de Internet 2 *reacción*",
