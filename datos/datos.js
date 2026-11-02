@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-11-02T17:21:36Z",
+ "actualizado": "2026-11-02T23:59:34Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -216,15 +216,6 @@ window.DATOS = {
    "segundos": 9983,
    "miniatura": "https://i.ytimg.com/vi/gmPM6zF702k/maxresdefault.jpg",
    "canal": "gameplays",
-   "esta_semana": true
-  },
-  {
-   "id": "dNn9g2STHgA",
-   "titulo": "La Historia de la Rivalidad entre Leo Rey y Alexitico",
-   "publicado": "2026-10-26T21:54:23Z",
-   "segundos": 1645,
-   "miniatura": "https://i.ytimg.com/vi/dNn9g2STHgA/maxresdefault.jpg",
-   "canal": "danx",
    "esta_semana": true
   }
  ]
