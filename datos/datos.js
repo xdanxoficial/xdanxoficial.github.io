@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-11-02T23:59:34Z",
+ "actualizado": "2026-11-03T06:31:20Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -57,9 +57,17 @@ window.DATOS = {
    "foto": "https://yt3.ggpht.com/G8JzDzNjFiwLmBuRi3GDgC9JOcF-H-NYuTOnR04XJL5wT9O3lIURUlTL6zLJADKsWgdfBtKX=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
    "suscriptores": 133000,
-   "total_videos": 342,
+   "total_videos": 344,
    "url": "https://www.youtube.com/@danxof",
    "ultimos": [
+    {
+     "id": "BnUm3F23394",
+     "titulo": "El Caso de Rojuu es Peor de lo que PENSÉ",
+     "publicado": "2026-11-03T02:02:54Z",
+     "segundos": 2831,
+     "miniatura": "https://i.ytimg.com/vi/BnUm3F23394/maxresdefault.jpg",
+     "canal": "danx"
+    },
     {
      "id": "P8lqavT6e4A",
      "titulo": "El Creador De Jeff The Killer es PEOR de lo que PENSÉ",
@@ -82,14 +90,6 @@ window.DATOS = {
      "publicado": "2026-10-29T22:26:34Z",
      "segundos": 1637,
      "miniatura": "https://i.ytimg.com/vi/hKUGORBhqnU/maxresdefault.jpg",
-     "canal": "danx"
-    },
-    {
-     "id": "3e814ulUu1M",
-     "titulo": "El Jeffrey Epstein Chileno💀 Mea Culpa Reacción Funable xDanx",
-     "publicado": "2026-10-29T00:38:38Z",
-     "segundos": 5791,
-     "miniatura": "https://i.ytimg.com/vi/3e814ulUu1M/maxresdefault.jpg",
      "canal": "danx"
     }
    ]
@@ -164,6 +164,15 @@ window.DATOS = {
   }
  ],
  "rotacion": [
+  {
+   "id": "BnUm3F23394",
+   "titulo": "El Caso de Rojuu es Peor de lo que PENSÉ",
+   "publicado": "2026-11-03T02:02:54Z",
+   "segundos": 2831,
+   "miniatura": "https://i.ytimg.com/vi/BnUm3F23394/maxresdefault.jpg",
+   "canal": "danx",
+   "esta_semana": true
+  },
   {
    "id": "P8lqavT6e4A",
    "titulo": "El Creador De Jeff The Killer es PEOR de lo que PENSÉ",
