@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-11-03T20:48:13Z",
+ "actualizado": "2026-11-04T01:05:03Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -206,15 +206,6 @@ window.DATOS = {
    "publicado": "2026-10-29T00:38:38Z",
    "segundos": 5791,
    "miniatura": "https://i.ytimg.com/vi/3e814ulUu1M/maxresdefault.jpg",
-   "canal": "danx",
-   "esta_semana": true
-  },
-  {
-   "id": "RJARboVrVk8",
-   "titulo": "La Triste Realidad de Ayudar a Pobres Malagradecidos",
-   "publicado": "2026-10-27T22:18:47Z",
-   "segundos": 1919,
-   "miniatura": "https://i.ytimg.com/vi/RJARboVrVk8/maxresdefault.jpg",
    "canal": "danx",
    "esta_semana": true
   }
