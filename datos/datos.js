@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-11-04T01:05:03Z",
+ "actualizado": "2026-11-04T21:48:31Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -57,9 +57,17 @@ window.DATOS = {
    "foto": "https://yt3.ggpht.com/G8JzDzNjFiwLmBuRi3GDgC9JOcF-H-NYuTOnR04XJL5wT9O3lIURUlTL6zLJADKsWgdfBtKX=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
    "suscriptores": 133000,
-   "total_videos": 344,
+   "total_videos": 345,
    "url": "https://www.youtube.com/@danxof",
    "ultimos": [
+    {
+     "id": "e-VLZ39AWVQ",
+     "titulo": "¿Por Qué Ahora Todos Odian a Westcol?",
+     "publicado": "2026-11-04T21:43:26Z",
+     "segundos": 3100,
+     "miniatura": "https://i.ytimg.com/vi/e-VLZ39AWVQ/maxresdefault.jpg",
+     "canal": "danx"
+    },
     {
      "id": "BnUm3F23394",
      "titulo": "El Caso de Rojuu es Peor de lo que PENSÉ",
@@ -82,14 +90,6 @@ window.DATOS = {
      "publicado": "2026-10-30T23:59:42Z",
      "segundos": 2909,
      "miniatura": "https://i.ytimg.com/vi/Ww52QMQWZRs/maxresdefault.jpg",
-     "canal": "danx"
-    },
-    {
-     "id": "hKUGORBhqnU",
-     "titulo": "El Gobierno de México Es Peor de lo que Pensé",
-     "publicado": "2026-10-29T22:26:34Z",
-     "segundos": 1637,
-     "miniatura": "https://i.ytimg.com/vi/hKUGORBhqnU/maxresdefault.jpg",
      "canal": "danx"
     }
    ]
@@ -164,6 +164,15 @@ window.DATOS = {
   }
  ],
  "rotacion": [
+  {
+   "id": "e-VLZ39AWVQ",
+   "titulo": "¿Por Qué Ahora Todos Odian a Westcol?",
+   "publicado": "2026-11-04T21:43:26Z",
+   "segundos": 3100,
+   "miniatura": "https://i.ytimg.com/vi/e-VLZ39AWVQ/maxresdefault.jpg",
+   "canal": "danx",
+   "esta_semana": true
+  },
   {
    "id": "BnUm3F23394",
    "titulo": "El Caso de Rojuu es Peor de lo que PENSÉ",
