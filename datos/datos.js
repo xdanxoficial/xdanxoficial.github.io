@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-11-05T09:44:47Z",
+ "actualizado": "2026-11-06T03:33:49Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -57,9 +57,17 @@ window.DATOS = {
    "foto": "https://yt3.ggpht.com/G8JzDzNjFiwLmBuRi3GDgC9JOcF-H-NYuTOnR04XJL5wT9O3lIURUlTL6zLJADKsWgdfBtKX=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
    "suscriptores": 133000,
-   "total_videos": 345,
+   "total_videos": 346,
    "url": "https://www.youtube.com/@danxof",
    "ultimos": [
+    {
+     "id": "ShLzhTcBVzc",
+     "titulo": "El Contexto REAL de Estas Imágenes Cursed",
+     "publicado": "2026-11-05T22:44:35Z",
+     "segundos": 2249,
+     "miniatura": "https://i.ytimg.com/vi/ShLzhTcBVzc/maxresdefault.jpg",
+     "canal": "danx"
+    },
     {
      "id": "e-VLZ39AWVQ",
      "titulo": "¿Por Qué Ahora Todos Odian a Westcol?",
@@ -82,14 +90,6 @@ window.DATOS = {
      "publicado": "2026-10-31T23:50:40Z",
      "segundos": 1368,
      "miniatura": "https://i.ytimg.com/vi/P8lqavT6e4A/maxresdefault.jpg",
-     "canal": "danx"
-    },
-    {
-     "id": "Ww52QMQWZRs",
-     "titulo": "Los 10 Youtubers Más Hambreados de Internet 2 *reacción*",
-     "publicado": "2026-10-30T23:59:42Z",
-     "segundos": 2909,
-     "miniatura": "https://i.ytimg.com/vi/Ww52QMQWZRs/maxresdefault.jpg",
      "canal": "danx"
     }
    ]
@@ -165,6 +165,15 @@ window.DATOS = {
  ],
  "rotacion": [
   {
+   "id": "ShLzhTcBVzc",
+   "titulo": "El Contexto REAL de Estas Imágenes Cursed",
+   "publicado": "2026-11-05T22:44:35Z",
+   "segundos": 2249,
+   "miniatura": "https://i.ytimg.com/vi/ShLzhTcBVzc/maxresdefault.jpg",
+   "canal": "danx",
+   "esta_semana": true
+  },
+  {
    "id": "e-VLZ39AWVQ",
    "titulo": "¿Por Qué Ahora Todos Odian a Westcol?",
    "publicado": "2026-11-04T21:43:26Z",
@@ -197,15 +206,6 @@ window.DATOS = {
    "publicado": "2026-10-30T23:59:42Z",
    "segundos": 2909,
    "miniatura": "https://i.ytimg.com/vi/Ww52QMQWZRs/maxresdefault.jpg",
-   "canal": "danx",
-   "esta_semana": true
-  },
-  {
-   "id": "hKUGORBhqnU",
-   "titulo": "El Gobierno de México Es Peor de lo que Pensé",
-   "publicado": "2026-10-29T22:26:34Z",
-   "segundos": 1637,
-   "miniatura": "https://i.ytimg.com/vi/hKUGORBhqnU/maxresdefault.jpg",
    "canal": "danx",
    "esta_semana": true
   }
