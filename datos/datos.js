@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-11-06T23:42:14Z",
+ "actualizado": "2026-11-07T05:01:40Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -102,7 +102,7 @@ window.DATOS = {
    "descripcion": "Gameplays editados de xDanx de gran variedad de video juegos distintos",
    "foto": "https://yt3.ggpht.com/uIa-WrREAx3OzbO35C8Sq0G9AiyhTDV63g2rWDYTDeqnKah3TVOFRjKcjgEJOp3GJ5KOA30Nfg=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
-   "suscriptores": 7970,
+   "suscriptores": 7980,
    "total_videos": 15,
    "url": "https://www.youtube.com/@xdanxgameplays",
    "ultimos": [
@@ -197,15 +197,6 @@ window.DATOS = {
    "publicado": "2026-10-31T23:50:40Z",
    "segundos": 1368,
    "miniatura": "https://i.ytimg.com/vi/P8lqavT6e4A/maxresdefault.jpg",
-   "canal": "danx",
-   "esta_semana": true
-  },
-  {
-   "id": "Ww52QMQWZRs",
-   "titulo": "Los 10 Youtubers Más Hambreados de Internet 2 *reacción*",
-   "publicado": "2026-10-30T23:59:42Z",
-   "segundos": 2909,
-   "miniatura": "https://i.ytimg.com/vi/Ww52QMQWZRs/maxresdefault.jpg",
    "canal": "danx",
    "esta_semana": true
   }
