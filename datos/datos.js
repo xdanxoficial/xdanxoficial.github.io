@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-11-07T21:32:51Z",
+ "actualizado": "2026-11-08T01:09:46Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -57,9 +57,17 @@ window.DATOS = {
    "foto": "https://yt3.ggpht.com/G8JzDzNjFiwLmBuRi3GDgC9JOcF-H-NYuTOnR04XJL5wT9O3lIURUlTL6zLJADKsWgdfBtKX=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
    "suscriptores": 133000,
-   "total_videos": 346,
+   "total_videos": 347,
    "url": "https://www.youtube.com/@danxof",
    "ultimos": [
+    {
+     "id": "3P7Fw_SwNqQ",
+     "titulo": "El Trágico Descenso a la Locura de July3p",
+     "publicado": "2026-11-08T00:48:42Z",
+     "segundos": 7869,
+     "miniatura": "https://i.ytimg.com/vi/3P7Fw_SwNqQ/maxresdefault.jpg",
+     "canal": "danx"
+    },
     {
      "id": "ShLzhTcBVzc",
      "titulo": "El Contexto REAL de Estas Imágenes Cursed",
@@ -82,14 +90,6 @@ window.DATOS = {
      "publicado": "2026-11-03T02:02:54Z",
      "segundos": 2831,
      "miniatura": "https://i.ytimg.com/vi/BnUm3F23394/maxresdefault.jpg",
-     "canal": "danx"
-    },
-    {
-     "id": "P8lqavT6e4A",
-     "titulo": "El Creador De Jeff The Killer es PEOR de lo que PENSÉ",
-     "publicado": "2026-10-31T23:50:40Z",
-     "segundos": 1368,
-     "miniatura": "https://i.ytimg.com/vi/P8lqavT6e4A/maxresdefault.jpg",
      "canal": "danx"
     }
    ]
@@ -165,6 +165,15 @@ window.DATOS = {
  ],
  "rotacion": [
   {
+   "id": "3P7Fw_SwNqQ",
+   "titulo": "El Trágico Descenso a la Locura de July3p",
+   "publicado": "2026-11-08T00:48:42Z",
+   "segundos": 7869,
+   "miniatura": "https://i.ytimg.com/vi/3P7Fw_SwNqQ/maxresdefault.jpg",
+   "canal": "danx",
+   "esta_semana": true
+  },
+  {
    "id": "ShLzhTcBVzc",
    "titulo": "El Contexto REAL de Estas Imágenes Cursed",
    "publicado": "2026-11-05T22:44:35Z",
@@ -188,15 +197,6 @@ window.DATOS = {
    "publicado": "2026-11-03T02:02:54Z",
    "segundos": 2831,
    "miniatura": "https://i.ytimg.com/vi/BnUm3F23394/maxresdefault.jpg",
-   "canal": "danx",
-   "esta_semana": true
-  },
-  {
-   "id": "P8lqavT6e4A",
-   "titulo": "El Creador De Jeff The Killer es PEOR de lo que PENSÉ",
-   "publicado": "2026-10-31T23:50:40Z",
-   "segundos": 1368,
-   "miniatura": "https://i.ytimg.com/vi/P8lqavT6e4A/maxresdefault.jpg",
    "canal": "danx",
    "esta_semana": true
   }
