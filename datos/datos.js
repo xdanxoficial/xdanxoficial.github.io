@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-11-09T11:00:12Z",
+ "actualizado": "2026-11-09T21:33:38Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -57,9 +57,17 @@ window.DATOS = {
    "foto": "https://yt3.ggpht.com/G8JzDzNjFiwLmBuRi3GDgC9JOcF-H-NYuTOnR04XJL5wT9O3lIURUlTL6zLJADKsWgdfBtKX=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
    "suscriptores": 133000,
-   "total_videos": 347,
+   "total_videos": 348,
    "url": "https://www.youtube.com/@danxof",
    "ultimos": [
+    {
+     "id": "h0TRKVvG1ao",
+     "titulo": "Salfate Fue lo Más Bizarro de la Televisión Chilena *reacción xDanx*",
+     "publicado": "2026-11-09T21:27:41Z",
+     "segundos": 1949,
+     "miniatura": "https://i.ytimg.com/vi/h0TRKVvG1ao/maxresdefault.jpg",
+     "canal": "danx"
+    },
     {
      "id": "3P7Fw_SwNqQ",
      "titulo": "El Trágico Descenso a la Locura de July3p",
@@ -82,14 +90,6 @@ window.DATOS = {
      "publicado": "2026-11-04T21:43:26Z",
      "segundos": 3100,
      "miniatura": "https://i.ytimg.com/vi/e-VLZ39AWVQ/maxresdefault.jpg",
-     "canal": "danx"
-    },
-    {
-     "id": "BnUm3F23394",
-     "titulo": "El Caso de Rojuu es Peor de lo que PENSÉ",
-     "publicado": "2026-11-03T02:02:54Z",
-     "segundos": 2831,
-     "miniatura": "https://i.ytimg.com/vi/BnUm3F23394/maxresdefault.jpg",
      "canal": "danx"
     }
    ]
@@ -164,6 +164,15 @@ window.DATOS = {
   }
  ],
  "rotacion": [
+  {
+   "id": "h0TRKVvG1ao",
+   "titulo": "Salfate Fue lo Más Bizarro de la Televisión Chilena *reacción xDanx*",
+   "publicado": "2026-11-09T21:27:41Z",
+   "segundos": 1949,
+   "miniatura": "https://i.ytimg.com/vi/h0TRKVvG1ao/maxresdefault.jpg",
+   "canal": "danx",
+   "esta_semana": true
+  },
   {
    "id": "3P7Fw_SwNqQ",
    "titulo": "El Trágico Descenso a la Locura de July3p",
