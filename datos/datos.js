@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-11-09T21:33:38Z",
+ "actualizado": "2026-11-10T03:58:31Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -57,9 +57,17 @@ window.DATOS = {
    "foto": "https://yt3.ggpht.com/G8JzDzNjFiwLmBuRi3GDgC9JOcF-H-NYuTOnR04XJL5wT9O3lIURUlTL6zLJADKsWgdfBtKX=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
    "suscriptores": 133000,
-   "total_videos": 348,
+   "total_videos": 349,
    "url": "https://www.youtube.com/@danxof",
    "ultimos": [
+    {
+     "id": "AaqOLs9snC8",
+     "titulo": "Intentaron Asesinar a un Streamer en Pleno Directo *reacción xDanx*",
+     "publicado": "2026-11-10T01:15:17Z",
+     "segundos": 2171,
+     "miniatura": "https://i.ytimg.com/vi/AaqOLs9snC8/maxresdefault.jpg",
+     "canal": "danx"
+    },
     {
      "id": "h0TRKVvG1ao",
      "titulo": "Salfate Fue lo Más Bizarro de la Televisión Chilena *reacción xDanx*",
@@ -83,14 +91,6 @@ window.DATOS = {
      "segundos": 2249,
      "miniatura": "https://i.ytimg.com/vi/ShLzhTcBVzc/maxresdefault.jpg",
      "canal": "danx"
-    },
-    {
-     "id": "e-VLZ39AWVQ",
-     "titulo": "¿Por Qué Ahora Todos Odian a Westcol?",
-     "publicado": "2026-11-04T21:43:26Z",
-     "segundos": 3100,
-     "miniatura": "https://i.ytimg.com/vi/e-VLZ39AWVQ/maxresdefault.jpg",
-     "canal": "danx"
     }
    ]
   },
@@ -102,7 +102,7 @@ window.DATOS = {
    "descripcion": "Gameplays editados de xDanx de gran variedad de video juegos distintos",
    "foto": "https://yt3.ggpht.com/uIa-WrREAx3OzbO35C8Sq0G9AiyhTDV63g2rWDYTDeqnKah3TVOFRjKcjgEJOp3GJ5KOA30Nfg=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
-   "suscriptores": 7990,
+   "suscriptores": 8000,
    "total_videos": 15,
    "url": "https://www.youtube.com/@xdanxgameplays",
    "ultimos": [
@@ -165,6 +165,15 @@ window.DATOS = {
  ],
  "rotacion": [
   {
+   "id": "AaqOLs9snC8",
+   "titulo": "Intentaron Asesinar a un Streamer en Pleno Directo *reacción xDanx*",
+   "publicado": "2026-11-10T01:15:17Z",
+   "segundos": 2171,
+   "miniatura": "https://i.ytimg.com/vi/AaqOLs9snC8/maxresdefault.jpg",
+   "canal": "danx",
+   "esta_semana": true
+  },
+  {
    "id": "h0TRKVvG1ao",
    "titulo": "Salfate Fue lo Más Bizarro de la Televisión Chilena *reacción xDanx*",
    "publicado": "2026-11-09T21:27:41Z",
@@ -197,15 +206,6 @@ window.DATOS = {
    "publicado": "2026-11-04T21:43:26Z",
    "segundos": 3100,
    "miniatura": "https://i.ytimg.com/vi/e-VLZ39AWVQ/maxresdefault.jpg",
-   "canal": "danx",
-   "esta_semana": true
-  },
-  {
-   "id": "BnUm3F23394",
-   "titulo": "El Caso de Rojuu es Peor de lo que PENSÉ",
-   "publicado": "2026-11-03T02:02:54Z",
-   "segundos": 2831,
-   "miniatura": "https://i.ytimg.com/vi/BnUm3F23394/maxresdefault.jpg",
    "canal": "danx",
    "esta_semana": true
   }
