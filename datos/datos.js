@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-11-10T19:57:30Z",
+ "actualizado": "2026-11-11T00:32:22Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -57,9 +57,17 @@ window.DATOS = {
    "foto": "https://yt3.ggpht.com/G8JzDzNjFiwLmBuRi3GDgC9JOcF-H-NYuTOnR04XJL5wT9O3lIURUlTL6zLJADKsWgdfBtKX=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
    "suscriptores": 133000,
-   "total_videos": 349,
+   "total_videos": 350,
    "url": "https://www.youtube.com/@danxof",
    "ultimos": [
+    {
+     "id": "W1mu7UuKkuA",
+     "titulo": "Estas Miniaturas Cambiaron YouTube Para Siempre",
+     "publicado": "2026-11-10T23:22:06Z",
+     "segundos": 2296,
+     "miniatura": "https://i.ytimg.com/vi/W1mu7UuKkuA/maxresdefault.jpg",
+     "canal": "danx"
+    },
     {
      "id": "AaqOLs9snC8",
      "titulo": "Intentaron Asesinar a un Streamer en Pleno Directo *reacción xDanx*",
@@ -82,14 +90,6 @@ window.DATOS = {
      "publicado": "2026-11-08T00:48:42Z",
      "segundos": 7869,
      "miniatura": "https://i.ytimg.com/vi/3P7Fw_SwNqQ/maxresdefault.jpg",
-     "canal": "danx"
-    },
-    {
-     "id": "ShLzhTcBVzc",
-     "titulo": "El Contexto REAL de Estas Imágenes Cursed",
-     "publicado": "2026-11-05T22:44:35Z",
-     "segundos": 2249,
-     "miniatura": "https://i.ytimg.com/vi/ShLzhTcBVzc/maxresdefault.jpg",
      "canal": "danx"
     }
    ]
@@ -164,6 +164,15 @@ window.DATOS = {
   }
  ],
  "rotacion": [
+  {
+   "id": "W1mu7UuKkuA",
+   "titulo": "Estas Miniaturas Cambiaron YouTube Para Siempre",
+   "publicado": "2026-11-10T23:22:06Z",
+   "segundos": 2296,
+   "miniatura": "https://i.ytimg.com/vi/W1mu7UuKkuA/maxresdefault.jpg",
+   "canal": "danx",
+   "esta_semana": true
+  },
   {
    "id": "AaqOLs9snC8",
    "titulo": "Intentaron Asesinar a un Streamer en Pleno Directo *reacción xDanx*",
