@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-11-11T15:56:08Z",
+ "actualizado": "2026-11-11T22:30:47Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -102,7 +102,7 @@ window.DATOS = {
    "descripcion": "Gameplays editados de xDanx de gran variedad de video juegos distintos",
    "foto": "https://yt3.ggpht.com/uIa-WrREAx3OzbO35C8Sq0G9AiyhTDV63g2rWDYTDeqnKah3TVOFRjKcjgEJOp3GJ5KOA30Nfg=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
-   "suscriptores": 8010,
+   "suscriptores": 8020,
    "total_videos": 15,
    "url": "https://www.youtube.com/@xdanxgameplays",
    "ultimos": [
@@ -206,15 +206,6 @@ window.DATOS = {
    "publicado": "2026-11-05T22:44:35Z",
    "segundos": 2249,
    "miniatura": "https://i.ytimg.com/vi/ShLzhTcBVzc/maxresdefault.jpg",
-   "canal": "danx",
-   "esta_semana": true
-  },
-  {
-   "id": "e-VLZ39AWVQ",
-   "titulo": "¿Por Qué Ahora Todos Odian a Westcol?",
-   "publicado": "2026-11-04T21:43:26Z",
-   "segundos": 3100,
-   "miniatura": "https://i.ytimg.com/vi/e-VLZ39AWVQ/maxresdefault.jpg",
    "canal": "danx",
    "esta_semana": true
   }
