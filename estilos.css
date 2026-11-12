@@ -281,14 +281,27 @@ h3{font:600 1rem/1.2 var(--display);margin:0 0 12px}
 .numeros h3{margin:0}
 .numeros>p{margin:0;color:var(--muted);font-size:.9rem}
 .kits{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
-.kit{display:flex;align-items:center;gap:14px;padding:16px;border-radius:16px;border:1px solid var(--line);background:var(--vidrio);box-shadow:var(--brillo);
-  color:var(--ink);font:inherit;text-align:left;cursor:pointer;min-width:0;transition:border-color .2s,transform .2s}
-.kit:hover{border-color:var(--accent);transform:translateY(-2px)}
+.kit{display:grid;gap:16px;padding:18px;border-radius:16px;border:1px solid var(--line);background:var(--vidrio);box-shadow:var(--brillo);min-width:0;transition:border-color .2s}
+.kit:hover{border-color:var(--accent)}
+.kit-cab{display:flex;align-items:center;gap:14px;min-width:0}
+.kit-cab>div{display:grid;gap:2px;min-width:0}
 .kit img,.kit .sin-foto{width:52px;height:52px;border-radius:50%;object-fit:cover;flex:none;background:var(--panel-2);box-shadow:0 0 0 2px var(--accent)}
-.kit>div{flex:1;min-width:0;display:grid;gap:2px}
-.kit strong{font:700 1.05rem/1.2 var(--display)}
-.kit span{color:var(--muted);font-size:.84rem}
-.kit .flecha{color:var(--accent-2)}
+.kit strong{font:700 1.15rem/1.2 var(--display)}
+.kit-cab span{color:var(--muted);font-size:.84rem}
+.kit-cifras{display:grid;grid-template-columns:1fr 1fr;padding:12px 0;border-block:1px solid var(--line)}
+.kit-cifras>div{display:grid;gap:4px;padding-left:14px}
+.kit-cifras>div:first-child{padding-left:0}
+.kit-cifras>div+div{border-left:1px solid var(--line)}
+.kit-cifras b{font:800 clamp(1.5rem,4vw,2rem)/1 var(--display);font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.kit-cifras span{color:var(--muted);font-size:.8rem}
+.kit-botones{display:flex;gap:10px;flex-wrap:wrap}
+.kit-botones .btn{flex:1 1 auto;justify-content:center}
+.tambien{margin:0;display:flex;align-items:center;gap:12px;flex-wrap:wrap;color:var(--muted);font-size:.9rem}
+.redes-kit{display:flex;gap:10px;flex-wrap:wrap}
+.red-kit{display:flex;align-items:baseline;gap:8px;padding:8px 16px;border-radius:99px;border:1px solid var(--line);background:var(--vidrio);color:var(--ink);text-decoration:none;transition:border-color .2s}
+.red-kit:hover{border-color:var(--accent)}
+.red-kit b{font:800 1.05rem/1 var(--display)}
+.red-kit span{color:var(--muted);font-size:.84rem}
 
 footer{color:var(--muted);font-size:.8rem;text-align:center;display:grid;gap:4px}
 

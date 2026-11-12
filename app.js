@@ -379,10 +379,20 @@
 
   $("kits").innerHTML = Object.keys(EST.perfiles).map(function (p) {
     var e = EST.perfiles[p], c = canal(p) || {};
-    return '<button class="kit" type="button" data-perfil="' + esc(p) + '">' + foto(c.foto) +
-      "<div><strong>Estadísticas de " + esc(e.titulo) + "</strong><span>" + corto(c.suscriptores || e.suscriptores) +
-      " suscriptores · países, edades y marcas</span></div>" + ICONO.flecha.replace('class="i"', 'class="i flecha"') + "</button>";
+    return '<div class="kit">' +
+      '<div class="kit-cab">' + foto(c.foto) + "<div><strong>" + esc(e.titulo) + "</strong><span>" + esc(e.handle) + "</span></div></div>" +
+      '<div class="kit-cifras"><div><b>' + corto(c.suscriptores || e.suscriptores) + "</b><span>suscriptores</span></div>" +
+      "<div><b>" + miles(e.mediana_engaged) + "</b><span>vistas por video</span></div></div>" +
+      '<div class="kit-botones">' +
+      (e.url_kit ? '<a class="btn" href="' + esc(e.url_kit) + '" target="_blank" rel="noopener">Ver media kit completo ' + ICONO.flecha + "</a>" : "") +
+      '<button class="btn ghost" type="button" data-perfil="' + esc(p) + '">Ver estadísticas</button></div></div>';
   }).join("");
+
+  var redesKit = (EST.redes || []).map(function (r) {
+    return '<a class="red-kit" href="' + esc(r.url) + '" target="_blank" rel="noopener"><b>' + (r.seguidores >= 1000 && r.seguidores < 1e6 ? Math.round(r.seguidores / 1000) + "K" : corto(r.seguidores)) +
+      "</b><span>" + esc(r.nombre) + "</span></a>";
+  }).join("");
+  if (redesKit) $("kits").insertAdjacentHTML("afterend", '<p class="tambien">También en <span class="redes-kit">' + redesKit + "</span></p>");
 
   /* ---------- panel de estadisticas ---------- */
   var panel = $("panel");
@@ -424,6 +434,7 @@
       (marcas ? '<div><h3>Marcas con las que ya trabajé</h3><div class="marcas">' + marcas + "</div></div>" : "") +
       '<div class="botones"><a class="btn" href="mailto:xdanxcontacto@gmail.com?subject=' +
       encodeURIComponent("Contacto de negocios · " + e.titulo) + '">Escríbeme ' + ICONO.flecha + "</a>" +
+      (e.url_kit ? '<a class="btn" href="' + esc(e.url_kit) + '" target="_blank" rel="noopener">Ver media kit completo ' + ICONO.flecha + "</a>" : "") +
       (e.pdf ? '<a class="btn ghost" href="' + esc(e.pdf) + '" download>' + ICONO.bajar + " Descargar media kit (PDF)</a>" : "") +
       (c.url ? '<a class="btn ghost" href="' + esc(c.url) + '" target="_blank" rel="noopener">Ver el canal ' + ICONO.play + "</a>" : "") +
       "</div>" +
@@ -435,7 +446,7 @@
   function cerrarPanel() { if (panel.close) panel.close(); else panel.removeAttribute("open"); }
 
   $("kits").addEventListener("click", function (e) {
-    var b = e.target.closest(".kit");
+    var b = e.target.closest("[data-perfil]");
     if (b) abrirPanel(b.getAttribute("data-perfil"));
   });
   panel.addEventListener("click", function (e) {

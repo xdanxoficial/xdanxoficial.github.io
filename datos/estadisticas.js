@@ -46,7 +46,8 @@ window.ESTADISTICAS = {
    },
    "pct_visto_medio": 29.4,
    "descripcion": "Reacciones y opinión sobre lo que pasa en internet, para el público hispanohablante.",
-   "pdf": "pdf/media-kit-xdanx.pdf"
+   "pdf": "pdf/media-kit-xdanx.pdf",
+   "url_kit": "https://claude.ai/artifact/9ERpEkgVJc4rupEvXoe7HU"
   },
   "danx": {
    "titulo": "DANX",
@@ -93,7 +94,8 @@ window.ESTADISTICAS = {
    },
    "pct_visto_medio": 45.0,
    "descripcion": "Los mejores momentos de los directos de xDanx en Kick.",
-   "pdf": "pdf/media-kit-danx.pdf"
+   "pdf": "pdf/media-kit-danx.pdf",
+   "url_kit": "https://claude.ai/artifact/JGD4t9csoknpSPsTMEGccT"
   }
  },
  "marcas": [
@@ -116,6 +118,18 @@ window.ESTADISTICAS = {
    "nombre": "CyberGhost VPN",
    "video": "https://youtu.be/O1Vy81tcEoE?t=60",
    "logo": "img/marcas/cyberghost-vpn.png"
+  }
+ ],
+ "redes": [
+  {
+   "nombre": "Kick",
+   "seguidores": 31000,
+   "url": "https://kick.com/xdanx_of"
+  },
+  {
+   "nombre": "Instagram",
+   "seguidores": 57000,
+   "url": "https://www.instagram.com/xdanx_cl/"
   }
  ]
 };
