@@ -4,38 +4,38 @@ window.ESTADISTICAS = {
   "xdanx": {
    "titulo": "xDanx",
    "handle": "@xdanx1",
-   "fecha": "2026-09-28",
-   "suscriptores": 642000,
-   "mediana_engaged": 183941,
+   "fecha": "2026-11-12",
+   "suscriptores": 645000,
+   "mediana_engaged": 185097,
    "n_videos": 10,
    "paises": [
     {
      "codigo": "CL",
-     "pct": 31.6
+     "pct": 32.0
     },
     {
      "codigo": "MX",
-     "pct": 21.0
+     "pct": 19.3
     },
     {
      "codigo": "AR",
-     "pct": 15.4
+     "pct": 14.5
     },
     {
      "codigo": "CO",
-     "pct": 5.6
+     "pct": 5.4
     },
     {
      "codigo": "PE",
-     "pct": 5.4
+     "pct": 5.1
     }
    ],
    "edades": {
-    "age13-17": 6.0,
-    "age18-24": 20.9,
-    "age25-34": 42.6,
-    "age35-44": 18.8,
-    "age45-54": 8.3,
+    "age13-17": 6.1,
+    "age18-24": 20.8,
+    "age25-34": 42.4,
+    "age35-44": 19.0,
+    "age45-54": 8.4,
     "age55-64": 1.8,
     "age65-": 1.5
    },
@@ -44,54 +44,54 @@ window.ESTADISTICAS = {
     "male": 68.8,
     "genderUserSpecified": 1.1
    },
-   "pct_visto_medio": 30.3,
+   "pct_visto_medio": 29.4,
    "descripcion": "Reacciones y opinión sobre lo que pasa en internet, para el público hispanohablante.",
    "pdf": "pdf/media-kit-xdanx.pdf"
   },
   "danx": {
    "titulo": "DANX",
    "handle": "@danxof",
-   "fecha": "2026-09-28",
-   "suscriptores": 130000,
-   "mediana_engaged": 35041,
+   "fecha": "2026-11-12",
+   "suscriptores": 133000,
+   "mediana_engaged": 33049,
    "n_videos": 10,
    "paises": [
     {
      "codigo": "CL",
-     "pct": 74.3
+     "pct": 79.7
     },
     {
      "codigo": "AR",
-     "pct": 7.2
+     "pct": 5.2
     },
     {
      "codigo": "MX",
-     "pct": 6.8
+     "pct": 3.6
     },
     {
      "codigo": "PE",
-     "pct": 2.2
+     "pct": 1.6
     },
     {
      "codigo": "CO",
-     "pct": 1.7
+     "pct": 1.2
     }
    ],
    "edades": {
-    "age13-17": 3.5,
-    "age18-24": 24.1,
-    "age25-34": 50.7,
-    "age35-44": 14.3,
-    "age45-54": 4.9,
-    "age55-64": 1.2,
-    "age65-": 1.2
+    "age13-17": 2.5,
+    "age18-24": 25.1,
+    "age25-34": 52.6,
+    "age35-44": 13.6,
+    "age45-54": 4.3,
+    "age55-64": 1.0,
+    "age65-": 0.9
    },
    "genero": {
-    "female": 25.4,
-    "male": 73.1,
-    "genderUserSpecified": 1.5
+    "female": 28.4,
+    "male": 70.5,
+    "genderUserSpecified": 1.1
    },
-   "pct_visto_medio": 45.5,
+   "pct_visto_medio": 45.0,
    "descripcion": "Los mejores momentos de los directos de xDanx en Kick.",
    "pdf": "pdf/media-kit-danx.pdf"
   }
