@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-11-11T22:30:47Z",
+ "actualizado": "2026-11-13T01:21:14Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -57,9 +57,17 @@ window.DATOS = {
    "foto": "https://yt3.ggpht.com/G8JzDzNjFiwLmBuRi3GDgC9JOcF-H-NYuTOnR04XJL5wT9O3lIURUlTL6zLJADKsWgdfBtKX=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
    "suscriptores": 133000,
-   "total_videos": 350,
+   "total_videos": 351,
    "url": "https://www.youtube.com/@danxof",
    "ultimos": [
+    {
+     "id": "tWj8Kyia0Sw",
+     "titulo": "Los Streamers Peruanos Son lo Peor💀",
+     "publicado": "2026-11-12T22:34:50Z",
+     "segundos": 4440,
+     "miniatura": "https://i.ytimg.com/vi/tWj8Kyia0Sw/maxresdefault.jpg",
+     "canal": "danx"
+    },
     {
      "id": "W1mu7UuKkuA",
      "titulo": "Estas Miniaturas Cambiaron YouTube Para Siempre",
@@ -83,14 +91,6 @@ window.DATOS = {
      "segundos": 1949,
      "miniatura": "https://i.ytimg.com/vi/h0TRKVvG1ao/maxresdefault.jpg",
      "canal": "danx"
-    },
-    {
-     "id": "3P7Fw_SwNqQ",
-     "titulo": "El Trágico Descenso a la Locura de July3p",
-     "publicado": "2026-11-08T00:48:42Z",
-     "segundos": 7869,
-     "miniatura": "https://i.ytimg.com/vi/3P7Fw_SwNqQ/maxresdefault.jpg",
-     "canal": "danx"
     }
    ]
   },
@@ -102,7 +102,7 @@ window.DATOS = {
    "descripcion": "Gameplays editados de xDanx de gran variedad de video juegos distintos",
    "foto": "https://yt3.ggpht.com/uIa-WrREAx3OzbO35C8Sq0G9AiyhTDV63g2rWDYTDeqnKah3TVOFRjKcjgEJOp3GJ5KOA30Nfg=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
-   "suscriptores": 8020,
+   "suscriptores": 8030,
    "total_videos": 15,
    "url": "https://www.youtube.com/@xdanxgameplays",
    "ultimos": [
@@ -148,7 +148,7 @@ window.DATOS = {
    "descripcion": "",
    "foto": "https://yt3.ggpht.com/zk5RUuTmcrwaZRuT2r2OjhwhT_j_Uj2_If-1v34j6Gs46HOPkfLC_3NRamZQbX_1pMgSJA9GYJw=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
-   "suscriptores": 4600,
+   "suscriptores": 4610,
    "total_videos": 1,
    "url": "https://www.youtube.com/@xDanxVlogs",
    "ultimos": [
@@ -164,6 +164,15 @@ window.DATOS = {
   }
  ],
  "rotacion": [
+  {
+   "id": "tWj8Kyia0Sw",
+   "titulo": "Los Streamers Peruanos Son lo Peor💀",
+   "publicado": "2026-11-12T22:34:50Z",
+   "segundos": 4440,
+   "miniatura": "https://i.ytimg.com/vi/tWj8Kyia0Sw/maxresdefault.jpg",
+   "canal": "danx",
+   "esta_semana": true
+  },
   {
    "id": "W1mu7UuKkuA",
    "titulo": "Estas Miniaturas Cambiaron YouTube Para Siempre",
@@ -197,15 +206,6 @@ window.DATOS = {
    "publicado": "2026-11-08T00:48:42Z",
    "segundos": 7869,
    "miniatura": "https://i.ytimg.com/vi/3P7Fw_SwNqQ/maxresdefault.jpg",
-   "canal": "danx",
-   "esta_semana": true
-  },
-  {
-   "id": "ShLzhTcBVzc",
-   "titulo": "El Contexto REAL de Estas Imágenes Cursed",
-   "publicado": "2026-11-05T22:44:35Z",
-   "segundos": 2249,
-   "miniatura": "https://i.ytimg.com/vi/ShLzhTcBVzc/maxresdefault.jpg",
    "canal": "danx",
    "esta_semana": true
   }
