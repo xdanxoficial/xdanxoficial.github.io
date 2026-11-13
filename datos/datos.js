@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-11-13T01:21:14Z",
+ "actualizado": "2026-11-13T22:29:51Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -57,9 +57,17 @@ window.DATOS = {
    "foto": "https://yt3.ggpht.com/G8JzDzNjFiwLmBuRi3GDgC9JOcF-H-NYuTOnR04XJL5wT9O3lIURUlTL6zLJADKsWgdfBtKX=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
    "suscriptores": 133000,
-   "total_videos": 351,
+   "total_videos": 352,
    "url": "https://www.youtube.com/@danxof",
    "ultimos": [
+    {
+     "id": "LrbRiGFxFMo",
+     "titulo": "El Iceberg de Kick: Lo Más Turbio de la Plataforma",
+     "publicado": "2026-11-13T21:43:34Z",
+     "segundos": 2079,
+     "miniatura": "https://i.ytimg.com/vi/LrbRiGFxFMo/maxresdefault.jpg",
+     "canal": "danx"
+    },
     {
      "id": "tWj8Kyia0Sw",
      "titulo": "Los Streamers Peruanos Son lo Peor💀",
@@ -82,14 +90,6 @@ window.DATOS = {
      "publicado": "2026-11-10T01:15:17Z",
      "segundos": 2171,
      "miniatura": "https://i.ytimg.com/vi/AaqOLs9snC8/maxresdefault.jpg",
-     "canal": "danx"
-    },
-    {
-     "id": "h0TRKVvG1ao",
-     "titulo": "Salfate Fue lo Más Bizarro de la Televisión Chilena *reacción xDanx*",
-     "publicado": "2026-11-09T21:27:41Z",
-     "segundos": 1949,
-     "miniatura": "https://i.ytimg.com/vi/h0TRKVvG1ao/maxresdefault.jpg",
      "canal": "danx"
     }
    ]
@@ -164,6 +164,15 @@ window.DATOS = {
   }
  ],
  "rotacion": [
+  {
+   "id": "LrbRiGFxFMo",
+   "titulo": "El Iceberg de Kick: Lo Más Turbio de la Plataforma",
+   "publicado": "2026-11-13T21:43:34Z",
+   "segundos": 2079,
+   "miniatura": "https://i.ytimg.com/vi/LrbRiGFxFMo/maxresdefault.jpg",
+   "canal": "danx",
+   "esta_semana": true
+  },
   {
    "id": "tWj8Kyia0Sw",
    "titulo": "Los Streamers Peruanos Son lo Peor💀",
