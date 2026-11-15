@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-11-14T09:53:01Z",
+ "actualizado": "2026-11-15T00:49:47Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -206,15 +206,6 @@ window.DATOS = {
    "publicado": "2026-11-09T21:27:41Z",
    "segundos": 1949,
    "miniatura": "https://i.ytimg.com/vi/h0TRKVvG1ao/maxresdefault.jpg",
-   "canal": "danx",
-   "esta_semana": true
-  },
-  {
-   "id": "3P7Fw_SwNqQ",
-   "titulo": "El Trágico Descenso a la Locura de July3p",
-   "publicado": "2026-11-08T00:48:42Z",
-   "segundos": 7869,
-   "miniatura": "https://i.ytimg.com/vi/3P7Fw_SwNqQ/maxresdefault.jpg",
    "canal": "danx",
    "esta_semana": true
   }
