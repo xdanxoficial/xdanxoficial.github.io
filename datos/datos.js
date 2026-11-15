@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-11-15T00:49:47Z",
+ "actualizado": "2026-11-15T15:26:05Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -57,7 +57,7 @@ window.DATOS = {
    "foto": "https://yt3.ggpht.com/G8JzDzNjFiwLmBuRi3GDgC9JOcF-H-NYuTOnR04XJL5wT9O3lIURUlTL6zLJADKsWgdfBtKX=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
    "suscriptores": 133000,
-   "total_videos": 352,
+   "total_videos": 351,
    "url": "https://www.youtube.com/@danxof",
    "ultimos": [
     {
