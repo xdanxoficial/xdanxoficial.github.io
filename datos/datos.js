@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-11-16T17:18:24Z",
+ "actualizado": "2026-11-17T00:58:17Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -197,15 +197,6 @@ window.DATOS = {
    "publicado": "2026-11-10T01:15:17Z",
    "segundos": 2171,
    "miniatura": "https://i.ytimg.com/vi/AaqOLs9snC8/maxresdefault.jpg",
-   "canal": "danx",
-   "esta_semana": true
-  },
-  {
-   "id": "h0TRKVvG1ao",
-   "titulo": "Salfate Fue lo Más Bizarro de la Televisión Chilena *reacción xDanx*",
-   "publicado": "2026-11-09T21:27:41Z",
-   "segundos": 1949,
-   "miniatura": "https://i.ytimg.com/vi/h0TRKVvG1ao/maxresdefault.jpg",
    "canal": "danx",
    "esta_semana": true
   }
