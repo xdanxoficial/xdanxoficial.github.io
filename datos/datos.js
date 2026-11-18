@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-11-17T09:00:20Z",
+ "actualizado": "2026-11-18T01:12:13Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -57,9 +57,17 @@ window.DATOS = {
    "foto": "https://yt3.ggpht.com/G8JzDzNjFiwLmBuRi3GDgC9JOcF-H-NYuTOnR04XJL5wT9O3lIURUlTL6zLJADKsWgdfBtKX=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
    "suscriptores": 133000,
-   "total_videos": 352,
+   "total_videos": 353,
    "url": "https://www.youtube.com/@danxof",
    "ultimos": [
+    {
+     "id": "d8aYTORc1qM",
+     "titulo": "Los Padres Más Aprovechadores de los Streamers",
+     "publicado": "2026-11-17T21:47:06Z",
+     "segundos": 2384,
+     "miniatura": "https://i.ytimg.com/vi/d8aYTORc1qM/maxresdefault.jpg",
+     "canal": "danx"
+    },
     {
      "id": "LrbRiGFxFMo",
      "titulo": "El Iceberg de Kick: Lo Más Turbio de la Plataforma",
@@ -82,14 +90,6 @@ window.DATOS = {
      "publicado": "2026-11-10T23:22:06Z",
      "segundos": 2296,
      "miniatura": "https://i.ytimg.com/vi/W1mu7UuKkuA/maxresdefault.jpg",
-     "canal": "danx"
-    },
-    {
-     "id": "AaqOLs9snC8",
-     "titulo": "Intentaron Asesinar a un Streamer en Pleno Directo *reacción xDanx*",
-     "publicado": "2026-11-10T01:15:17Z",
-     "segundos": 2171,
-     "miniatura": "https://i.ytimg.com/vi/AaqOLs9snC8/maxresdefault.jpg",
      "canal": "danx"
     }
    ]
@@ -148,7 +148,7 @@ window.DATOS = {
    "descripcion": "",
    "foto": "https://yt3.ggpht.com/zk5RUuTmcrwaZRuT2r2OjhwhT_j_Uj2_If-1v34j6Gs46HOPkfLC_3NRamZQbX_1pMgSJA9GYJw=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
-   "suscriptores": 4640,
+   "suscriptores": 4650,
    "total_videos": 1,
    "url": "https://www.youtube.com/@xDanxVlogs",
    "ultimos": [
@@ -164,6 +164,15 @@ window.DATOS = {
   }
  ],
  "rotacion": [
+  {
+   "id": "d8aYTORc1qM",
+   "titulo": "Los Padres Más Aprovechadores de los Streamers",
+   "publicado": "2026-11-17T21:47:06Z",
+   "segundos": 2384,
+   "miniatura": "https://i.ytimg.com/vi/d8aYTORc1qM/maxresdefault.jpg",
+   "canal": "danx",
+   "esta_semana": true
+  },
   {
    "id": "LrbRiGFxFMo",
    "titulo": "El Iceberg de Kick: Lo Más Turbio de la Plataforma",
@@ -188,15 +197,6 @@ window.DATOS = {
    "publicado": "2026-11-10T23:22:06Z",
    "segundos": 2296,
    "miniatura": "https://i.ytimg.com/vi/W1mu7UuKkuA/maxresdefault.jpg",
-   "canal": "danx",
-   "esta_semana": true
-  },
-  {
-   "id": "AaqOLs9snC8",
-   "titulo": "Intentaron Asesinar a un Streamer en Pleno Directo *reacción xDanx*",
-   "publicado": "2026-11-10T01:15:17Z",
-   "segundos": 2171,
-   "miniatura": "https://i.ytimg.com/vi/AaqOLs9snC8/maxresdefault.jpg",
    "canal": "danx",
    "esta_semana": false
   }
