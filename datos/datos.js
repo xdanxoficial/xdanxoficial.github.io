@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-11-18T01:12:13Z",
+ "actualizado": "2026-11-18T23:59:02Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -57,9 +57,17 @@ window.DATOS = {
    "foto": "https://yt3.ggpht.com/G8JzDzNjFiwLmBuRi3GDgC9JOcF-H-NYuTOnR04XJL5wT9O3lIURUlTL6zLJADKsWgdfBtKX=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
    "suscriptores": 133000,
-   "total_videos": 353,
+   "total_videos": 354,
    "url": "https://www.youtube.com/@danxof",
    "ultimos": [
+    {
+     "id": "azBZthoUHAs",
+     "titulo": "El Creppypasta más Perturbador de xDanx",
+     "publicado": "2026-11-18T22:14:21Z",
+     "segundos": 798,
+     "miniatura": "https://i.ytimg.com/vi/azBZthoUHAs/maxresdefault.jpg",
+     "canal": "danx"
+    },
     {
      "id": "d8aYTORc1qM",
      "titulo": "Los Padres Más Aprovechadores de los Streamers",
@@ -82,14 +90,6 @@ window.DATOS = {
      "publicado": "2026-11-12T22:34:50Z",
      "segundos": 4440,
      "miniatura": "https://i.ytimg.com/vi/tWj8Kyia0Sw/maxresdefault.jpg",
-     "canal": "danx"
-    },
-    {
-     "id": "W1mu7UuKkuA",
-     "titulo": "Estas Miniaturas Cambiaron YouTube Para Siempre",
-     "publicado": "2026-11-10T23:22:06Z",
-     "segundos": 2296,
-     "miniatura": "https://i.ytimg.com/vi/W1mu7UuKkuA/maxresdefault.jpg",
      "canal": "danx"
     }
    ]
@@ -148,7 +148,7 @@ window.DATOS = {
    "descripcion": "",
    "foto": "https://yt3.ggpht.com/zk5RUuTmcrwaZRuT2r2OjhwhT_j_Uj2_If-1v34j6Gs46HOPkfLC_3NRamZQbX_1pMgSJA9GYJw=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
-   "suscriptores": 4650,
+   "suscriptores": 4660,
    "total_videos": 1,
    "url": "https://www.youtube.com/@xDanxVlogs",
    "ultimos": [
@@ -164,6 +164,15 @@ window.DATOS = {
   }
  ],
  "rotacion": [
+  {
+   "id": "azBZthoUHAs",
+   "titulo": "El Creppypasta más Perturbador de xDanx",
+   "publicado": "2026-11-18T22:14:21Z",
+   "segundos": 798,
+   "miniatura": "https://i.ytimg.com/vi/azBZthoUHAs/maxresdefault.jpg",
+   "canal": "danx",
+   "esta_semana": true
+  },
   {
    "id": "d8aYTORc1qM",
    "titulo": "Los Padres Más Aprovechadores de los Streamers",
@@ -190,15 +199,6 @@ window.DATOS = {
    "miniatura": "https://i.ytimg.com/vi/tWj8Kyia0Sw/maxresdefault.jpg",
    "canal": "danx",
    "esta_semana": true
-  },
-  {
-   "id": "W1mu7UuKkuA",
-   "titulo": "Estas Miniaturas Cambiaron YouTube Para Siempre",
-   "publicado": "2026-11-10T23:22:06Z",
-   "segundos": 2296,
-   "miniatura": "https://i.ytimg.com/vi/W1mu7UuKkuA/maxresdefault.jpg",
-   "canal": "danx",
-   "esta_semana": false
   }
  ]
 };
