@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-11-19T16:43:15Z",
+ "actualizado": "2026-11-19T23:26:01Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -198,7 +198,7 @@ window.DATOS = {
    "segundos": 4440,
    "miniatura": "https://i.ytimg.com/vi/tWj8Kyia0Sw/maxresdefault.jpg",
    "canal": "danx",
-   "esta_semana": true
+   "esta_semana": false
   }
  ]
 };
