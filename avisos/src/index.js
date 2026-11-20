@@ -7,7 +7,7 @@
    LINKTWIN_API_KEY (links que abren la app) y KICK_CLIENT_ID + KICK_CLIENT_SECRET
    (API oficial de Kick). Estado en el KV AVISOS. */
 
-const KICK_SLUG = "xdanx_of";
+const KICK_SLUG = "xdanx";
 const TAG_STREAMS = 24112659;   // Kit: "Streams en Kick"
 const TAG_VIDEOS = 24112664;    // Kit: "Videos nuevos"
 const REMITENTE = "contacto@xdanx.cl";

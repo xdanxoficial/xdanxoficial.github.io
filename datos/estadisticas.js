@@ -124,7 +124,7 @@ window.ESTADISTICAS = {
   {
    "nombre": "Kick",
    "seguidores": 31000,
-   "url": "https://kick.com/xdanx_of"
+   "url": "https://kick.com/xdanx"
   },
   {
    "nombre": "Instagram",

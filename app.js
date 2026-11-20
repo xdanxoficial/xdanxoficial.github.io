@@ -296,7 +296,7 @@
      Cada minuto se le pregunta a Kick si estoy en vivo. Si lo estoy, el directo pasa
      al frente de la pantalla grande (con el reproductor de Kick, sin sonido).
      Para probarlo con otro canal que este en vivo: agrega ?probar-vivo=nombre a la direccion. */
-  var KICK = (location.href.match(/[?&#]probar-vivo=([\w-]+)/) || [])[1] || "xdanx_of";   // vale antes o despues del #
+  var KICK = (location.href.match(/[?&#]probar-vivo=([\w-]+)/) || [])[1] || "xdanx";   // vale antes o despues del #
   var URL_KICK = "https://kick.com/" + KICK;
   var pill = $("pill-vivo"), estadoKick = $("kick-estado"), textoKick = estadoKick ? estadoKick.innerHTML : "";
   var tituloPagina = document.title;
