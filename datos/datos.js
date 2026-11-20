@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-11-19T23:26:01Z",
+ "actualizado": "2026-11-20T04:11:46Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -56,10 +56,18 @@ window.DATOS = {
    "descripcion": "🟢 mira mis directos en kick: https://kick.com/xdanx_of",
    "foto": "https://yt3.ggpht.com/G8JzDzNjFiwLmBuRi3GDgC9JOcF-H-NYuTOnR04XJL5wT9O3lIURUlTL6zLJADKsWgdfBtKX=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
-   "suscriptores": 133000,
-   "total_videos": 354,
+   "suscriptores": 134000,
+   "total_videos": 355,
    "url": "https://www.youtube.com/@danxof",
    "ultimos": [
+    {
+     "id": "4rs0ZKrcJS0",
+     "titulo": "Los 10 Capítulos Más Perturbadores de Mea Culpa",
+     "publicado": "2026-11-20T03:02:07Z",
+     "segundos": 1863,
+     "miniatura": "https://i.ytimg.com/vi/4rs0ZKrcJS0/maxresdefault.jpg",
+     "canal": "danx"
+    },
     {
      "id": "azBZthoUHAs",
      "titulo": "El Creppypasta más Perturbador de xDanx",
@@ -82,14 +90,6 @@ window.DATOS = {
      "publicado": "2026-11-13T21:43:34Z",
      "segundos": 2079,
      "miniatura": "https://i.ytimg.com/vi/LrbRiGFxFMo/maxresdefault.jpg",
-     "canal": "danx"
-    },
-    {
-     "id": "tWj8Kyia0Sw",
-     "titulo": "Los Streamers Peruanos Son lo Peor💀",
-     "publicado": "2026-11-12T22:34:50Z",
-     "segundos": 4440,
-     "miniatura": "https://i.ytimg.com/vi/tWj8Kyia0Sw/maxresdefault.jpg",
      "canal": "danx"
     }
    ]
@@ -148,7 +148,7 @@ window.DATOS = {
    "descripcion": "",
    "foto": "https://yt3.ggpht.com/zk5RUuTmcrwaZRuT2r2OjhwhT_j_Uj2_If-1v34j6Gs46HOPkfLC_3NRamZQbX_1pMgSJA9GYJw=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
-   "suscriptores": 4660,
+   "suscriptores": 4670,
    "total_videos": 1,
    "url": "https://www.youtube.com/@xDanxVlogs",
    "ultimos": [
@@ -164,6 +164,15 @@ window.DATOS = {
   }
  ],
  "rotacion": [
+  {
+   "id": "4rs0ZKrcJS0",
+   "titulo": "Los 10 Capítulos Más Perturbadores de Mea Culpa",
+   "publicado": "2026-11-20T03:02:07Z",
+   "segundos": 1863,
+   "miniatura": "https://i.ytimg.com/vi/4rs0ZKrcJS0/maxresdefault.jpg",
+   "canal": "danx",
+   "esta_semana": true
+  },
   {
    "id": "azBZthoUHAs",
    "titulo": "El Creppypasta más Perturbador de xDanx",
@@ -190,15 +199,6 @@ window.DATOS = {
    "miniatura": "https://i.ytimg.com/vi/LrbRiGFxFMo/maxresdefault.jpg",
    "canal": "danx",
    "esta_semana": true
-  },
-  {
-   "id": "tWj8Kyia0Sw",
-   "titulo": "Los Streamers Peruanos Son lo Peor💀",
-   "publicado": "2026-11-12T22:34:50Z",
-   "segundos": 4440,
-   "miniatura": "https://i.ytimg.com/vi/tWj8Kyia0Sw/maxresdefault.jpg",
-   "canal": "danx",
-   "esta_semana": false
   }
  ]
 };
