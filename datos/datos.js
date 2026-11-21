@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-11-21T17:53:56Z",
+ "actualizado": "2026-11-21T22:52:40Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -57,9 +57,17 @@ window.DATOS = {
    "foto": "https://yt3.ggpht.com/G8JzDzNjFiwLmBuRi3GDgC9JOcF-H-NYuTOnR04XJL5wT9O3lIURUlTL6zLJADKsWgdfBtKX=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
    "suscriptores": 134000,
-   "total_videos": 356,
+   "total_videos": 357,
    "url": "https://www.youtube.com/@danxof",
    "ultimos": [
+    {
+     "id": "dWyJBDl5pTU",
+     "titulo": "El Perturbador Caso de Mente Enferma",
+     "publicado": "2026-11-21T22:30:30Z",
+     "segundos": 5592,
+     "miniatura": "https://i.ytimg.com/vi/dWyJBDl5pTU/maxresdefault.jpg",
+     "canal": "danx"
+    },
     {
      "id": "GATUFHYrGPY",
      "titulo": "MEJORES MOMENTOS OME TV #2 | xDanx",
@@ -82,14 +90,6 @@ window.DATOS = {
      "publicado": "2026-11-18T22:14:21Z",
      "segundos": 798,
      "miniatura": "https://i.ytimg.com/vi/azBZthoUHAs/maxresdefault.jpg",
-     "canal": "danx"
-    },
-    {
-     "id": "d8aYTORc1qM",
-     "titulo": "Los Padres Más Aprovechadores de los Streamers",
-     "publicado": "2026-11-17T21:47:06Z",
-     "segundos": 2384,
-     "miniatura": "https://i.ytimg.com/vi/d8aYTORc1qM/maxresdefault.jpg",
      "canal": "danx"
     }
    ]
@@ -148,7 +148,7 @@ window.DATOS = {
    "descripcion": "",
    "foto": "https://yt3.ggpht.com/zk5RUuTmcrwaZRuT2r2OjhwhT_j_Uj2_If-1v34j6Gs46HOPkfLC_3NRamZQbX_1pMgSJA9GYJw=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
-   "suscriptores": 4680,
+   "suscriptores": 4690,
    "total_videos": 1,
    "url": "https://www.youtube.com/@xDanxVlogs",
    "ultimos": [
@@ -164,6 +164,15 @@ window.DATOS = {
   }
  ],
  "rotacion": [
+  {
+   "id": "dWyJBDl5pTU",
+   "titulo": "El Perturbador Caso de Mente Enferma",
+   "publicado": "2026-11-21T22:30:30Z",
+   "segundos": 5592,
+   "miniatura": "https://i.ytimg.com/vi/dWyJBDl5pTU/maxresdefault.jpg",
+   "canal": "danx",
+   "esta_semana": true
+  },
   {
    "id": "GATUFHYrGPY",
    "titulo": "MEJORES MOMENTOS OME TV #2 | xDanx",
