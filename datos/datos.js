@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-11-20T21:27:50Z",
+ "actualizado": "2026-11-21T02:43:59Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -57,9 +57,17 @@ window.DATOS = {
    "foto": "https://yt3.ggpht.com/G8JzDzNjFiwLmBuRi3GDgC9JOcF-H-NYuTOnR04XJL5wT9O3lIURUlTL6zLJADKsWgdfBtKX=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
    "suscriptores": 134000,
-   "total_videos": 355,
+   "total_videos": 356,
    "url": "https://www.youtube.com/@danxof",
    "ultimos": [
+    {
+     "id": "GATUFHYrGPY",
+     "titulo": "MEJORES MOMENTOS OME TV #2 | xDanx",
+     "publicado": "2026-11-20T22:33:52Z",
+     "segundos": 918,
+     "miniatura": "https://i.ytimg.com/vi/GATUFHYrGPY/maxresdefault.jpg",
+     "canal": "danx"
+    },
     {
      "id": "4rs0ZKrcJS0",
      "titulo": "Los 10 Capítulos Más Perturbadores de Mea Culpa",
@@ -82,14 +90,6 @@ window.DATOS = {
      "publicado": "2026-11-17T21:47:06Z",
      "segundos": 2384,
      "miniatura": "https://i.ytimg.com/vi/d8aYTORc1qM/maxresdefault.jpg",
-     "canal": "danx"
-    },
-    {
-     "id": "LrbRiGFxFMo",
-     "titulo": "El Iceberg de Kick: Lo Más Turbio de la Plataforma",
-     "publicado": "2026-11-13T21:43:34Z",
-     "segundos": 2079,
-     "miniatura": "https://i.ytimg.com/vi/LrbRiGFxFMo/maxresdefault.jpg",
      "canal": "danx"
     }
    ]
@@ -148,7 +148,7 @@ window.DATOS = {
    "descripcion": "",
    "foto": "https://yt3.ggpht.com/zk5RUuTmcrwaZRuT2r2OjhwhT_j_Uj2_If-1v34j6Gs46HOPkfLC_3NRamZQbX_1pMgSJA9GYJw=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
-   "suscriptores": 4670,
+   "suscriptores": 4680,
    "total_videos": 1,
    "url": "https://www.youtube.com/@xDanxVlogs",
    "ultimos": [
@@ -164,6 +164,15 @@ window.DATOS = {
   }
  ],
  "rotacion": [
+  {
+   "id": "GATUFHYrGPY",
+   "titulo": "MEJORES MOMENTOS OME TV #2 | xDanx",
+   "publicado": "2026-11-20T22:33:52Z",
+   "segundos": 918,
+   "miniatura": "https://i.ytimg.com/vi/GATUFHYrGPY/maxresdefault.jpg",
+   "canal": "danx",
+   "esta_semana": true
+  },
   {
    "id": "4rs0ZKrcJS0",
    "titulo": "Los 10 Capítulos Más Perturbadores de Mea Culpa",
@@ -188,15 +197,6 @@ window.DATOS = {
    "publicado": "2026-11-17T21:47:06Z",
    "segundos": 2384,
    "miniatura": "https://i.ytimg.com/vi/d8aYTORc1qM/maxresdefault.jpg",
-   "canal": "danx",
-   "esta_semana": true
-  },
-  {
-   "id": "LrbRiGFxFMo",
-   "titulo": "El Iceberg de Kick: Lo Más Turbio de la Plataforma",
-   "publicado": "2026-11-13T21:43:34Z",
-   "segundos": 2079,
-   "miniatura": "https://i.ytimg.com/vi/LrbRiGFxFMo/maxresdefault.jpg",
    "canal": "danx",
    "esta_semana": true
   }
