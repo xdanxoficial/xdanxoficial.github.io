@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-11-23T06:16:45Z",
+ "actualizado": "2026-11-24T04:12:47Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -57,9 +57,17 @@ window.DATOS = {
    "foto": "https://yt3.ggpht.com/G8JzDzNjFiwLmBuRi3GDgC9JOcF-H-NYuTOnR04XJL5wT9O3lIURUlTL6zLJADKsWgdfBtKX=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
    "suscriptores": 134000,
-   "total_videos": 357,
+   "total_videos": 358,
    "url": "https://www.youtube.com/@danxof",
    "ultimos": [
+    {
+     "id": "Fxb9gE_uZaQ",
+     "titulo": "La Historia de Yao Cabrera es Peor de lo que Imaginé",
+     "publicado": "2026-11-23T22:07:43Z",
+     "segundos": 6894,
+     "miniatura": "https://i.ytimg.com/vi/Fxb9gE_uZaQ/maxresdefault.jpg",
+     "canal": "danx"
+    },
     {
      "id": "dWyJBDl5pTU",
      "titulo": "El Perturbador Caso de Mente Enferma",
@@ -82,14 +90,6 @@ window.DATOS = {
      "publicado": "2026-11-20T03:02:07Z",
      "segundos": 1863,
      "miniatura": "https://i.ytimg.com/vi/4rs0ZKrcJS0/maxresdefault.jpg",
-     "canal": "danx"
-    },
-    {
-     "id": "azBZthoUHAs",
-     "titulo": "El Creppypasta más Perturbador de xDanx",
-     "publicado": "2026-11-18T22:14:21Z",
-     "segundos": 798,
-     "miniatura": "https://i.ytimg.com/vi/azBZthoUHAs/maxresdefault.jpg",
      "canal": "danx"
     }
    ]
@@ -164,6 +164,15 @@ window.DATOS = {
   }
  ],
  "rotacion": [
+  {
+   "id": "Fxb9gE_uZaQ",
+   "titulo": "La Historia de Yao Cabrera es Peor de lo que Imaginé",
+   "publicado": "2026-11-23T22:07:43Z",
+   "segundos": 6894,
+   "miniatura": "https://i.ytimg.com/vi/Fxb9gE_uZaQ/maxresdefault.jpg",
+   "canal": "danx",
+   "esta_semana": true
+  },
   {
    "id": "dWyJBDl5pTU",
    "titulo": "El Perturbador Caso de Mente Enferma",
