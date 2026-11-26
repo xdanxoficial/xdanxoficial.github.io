@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-11-25T19:07:45Z",
+ "actualizado": "2026-11-26T02:23:10Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -57,9 +57,17 @@ window.DATOS = {
    "foto": "https://yt3.ggpht.com/G8JzDzNjFiwLmBuRi3GDgC9JOcF-H-NYuTOnR04XJL5wT9O3lIURUlTL6zLJADKsWgdfBtKX=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
    "suscriptores": 134000,
-   "total_videos": 359,
+   "total_videos": 360,
    "url": "https://www.youtube.com/@danxof",
    "ultimos": [
+    {
+     "id": "M9-Jbb793WY",
+     "titulo": "Le Hizo una FUNA FALSA a Biología Desde Cero y Quedó EXPUESTO",
+     "publicado": "2026-11-25T22:30:16Z",
+     "segundos": 1871,
+     "miniatura": "https://i.ytimg.com/vi/M9-Jbb793WY/maxresdefault.jpg",
+     "canal": "danx"
+    },
     {
      "id": "LvCr1GcbH8A",
      "titulo": "EL STREAMER CAZA PDF que Terminó PRESO",
@@ -82,14 +90,6 @@ window.DATOS = {
      "publicado": "2026-11-21T22:30:30Z",
      "segundos": 5592,
      "miniatura": "https://i.ytimg.com/vi/dWyJBDl5pTU/maxresdefault.jpg",
-     "canal": "danx"
-    },
-    {
-     "id": "GATUFHYrGPY",
-     "titulo": "MEJORES MOMENTOS OME TV #2 | xDanx",
-     "publicado": "2026-11-20T22:33:52Z",
-     "segundos": 918,
-     "miniatura": "https://i.ytimg.com/vi/GATUFHYrGPY/maxresdefault.jpg",
      "canal": "danx"
     }
    ]
@@ -148,7 +148,7 @@ window.DATOS = {
    "descripcion": "",
    "foto": "https://yt3.ggpht.com/zk5RUuTmcrwaZRuT2r2OjhwhT_j_Uj2_If-1v34j6Gs46HOPkfLC_3NRamZQbX_1pMgSJA9GYJw=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
-   "suscriptores": 4710,
+   "suscriptores": 4720,
    "total_videos": 1,
    "url": "https://www.youtube.com/@xDanxVlogs",
    "ultimos": [
@@ -164,6 +164,15 @@ window.DATOS = {
   }
  ],
  "rotacion": [
+  {
+   "id": "M9-Jbb793WY",
+   "titulo": "Le Hizo una FUNA FALSA a Biología Desde Cero y Quedó EXPUESTO",
+   "publicado": "2026-11-25T22:30:16Z",
+   "segundos": 1871,
+   "miniatura": "https://i.ytimg.com/vi/M9-Jbb793WY/maxresdefault.jpg",
+   "canal": "danx",
+   "esta_semana": true
+  },
   {
    "id": "LvCr1GcbH8A",
    "titulo": "EL STREAMER CAZA PDF que Terminó PRESO",
@@ -206,15 +215,6 @@ window.DATOS = {
    "publicado": "2026-11-20T03:02:07Z",
    "segundos": 1863,
    "miniatura": "https://i.ytimg.com/vi/4rs0ZKrcJS0/maxresdefault.jpg",
-   "canal": "danx",
-   "esta_semana": true
-  },
-  {
-   "id": "azBZthoUHAs",
-   "titulo": "El Creppypasta más Perturbador de xDanx",
-   "publicado": "2026-11-18T22:14:21Z",
-   "segundos": 798,
-   "miniatura": "https://i.ytimg.com/vi/azBZthoUHAs/maxresdefault.jpg",
    "canal": "danx",
    "esta_semana": true
   }
