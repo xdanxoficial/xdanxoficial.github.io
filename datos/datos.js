@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-11-26T02:23:10Z",
+ "actualizado": "2026-11-26T11:20:28Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -102,7 +102,7 @@ window.DATOS = {
    "descripcion": "Gameplays editados de xDanx de gran variedad de video juegos distintos",
    "foto": "https://yt3.ggpht.com/uIa-WrREAx3OzbO35C8Sq0G9AiyhTDV63g2rWDYTDeqnKah3TVOFRjKcjgEJOp3GJ5KOA30Nfg=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
-   "suscriptores": 8140,
+   "suscriptores": 8150,
    "total_videos": 15,
    "url": "https://www.youtube.com/@xdanxgameplays",
    "ultimos": [
@@ -148,7 +148,7 @@ window.DATOS = {
    "descripcion": "",
    "foto": "https://yt3.ggpht.com/zk5RUuTmcrwaZRuT2r2OjhwhT_j_Uj2_If-1v34j6Gs46HOPkfLC_3NRamZQbX_1pMgSJA9GYJw=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
-   "suscriptores": 4720,
+   "suscriptores": 4730,
    "total_videos": 1,
    "url": "https://www.youtube.com/@xDanxVlogs",
    "ultimos": [
