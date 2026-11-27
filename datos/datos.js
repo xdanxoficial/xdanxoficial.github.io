@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-11-26T20:25:25Z",
+ "actualizado": "2026-11-27T03:06:24Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -57,9 +57,17 @@ window.DATOS = {
    "foto": "https://yt3.ggpht.com/G8JzDzNjFiwLmBuRi3GDgC9JOcF-H-NYuTOnR04XJL5wT9O3lIURUlTL6zLJADKsWgdfBtKX=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
    "suscriptores": 134000,
-   "total_videos": 360,
+   "total_videos": 361,
    "url": "https://www.youtube.com/@danxof",
    "ultimos": [
+    {
+     "id": "RMKa8B42acI",
+     "titulo": "Karely Ruiz es Peor de lo que Imaginé",
+     "publicado": "2026-11-26T23:03:28Z",
+     "segundos": 1364,
+     "miniatura": "https://i.ytimg.com/vi/RMKa8B42acI/maxresdefault.jpg",
+     "canal": "danx"
+    },
     {
      "id": "M9-Jbb793WY",
      "titulo": "Le Hizo una FUNA FALSA a Biología Desde Cero y Quedó EXPUESTO",
@@ -82,14 +90,6 @@ window.DATOS = {
      "publicado": "2026-11-23T22:07:43Z",
      "segundos": 6894,
      "miniatura": "https://i.ytimg.com/vi/Fxb9gE_uZaQ/maxresdefault.jpg",
-     "canal": "danx"
-    },
-    {
-     "id": "dWyJBDl5pTU",
-     "titulo": "El Perturbador Caso de Mente Enferma",
-     "publicado": "2026-11-21T22:30:30Z",
-     "segundos": 5592,
-     "miniatura": "https://i.ytimg.com/vi/dWyJBDl5pTU/maxresdefault.jpg",
      "canal": "danx"
     }
    ]
@@ -165,6 +165,15 @@ window.DATOS = {
  ],
  "rotacion": [
   {
+   "id": "RMKa8B42acI",
+   "titulo": "Karely Ruiz es Peor de lo que Imaginé",
+   "publicado": "2026-11-26T23:03:28Z",
+   "segundos": 1364,
+   "miniatura": "https://i.ytimg.com/vi/RMKa8B42acI/maxresdefault.jpg",
+   "canal": "danx",
+   "esta_semana": true
+  },
+  {
    "id": "M9-Jbb793WY",
    "titulo": "Le Hizo una FUNA FALSA a Biología Desde Cero y Quedó EXPUESTO",
    "publicado": "2026-11-25T22:30:16Z",
@@ -206,15 +215,6 @@ window.DATOS = {
    "publicado": "2026-11-20T22:33:52Z",
    "segundos": 918,
    "miniatura": "https://i.ytimg.com/vi/GATUFHYrGPY/maxresdefault.jpg",
-   "canal": "danx",
-   "esta_semana": true
-  },
-  {
-   "id": "4rs0ZKrcJS0",
-   "titulo": "Los 10 Capítulos Más Perturbadores de Mea Culpa",
-   "publicado": "2026-11-20T03:02:07Z",
-   "segundos": 1863,
-   "miniatura": "https://i.ytimg.com/vi/4rs0ZKrcJS0/maxresdefault.jpg",
    "canal": "danx",
    "esta_semana": true
   }
