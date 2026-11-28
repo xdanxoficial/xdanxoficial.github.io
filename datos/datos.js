@@ -1,6 +1,6 @@
 /* Lo escribe scripts/actualizar.py. No editar a mano. */
 window.DATOS = {
- "actualizado": "2026-11-27T21:53:50Z",
+ "actualizado": "2026-11-28T03:45:16Z",
  "canales": [
   {
    "clave": "xdanx",
@@ -57,9 +57,17 @@ window.DATOS = {
    "foto": "https://yt3.ggpht.com/G8JzDzNjFiwLmBuRi3GDgC9JOcF-H-NYuTOnR04XJL5wT9O3lIURUlTL6zLJADKsWgdfBtKX=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
    "suscriptores": 134000,
-   "total_videos": 361,
+   "total_videos": 362,
    "url": "https://www.youtube.com/@danxof",
    "ultimos": [
+    {
+     "id": "I7dr3izwU10",
+     "titulo": "La Trágica Caída de Brayan Soto",
+     "publicado": "2026-11-27T22:40:38Z",
+     "segundos": 2162,
+     "miniatura": "https://i.ytimg.com/vi/I7dr3izwU10/maxresdefault.jpg",
+     "canal": "danx"
+    },
     {
      "id": "RMKa8B42acI",
      "titulo": "Karely Ruiz es Peor de lo que Imaginé",
@@ -82,14 +90,6 @@ window.DATOS = {
      "publicado": "2026-11-24T22:24:32Z",
      "segundos": 1703,
      "miniatura": "https://i.ytimg.com/vi/LvCr1GcbH8A/maxresdefault.jpg",
-     "canal": "danx"
-    },
-    {
-     "id": "Fxb9gE_uZaQ",
-     "titulo": "La Historia de Yao Cabrera es Peor de lo que Imaginé",
-     "publicado": "2026-11-23T22:07:43Z",
-     "segundos": 6894,
-     "miniatura": "https://i.ytimg.com/vi/Fxb9gE_uZaQ/maxresdefault.jpg",
      "canal": "danx"
     }
    ]
@@ -148,7 +148,7 @@ window.DATOS = {
    "descripcion": "",
    "foto": "https://yt3.ggpht.com/zk5RUuTmcrwaZRuT2r2OjhwhT_j_Uj2_If-1v34j6Gs46HOPkfLC_3NRamZQbX_1pMgSJA9GYJw=s800-c-k-c0x00ffffff-no-rj",
    "banner": "",
-   "suscriptores": 4740,
+   "suscriptores": 4750,
    "total_videos": 1,
    "url": "https://www.youtube.com/@xDanxVlogs",
    "ultimos": [
@@ -164,6 +164,15 @@ window.DATOS = {
   }
  ],
  "rotacion": [
+  {
+   "id": "I7dr3izwU10",
+   "titulo": "La Trágica Caída de Brayan Soto",
+   "publicado": "2026-11-27T22:40:38Z",
+   "segundos": 2162,
+   "miniatura": "https://i.ytimg.com/vi/I7dr3izwU10/maxresdefault.jpg",
+   "canal": "danx",
+   "esta_semana": true
+  },
   {
    "id": "RMKa8B42acI",
    "titulo": "Karely Ruiz es Peor de lo que Imaginé",
@@ -206,15 +215,6 @@ window.DATOS = {
    "publicado": "2026-11-21T22:30:30Z",
    "segundos": 5592,
    "miniatura": "https://i.ytimg.com/vi/dWyJBDl5pTU/maxresdefault.jpg",
-   "canal": "danx",
-   "esta_semana": true
-  },
-  {
-   "id": "GATUFHYrGPY",
-   "titulo": "MEJORES MOMENTOS OME TV #2 | xDanx",
-   "publicado": "2026-11-20T22:33:52Z",
-   "segundos": 918,
-   "miniatura": "https://i.ytimg.com/vi/GATUFHYrGPY/maxresdefault.jpg",
    "canal": "danx",
    "esta_semana": true
   }
